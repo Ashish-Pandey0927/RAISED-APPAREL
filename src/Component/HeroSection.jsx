@@ -27,12 +27,12 @@ const HeroSection = () => {
 
       {/* Overlay Content */}
       <div
-        className="relative z-10 flex justify-between items-center h-full text-white px-6 text-center top-15"
-        style={{ padding: "5rem 5rem" }}
+        className="relative z-10 flex justify-between items-center h-full text-white px-6 text-center top-15 left-5"
+        style={{ padding: "0rem 12rem" }}
       >
         <div
-          className="mt-6 flex flex-cols grid grid-cols-3 gap-y-10 gap-x-10 text-lg font-semibold relative"
-          style={{ marginTop: "0.75rem", padding: "0rem 3rem" }}
+          className="mt-6 flex flex-cols grid grid-cols-3 gap-y-10 gap-x-20 text-lg font-semibold relative"
+          style={{ marginTop: "0.75rem"}}
         >
           <div>
             <span className="text-5xl font-normal">50M+</span>
@@ -65,7 +65,7 @@ const HeroSection = () => {
             Trained Employees
           </div>
         </div>
-        <h1 className="text-[85px] font-extrabold leading-[76px] tracking-normal">
+        <h1 className="text-[85px] font-extrabold leading-[90px] tracking-wide">
           BRIDGING FASHION & BUSINESS
         </h1>
       </div>
