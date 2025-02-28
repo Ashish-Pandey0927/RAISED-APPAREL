@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "My-font";   /*Can be any text*/
+  src: local("HeliosExt"),
+    url("/heliosext_ETsus/HeliosExt/HeliosExt Regular/HeliosExt Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "My-font", sans-serif;
+    background-color: black;
+}
