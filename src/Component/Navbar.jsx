@@ -24,7 +24,7 @@ const Navbar = () => {
           letterSpacing: "0.4px",
         }}
       >
-        RAISED APPAREL
+        RAISED <br /> APPAREL
       </p>
 
       {/* Desktop Navigation */}
@@ -49,10 +49,10 @@ const Navbar = () => {
 
       {/* Desktop Navigation (Visible on large screens) */}
       <div style={{ display: "flex", gap: "15px" }} className="desktop-menu">
-        <a href="#" style={navLinkStyle}>Home</a>
+        <a href="/" style={navLinkStyle}>Home</a>
         <a href="#" style={navLinkStyle}>About</a>
         <a href="#" style={navLinkStyle}>Services</a>
-        <a href="#" style={navLinkStyle}>Contact</a>
+        <a href="/contact" style={navLinkStyle}>Contact</a>
       </div>
 
       {/* Hamburger Menu (Visible on small screens) */}
