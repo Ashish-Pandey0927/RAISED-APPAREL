@@ -3,6 +3,11 @@ import Navbar from './Component/Navbar'
 import HeroSection from './Component/HeroSection'
 import AboutSection from './Component/AboutSection'
 import WhyChooseUs from './Component/WhyChooseUs'
+import ProductsSection from './Component/ProductsSection'
+import HowWeWork from './Component/HowWeWork'
+import WhyPerfectFit from './Component/WhyPerfectFit'
+import CollaborateSection from './Component/CollaborateSection'
+import Footer from './Component/Footer'
 
 const App = () => {
   return (
@@ -11,6 +16,11 @@ const App = () => {
     <HeroSection />
     <AboutSection />
     <WhyChooseUs />
+    <ProductsSection />
+    <HowWeWork />
+    <WhyPerfectFit />
+    <CollaborateSection />
+    <Footer />
     </>
   )
 }

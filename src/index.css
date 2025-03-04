@@ -8,9 +8,11 @@
 }
 
 @font-face {
-  font-family: "My-font";   /*Can be any text*/
+  font-family: "My-font";  /* Custom font name */
   src: local("HeliosExt"),
-    url("/heliosext_ETsus/HeliosExt/HeliosExt Regular/HeliosExt Regular.ttf") format("truetype");
+       url("/heliosext/HeliosExt.otf") format("opentype"); /* Correct format */
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {

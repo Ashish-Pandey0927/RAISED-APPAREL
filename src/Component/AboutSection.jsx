@@ -2,11 +2,19 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <div className="bg-black text-white px-8 py-16" style={{padding: "8rem 12rem"}}>
+    <div
+      style={{
+        backgroundColor: "black",
+        color: "white",
+        padding: "8rem 12rem",
+        textAlign: "center",
+      }}
+      className="about-container"
+    >
       {/* Who We Are Section */}
-      <div className="mb-12" style={{marginBottom: "3rem"}}>
-        <h2 className="text-3xl font-extrabold uppercase mb-4" style={{marginBottom:"1rem"}}>WHO WE ARE?</h2>
-        <p className="text-lg leading-relaxed">
+      <div style={{ marginBottom: "3rem" }}>
+        <h2 style={headingStyle}>WHO WE ARE?</h2>
+        <p style={paragraphStyle}>
           Raised Apparel is a design-to-delivery service provider specializing in high-quality apparel manufacturing.
           From the initial design concept to final product delivery, we create apparel that reflects your brand’s
           identity. Our end-to-end solutions bridge the gap between creative vision and precise manufacturing, ensuring
@@ -16,8 +24,8 @@ const AboutSection = () => {
 
       {/* Our Vision Section */}
       <div>
-        <h2 className="text-3xl font-extrabold uppercase mb-4" style={{marginBottom: "1rem"}} >OUR VISION</h2>
-        <p className="text-lg leading-relaxed">
+        <h2 style={headingStyle}>OUR VISION</h2>
+        <p style={paragraphStyle}>
           The go-to apparel manufacturer for brands looking for a full-service partner that can handle design,
           production, and distribution with precision and speed.
         </p>
@@ -25,5 +33,45 @@ const AboutSection = () => {
     </div>
   );
 };
+
+// Inline styles
+const headingStyle = {
+  fontSize: "2rem",
+  fontWeight: "800",
+  textTransform: "uppercase",
+  marginBottom: "1rem",
+};
+
+const paragraphStyle = {
+  fontSize: "1.1rem",
+  lineHeight: "1.8",
+  maxWidth: "800px",
+  margin: "0 auto",
+};
+
+// Media Query for Responsiveness
+const styleSheet = document.styleSheets[0];
+styleSheet.insertRule(
+  `@media (max-width: 1024px) {
+    .about-container { padding: 6rem 6rem !important; }
+  }`,
+  styleSheet.cssRules.length
+);
+styleSheet.insertRule(
+  `@media (max-width: 768px) {
+    .about-container { padding: 4rem 3rem !important; }
+    h2 { font-size: 1.8rem !important; }
+    p { font-size: 1rem !important; }
+  }`,
+  styleSheet.cssRules.length
+);
+styleSheet.insertRule(
+  `@media (max-width: 480px) {
+    .about-container { padding: 3rem 1.5rem !important; }
+    h2 { font-size: 1.6rem !important; }
+    p { font-size: 0.95rem !important; }
+  }`,
+  styleSheet.cssRules.length
+);
 
 export default AboutSection;
