@@ -52,7 +52,7 @@ const HeroSection = () => {
             <div
                 style={{
                     position: "relative",
-                    left: 100,
+                    // left: 100,
                     left: isMobile ? 0 : 100,
                     zIndex: 10,
                     display: "flex",
@@ -73,8 +73,8 @@ const HeroSection = () => {
                             ? "repeat(1, 1fr)" 
                             : "repeat(auto-fit, minmax(120px, 1fr))",
                         gap: isMobile ? "8px" : "20px",
-                        fontSize: "1rem",
-                        // eslint-disable-next-line no-dupe-keys
+                        // fontSize: "1rem",
+                        
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "600",
                         maxWidth: "500px",
