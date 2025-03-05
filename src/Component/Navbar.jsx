@@ -7,6 +7,7 @@ const Navbar = () => {
     <nav
       style={{
         display: "flex",
+        zIndex: "40",
         justifyContent: "space-between",
         alignItems: "center",
         backgroundColor: "#ff6431",
@@ -31,6 +32,7 @@ const Navbar = () => {
       <div
         style={{
           display: menuOpen ? "flex" : "none",
+          zIndex: "40",
           flexDirection: "column",
           position: "absolute",
           top: "100%",
@@ -41,17 +43,17 @@ const Navbar = () => {
           padding: "1rem 0",
         }}
       >
-        <a href="#" style={navLinkStyle}>Home</a>
-        <a href="#" style={navLinkStyle}>About</a>
-        <a href="#" style={navLinkStyle}>Services</a>
-        <a href="#" style={navLinkStyle}>Contact</a>
+        <a href="/" style={navLinkStyle}>Home</a>
+        <a href="/about" style={navLinkStyle}>About</a>
+        <a href="/blog" style={navLinkStyle}>Blog</a>
+        <a href="/contact" style={navLinkStyle}>Contact</a>
       </div>
 
       {/* Desktop Navigation (Visible on large screens) */}
       <div style={{ display: "flex", gap: "15px" }} className="desktop-menu">
         <a href="/" style={navLinkStyle}>Home</a>
-        <a href="#" style={navLinkStyle}>About</a>
-        <a href="#" style={navLinkStyle}>Services</a>
+        <a href="/about" style={navLinkStyle}>About</a>
+        <a href="/blog" style={navLinkStyle}>Blog</a>
         <a href="/contact" style={navLinkStyle}>Contact</a>
       </div>
 

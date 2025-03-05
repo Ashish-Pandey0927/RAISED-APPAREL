@@ -14,6 +14,8 @@ import WomenswearCatalog from "./Component/WomenswearCatalog";
 import Contact from "./Component/Contact";
 import useLenis from "./Component/useLenis";
 import ProductDetailPage from "./Component/ProductDetailPage";
+import BlogSection from "./Component/BlogSection";
+import AboutUs from "./Component/AboutUs";
 
 const App = () => {
   useLenis();
@@ -36,6 +38,8 @@ const App = () => {
         <Route path="/womenswear" element={<WomenswearCatalog />} />
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/product/:id" element={<ProductDetailPage />} />
+        <Route path="/blog" element={<BlogSection />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
       <Footer />
     </Router>
