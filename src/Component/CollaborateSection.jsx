@@ -15,7 +15,7 @@ const CollaborateSection = () => {
   return (
     <section
       style={{
-        backgroundColor: "black",
+        backgroundColor: "1A1A1A",
         color: "white",
         padding: "80px 20px",
         textAlign: "center",

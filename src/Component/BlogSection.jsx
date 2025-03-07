@@ -22,7 +22,7 @@ const isMobile = () => window.innerWidth <= 768;
 
 const BlogSection = () => {
   return (
-    <div style={{ background: "#111", color: "white", padding: "2rem" }}>
+    <div style={{ background: "#1A1A1A", color: "white", padding: "2rem" }}>
       {blogs.map((blog) => (
         <div
           key={blog.id}
@@ -43,7 +43,7 @@ const BlogSection = () => {
             <button
               style={{
                 marginTop: "10px",
-                background: "orange",
+                background: "#FF652F",
                 color: "black",
                 padding: "10px 15px",
                 border: "none",

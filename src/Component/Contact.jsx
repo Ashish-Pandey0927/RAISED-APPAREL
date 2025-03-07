@@ -5,7 +5,7 @@ const isMobile = () => window.innerWidth <= 768;
 
 const Contact = () => {
   const containerStyle = {
-    backgroundColor: "black",
+    backgroundColor: "1A1A1A",
     minHeight: "100vh",
     display: "flex",
     flexDirection: "column",
@@ -15,7 +15,7 @@ const Contact = () => {
   };
 
   const container = {
-    background: "linear-gradient(to bottom, #FF5733, black)",
+    background: "linear-gradient(to bottom, #FF5733, #1A1A1A)",
     padding: isMobile() ? "1.5rem" : "2.5rem",
     borderRadius: "10px",
     width: isMobile() ? "90%" : "50%",
@@ -80,30 +80,49 @@ const Contact = () => {
     <div style={containerStyle}>
       <div style={container}>
         <div style={formContainerStyle}>
-          <h2 style={headingStyle}>LET'S <br /> COLLABORATE !!!</h2>
+          <h2 style={headingStyle}>
+            LET'S <br /> COLLABORATE !!!
+          </h2>
           <p style={textStyle}>
-            Ready to create something extraordinary? Whether you're looking for custom designs, bulk production, or end-to-end apparel solutions, we're here to help. Get in touch with our team today to get started on your next collection.
+            Ready to create something extraordinary? Whether you're looking for
+            custom designs, bulk production, or end-to-end apparel solutions,
+            we're here to help. Get in touch with our team today to get started
+            on your next collection.
           </p>
 
-          <div style={{ display: "flex", flexDirection: isMobile() ? "column" : "row", gap: "1rem" }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: isMobile() ? "column" : "row",
+              gap: "1rem",
+            }}
+          >
             <div style={{ width: isMobile() ? "100%" : "50%" }}>
               <input type="text" placeholder="Name" style={inputStyle} />
               <input type="email" placeholder="E-mail ID" style={inputStyle} />
-              <input type="tel" placeholder="Contact Number" style={inputStyle} />
-              <input type="text" placeholder="Company Name" style={inputStyle} />
+              <input
+                type="tel"
+                placeholder="Contact Number"
+                style={inputStyle}
+              />
+              <input
+                type="text"
+                placeholder="Company Name"
+                style={inputStyle}
+              />
             </div>
-            <textarea 
-              placeholder="Message" 
-              style={{ 
-                ...inputStyle, 
-                height: isMobile() ? "150px" : "230px", 
-                width: isMobile() ? "100%" : "50%" 
-              }} 
+            <textarea
+              placeholder="Message"
+              style={{
+                ...inputStyle,
+                height: isMobile() ? "150px" : "230px",
+                width: isMobile() ? "100%" : "50%",
+              }}
             />
           </div>
 
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <button style={buttonStyle}>SUBMIT</button>
+            <button style={buttonStyle} className="btn">SUBMIT</button>
           </div>
         </div>
 
@@ -117,6 +136,13 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
+      <style>
+        {`
+          .btn: hover{
+            background-color: #FF5733;}
+
+          `}
+      </style>
     </div>
   );
 };

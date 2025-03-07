@@ -135,7 +135,7 @@ const HeroSection = () => {
                     position: "absolute",
                     bottom: 0,
                     width: "100%",
-                    backgroundColor: "#000",
+                    backgroundColor: "#1A1A1A",
                     color: "#fff",
                     textAlign: "center",
                     padding: isMobile ? "0.1rem 0rem" : "1rem 0",

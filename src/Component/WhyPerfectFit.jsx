@@ -15,7 +15,7 @@ const WhyPerfectFit = () => {
   return (
     <section
       style={{
-        backgroundColor: "black",
+        backgroundColor: "#1A1A1A",
         color: "white",
         padding: "80px 30px",
         display: "flex",

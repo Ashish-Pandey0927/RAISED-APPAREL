@@ -16,18 +16,20 @@ const Navbar = () => {
       }}
     >
       {/* Logo */}
-      <a href="/"><p
-        style={{
-          fontSize: "1.5rem",
-          fontWeight: "bold",
-          color: "white",
-          position: "relative",
-          lineHeight: "1",
-          letterSpacing: "0.4px",
-        }}
-      >
-        RAISED <br /> APPAREL
-      </p></a>
+      <a href="/">
+        <p
+          style={{
+            fontSize: "1.5rem",
+            fontWeight: "bold",
+            color: "white",
+            position: "relative",
+            lineHeight: "1",
+            letterSpacing: "0.4px",
+          }}
+        >
+          RAISED <br /> APPAREL
+        </p>
+      </a>
 
       {/* Desktop Navigation */}
       <div
@@ -44,18 +46,18 @@ const Navbar = () => {
           padding: "1rem 0",
         }}
       >
-        <a href="/about" style={navLinkStyle}>About</a>
-        <a href="/catalog" style={navLinkStyle}>Catalog</a>
-        <a href="/blog" style={navLinkStyle}>Blog</a>
-        <a href="/contact" style={navLinkStyle}>Contact</a>
+        <a href="/about" className="nav-link">About</a>
+        <a href="/catalog" className="nav-link">Catalog</a>
+        <a href="/blog" className="nav-link">Blog</a>
+        <a href="/contact" className="nav-link">Contact</a>
       </div>
 
       {/* Desktop Navigation (Visible on large screens) */}
       <div style={{ display: "flex", gap: "15px" }} className="desktop-menu">
-        <a href="/about" style={navLinkStyle}>About</a>
-        <a href="/catalog" style={navLinkStyle}>Catalog</a>
-        <a href="/blog" style={navLinkStyle}>Blog</a>
-        <a href="/contact" style={navLinkStyle}>Contact</a>
+        <a href="/about" className="nav-link">About</a>
+        <a href="/catalog" className="nav-link">Catalog</a>
+        <a href="/blog" className="nav-link">Blog</a>
+        <a href="/contact" className="nav-link">Contact</a>
       </div>
 
       {/* Hamburger Menu (Visible on small screens) */}
@@ -66,26 +68,43 @@ const Navbar = () => {
       >
         ☰
       </div>
+
+      {/* Styles */}
+      <style>
+        {`
+          .nav-link {
+            padding: 1rem;
+            color: white;
+            text-decoration: none;
+            font-weight: thin;
+            transition: 0.3s;
+            position: relative;
+          }
+
+          .nav-link::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            transform: scaleX(0);
+            transition: transform 0.3s ease-in-out;
+          }
+
+          .nav-link:hover::after {
+            transform: scaleX(1);
+          }
+
+          @media (max-width: 768px) {
+            .desktop-menu { display: none !important; }
+            .mobile-menu { display: block !important; }
+          }
+        `}
+      </style>
     </nav>
   );
 };
-
-// Inline styles for nav links
-const navLinkStyle = {
-  padding: "1rem",
-  color: "white",
-  textDecoration: "none",
-  fontWeight: "thin",
-};
-
-// Responsive styles using media queries
-const styleSheet = document.styleSheets[0];
-styleSheet.insertRule(
-  `@media (max-width: 768px) {
-    .desktop-menu { display: none !important; }
-    .mobile-menu { display: block !important; }
-  }`,
-  styleSheet.cssRules.length
-);
 
 export default Navbar;

@@ -17,7 +17,7 @@ const HowWeWork = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        backgroundColor: "black",
+        backgroundColor: "#1A1A1A",
         color: "white",
         padding: "5rem 1rem",
       }}

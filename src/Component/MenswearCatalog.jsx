@@ -40,7 +40,7 @@ const MenswearCatalog = () => {
   const navigate = useNavigate();
 
   return (
-    <div style={{ backgroundColor: "black", color: "white", padding: "2rem", textAlign: "center" }}>
+    <div style={{ backgroundColor: "1A1A1A", color: "white", padding: "2rem", textAlign: "center" }}>
       <button onClick={() => navigate(-1)} style={{ background: "gray", color: "white", border: "none", padding: "10px 20px", cursor: "pointer", borderRadius: "5px", marginBottom: "20px" }}>
         ← Back
       </button>

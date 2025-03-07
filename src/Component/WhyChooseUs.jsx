@@ -4,7 +4,7 @@ const WhyChooseUs = () => {
   return (
     <div
       style={{
-        backgroundColor: "black",
+        backgroundColor: "#1A1A1A",
         color: "white",
         padding: "8rem 12rem",
         textAlign: "center",
@@ -56,17 +56,17 @@ const gridContainerStyle = {
 
 const cardStyle = {
   backgroundColor: "#1F2937", // Gray-800
-  borderRadius: "15px",
+  borderRadius: "45px",
   maxWidth: "350px",
   padding: "1.5rem",
-  margin: "0 auto",
+  margin: "0 20px",
   textAlign: "center",
 };
 
 const imagePlaceholderStyle = {
   width: "100%",
   height: "160px",
-  backgroundColor: "#374151", // Gray-700
+  // backgroundColor: "#374151", // Gray-700
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -81,7 +81,7 @@ const imageTextStyle = {
 
 const cardTitleStyle = {
   fontSize: "1.2rem",
-  fontWeight: "600",
+  fontWeight: "400",
   marginBottom: "1rem",
 };
 
@@ -90,7 +90,7 @@ const buttonStyle = {
   color: "white",
   padding: "0.5rem 1.5rem",
   borderRadius: "999px",
-  fontWeight: "600",
+  fontWeight: "400",
   border: "none",
   cursor: "pointer",
   transition: "background 0.3s",

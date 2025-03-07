@@ -39,7 +39,7 @@ const ProductsSection = () => {
   return (
     <div
       style={{
-        backgroundColor: "black",
+        backgroundColor: "#1A1A1A",
         color: "white",
         padding: isMobile ? "2rem" : "4rem 10rem",
         textAlign: "center",

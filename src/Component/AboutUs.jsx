@@ -27,7 +27,7 @@ const AboutUs = () => {
 
   return (
     <div style={{ 
-      background: "#111", 
+      background: "#1A1A1A", 
       color: "white", 
       padding: isMobile ? "2rem 1rem" : "2rem 10rem"
     }}>

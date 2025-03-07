@@ -4,7 +4,7 @@ const AboutSection = () => {
   return (
     <div
       style={{
-        backgroundColor: "black",
+        backgroundColor: "1A1A1A",
         color: "white",
         padding: "8rem 12rem",
         textAlign: "center",

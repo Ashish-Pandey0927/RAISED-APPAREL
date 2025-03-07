@@ -21,7 +21,7 @@ const ProductDetails = () => {
 
   return (
     <div style={{ 
-      backgroundColor: "black", 
+      backgroundColor: "#1a1a1a", 
       color: "white", 
       padding: "2rem", 
       display: "flex", 
