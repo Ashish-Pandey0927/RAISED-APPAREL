@@ -36,7 +36,7 @@ const products = [
   // Add more products here
 ];
 
-const WomenswearCatalog = () => {
+const StreetWear = () => {
   const navigate = useNavigate();
 
   return (
@@ -45,7 +45,7 @@ const WomenswearCatalog = () => {
         ← Back
       </button>
 
-      <h2 style={{ fontSize: "36px", fontWeight: "600", marginBottom: "2rem" }}>Womenswear Catalog</h2>
+      <h2 style={{ fontSize: "36px", fontWeight: "600", marginBottom: "2rem" }}>Streetwear Catalog</h2>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.5rem" }}>
         {products.map((product) => (
@@ -61,4 +61,4 @@ const WomenswearCatalog = () => {
   );
 };
 
-export default WomenswearCatalog;
+export default StreetWear;

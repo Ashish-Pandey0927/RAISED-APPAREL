@@ -87,7 +87,7 @@ const Footer = () => {
           <a href="/menswear"><p style={linkStyle}>Menswear</p></a>
           <a href="/womenswear"><p style={linkStyle}>Womenswear</p></a>
           <a href="/kidswear"><p style={linkStyle}>Kids wear</p></a>
-          <p style={linkStyle}>Streetwear</p>
+          <a href="/streetwear"><p style={linkStyle}>Streetwear</p></a>
         </div>
 
         {/* Support Section */}

@@ -6,6 +6,10 @@ const isMobile = () => window.innerWidth <= 768;
 const products = [
   { id: 1, name: "Stylish Shirt", image: "https://image.hm.com/assets/hm/13/b6/13b6efbf6699358b385c18bfa2dfa7e41d43a193.jpg?imwidth=1536", price: "$29.99", description: "A premium quality stylish shirt made from 100% cotton. Perfect for any occasion." },
   { id: 2, name: "Casual T-Shirt", image: "https://image.hm.com/assets/hm/95/b2/95b26c6ec290ad5eaf70e60d68865f85d88783b3.jpg?imwidth=1536", price: "$19.99", description: "A soft and comfortable casual T-shirt. Ideal for everyday wear." },
+  {  id: 3,
+    name: "Stylish Shirt",
+    image: "https://image.hm.com/assets/hm/f6/e0/f6e0382c7715167394499d34c4e27542e00aa112.jpg?imwidth=1536",
+    price: "$29.99", description: "A soft and comfortable casual T-shirt. Ideal for everyday wear." },
 ];
 
 const ProductDetails = () => {
