@@ -24,7 +24,7 @@ const products = [
   },
 ];
 
-const ProductsSection = () => {
+const Catalog = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
@@ -46,22 +46,46 @@ const ProductsSection = () => {
         maxWidth: "100%",
       }}
     >
-      <h2 style={{ fontSize: isMobile ? "32px" : "48px", fontWeight: "400", marginBottom: "2rem", lineHeight: "32px", letterSpacing: ".4px" }}>
-        Products
-      </h2>
-
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fit, minmax(250px, 1fr))",
+          gridTemplateColumns: isMobile ? "1fr" : "repeat(2, 1fr)", 
           gap: "1.5rem",
         }}
       >
         {products.map((product, index) => (
           <Link key={index} to={product.link} style={{ textDecoration: "none", color: "inherit" }}>
-            <div style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.3)", backgroundColor: "#222", padding: "1rem" }}>
-              <img src={product.image} alt={product.name} style={{ width: "100%", height: "16rem", objectFit: "cover", borderRadius: "0.5rem" }} />
-              <h3 style={{ fontSize: isMobile ? "20px" : "24px", fontWeight: "700", marginTop: "1rem" }}>{product.name}</h3>
+            <div
+              style={{
+                borderRadius: "1rem",
+                boxShadow: "0 4px 6px rgba(0, 0, 0, 0.3)",
+                backgroundColor: "#222",
+                padding: "1rem",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src={product.image}
+                alt={product.name}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  objectFit: "contain",
+                  borderRadius: "0.5rem",
+                }}
+              />
+              <h3
+                style={{
+                  fontSize: isMobile ? "20px" : "24px",
+                  fontWeight: "700",
+                  marginTop: "1rem",
+                }}
+              >
+                {product.name}
+              </h3>
             </div>
           </Link>
         ))}
@@ -70,4 +94,4 @@ const ProductsSection = () => {
   );
 };
 
-export default ProductsSection;
+export default Catalog;

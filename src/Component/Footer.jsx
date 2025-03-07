@@ -84,9 +84,9 @@ const Footer = () => {
         {/* Catalog Section */}
         <div style={columnStyle}>
           <h3 style={headingStyle}>CATALOG</h3>
-          <p style={linkStyle}>Menswear</p>
-          <p style={linkStyle}>Womenswear</p>
-          <p style={linkStyle}>Kids wear</p>
+          <a href="/menswear"><p style={linkStyle}>Menswear</p></a>
+          <a href="/womenswear"><p style={linkStyle}>Womenswear</p></a>
+          <a href="/kidswear"><p style={linkStyle}>Kids wear</p></a>
           <p style={linkStyle}>Streetwear</p>
         </div>
 

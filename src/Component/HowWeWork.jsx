@@ -22,7 +22,7 @@ const HowWeWork = () => {
         padding: "5rem 1rem",
       }}
     >
-      <h2 style={{ fontSize: "2.5rem", fontWeight: "600", marginBottom: "4rem", textAlign: "center" }}>
+      <h2 style={{ fontSize: "2.5rem", fontWeight: "400", marginBottom: "4rem", textAlign: "center", lineHeight: "32px", letterSpacing: "0.5px" }}>
         How We Work
       </h2>
 

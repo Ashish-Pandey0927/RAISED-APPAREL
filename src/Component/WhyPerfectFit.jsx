@@ -45,13 +45,15 @@ const WhyPerfectFit = () => {
         >
           <h2
             style={{
-              fontSize: isMobile ? "32px" : "40px",
-              fontWeight: "bold",
+              fontSize: isMobile ? "32px" : "48px",
+              fontWeight: "400",
               marginBottom: "20px",
+              letterSpacing: "0.4px",
+              lineHeight: "54px",
             }}
           >
             WHY WE ARE YOUR <br />
-            <span style={{ color: "#bbb" }}>PERFECT FIT?</span>
+            <span>PERFECT FIT?</span>
           </h2>
           <hr style={{ marginBottom: "20px" }} />
 

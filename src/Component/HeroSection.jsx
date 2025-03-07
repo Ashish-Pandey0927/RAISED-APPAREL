@@ -76,39 +76,50 @@ const HeroSection = () => {
                         // fontSize: "1rem",
                         
                         fontSize: isMobile ? ".5rem" : "1.5rem",
-                        fontWeight: "600",
+                        fontWeight: "400",
                         maxWidth: "500px",
                         marginBottom: isMobile ? "7.5rem" : "2rem",
-                        textAlign: "center",
+                        textAlign: "left",
                         width: "100%",
                     }}
                 >
                     {[
-                        { value: "50M+", label: "Quantities Shipped" },
-                        { value: "250+", label: "Suppliers" },
-                        { value: "50+", label: "Buyers" },
-                        { value: "100+", label: "In-house Design & Sampling" },
-                        { value: "15K+", label: "Styles" },
-                        { value: "1K+", label: "Trained Employees" },
-                    ].map((item, index) => (
-                        <div key={index}>
-                            <span style={{ 
-                                fontSize: isMobile ? "1rem" : "2rem", 
-                                fontWeight: "normal" 
-                            }}>
-                                {item.value}
-                            </span>
-                            <br />
-                            {item.label}
-                        </div>
-                    ))}
+    { value: "50M+", label: "Quantities Shipped" },
+    { value: "250+", label: "Suppliers" },
+    { value: "50+", label: "Buyers" },
+    { value: "100+", label: "In-house Design & Sampling" },
+    { value: "15K+", label: "Styles" },
+    { value: "1K+", label: "Trained Employees" },
+].map((item, index) => (
+    <div key={index}>
+        <span style={{ 
+            fontSize: isMobile ? "24px" : "48px", 
+            fontWeight: "400",
+            lineHeight: "16px",
+            letterSpacing: "0em",
+            textAlign: "left",
+        }}>
+            {item.value}
+        </span>
+        <br />
+        <span style={{
+            fontSize: isMobile ? "12px" : "16px",
+            fontWeight: "normal",
+            lineHeight: "16px",
+            letterSpacing: "0em",
+            textAlign: "left",
+        }}>
+            {item.label}
+        </span>
+    </div>
+))}
                 </div>
 
                 {/* Heading Section */}
                 <h1
                     style={{
                         fontSize: "clamp(2rem, 5vw, 5rem)",
-                        fontWeight: "800",
+                        fontWeight: "700",
                         lineHeight: "1.2",
                         maxWidth: "800px",
                         margin: isMobile ? "0.5rem 0" : "1rem 0",

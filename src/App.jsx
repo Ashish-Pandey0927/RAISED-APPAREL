@@ -16,6 +16,8 @@ import useLenis from "./Component/useLenis";
 import ProductDetailPage from "./Component/ProductDetailPage";
 import BlogSection from "./Component/BlogSection";
 import AboutUs from "./Component/AboutUs";
+import Catalog from "./Component/Catalog";
+import KidsWear from "./Component/KidsWear";
 
 const App = () => {
   useLenis();
@@ -34,12 +36,15 @@ const App = () => {
             <CollaborateSection />
           </>
         } />
+        <Route path="/" />
         <Route path="/menswear" element={<MenswearCatalog />} />
         <Route path="/womenswear" element={<WomenswearCatalog />} />
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/product/:id" element={<ProductDetailPage />} />
         <Route path="/blog" element={<BlogSection />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/kidswear" element={<KidsWear />} />
       </Routes>
       <Footer />
     </Router>

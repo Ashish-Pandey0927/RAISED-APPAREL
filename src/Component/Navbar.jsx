@@ -16,17 +16,18 @@ const Navbar = () => {
       }}
     >
       {/* Logo */}
-      <p
+      <a href="/"><p
         style={{
           fontSize: "1.5rem",
           fontWeight: "bold",
           color: "white",
           position: "relative",
+          lineHeight: "1",
           letterSpacing: "0.4px",
         }}
       >
         RAISED <br /> APPAREL
-      </p>
+      </p></a>
 
       {/* Desktop Navigation */}
       <div
@@ -43,16 +44,16 @@ const Navbar = () => {
           padding: "1rem 0",
         }}
       >
-        <a href="/" style={navLinkStyle}>Home</a>
         <a href="/about" style={navLinkStyle}>About</a>
+        <a href="/catalog" style={navLinkStyle}>Catalog</a>
         <a href="/blog" style={navLinkStyle}>Blog</a>
         <a href="/contact" style={navLinkStyle}>Contact</a>
       </div>
 
       {/* Desktop Navigation (Visible on large screens) */}
       <div style={{ display: "flex", gap: "15px" }} className="desktop-menu">
-        <a href="/" style={navLinkStyle}>Home</a>
         <a href="/about" style={navLinkStyle}>About</a>
+        <a href="/catalog" style={navLinkStyle}>Catalog</a>
         <a href="/blog" style={navLinkStyle}>Blog</a>
         <a href="/contact" style={navLinkStyle}>Contact</a>
       </div>
