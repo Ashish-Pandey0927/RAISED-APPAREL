@@ -40,13 +40,15 @@ const headingStyle = {
   fontWeight: "800",
   textTransform: "uppercase",
   marginBottom: "1rem",
+  textAlign: "left",
 };
 
 const paragraphStyle = {
   fontSize: "1.1rem",
   lineHeight: "1.8",
-  maxWidth: "800px",
-  margin: "0 auto",
+  // maxWidth: "900px",
+  textAlign: "left",
+  // margin: "0 auto",
 };
 
 // Media Query for Responsiveness
