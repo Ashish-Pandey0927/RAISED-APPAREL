@@ -1,100 +1,133 @@
 import React, { useState } from "react";
+import logo from "/RAPL-LOGO.svg";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav
-      style={{
-        display: "flex",
-        zIndex: "40",
-        justifyContent: "space-between",
-        alignItems: "center",
-        backgroundColor: "#ff6431",
-        padding: "1.5rem 2rem",
-        position: "relative",
-      }}
-    >
-      {/* Logo */}
-      <a href="/">
-        <p
-          style={{
-            fontSize: "1.5rem",
-            fontWeight: "bold",
-            color: "white",
-            position: "relative",
-            lineHeight: "1",
-            letterSpacing: "0.4px",
-          }}
-        >
-          RAISED <br /> APPAREL
-        </p>
-      </a>
-
-      {/* Desktop Navigation */}
-      <div
+    <>
+      <nav
         style={{
-          display: menuOpen ? "flex" : "none",
-          zIndex: "40",
-          flexDirection: "column",
-          position: "absolute",
-          top: "100%",
-          right: "0",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
           backgroundColor: "#ff6431",
-          width: "100%",
-          textAlign: "center",
-          padding: "1rem 0",
+          padding: "1.5rem 2rem",
+          position: "sticky",
+          top: "0",
+          zIndex: "50",
         }}
       >
-        <a href="/about" className="nav-link">About</a>
-        <a href="/catalog" className="nav-link">Catalog</a>
-        <a href="/blog" className="nav-link">Blog</a>
-        <a href="/contact" className="nav-link">Contact</a>
-      </div>
+        {/* Logo */}
+        <a href="/" className="logo-container">
+          <img src={logo} alt="RAISED APPAREL Logo" className="logo" />
+        </a>
 
-      {/* Desktop Navigation (Visible on large screens) */}
-      <div style={{ display: "flex", gap: "15px" }} className="desktop-menu">
-        <a href="/about" className="nav-link">About</a>
-        <a href="/catalog" className="nav-link">Catalog</a>
-        <a href="/blog" className="nav-link">Blog</a>
-        <a href="/contact" className="nav-link">Contact</a>
-      </div>
+        {/* Desktop Navigation */}
+        <div style={{ display: "flex", gap: "2rem" }} className="desktop-menu">
+          <a href="/about" className="nav-link">About Us</a>
+          <a href="/catalog" className="nav-link">Catalog</a>
+          <a href="/blog" className="nav-link">Blog</a>
+          <a href="/contact" className="nav-link">Contact</a>
+        </div>
 
-      {/* Hamburger Menu (Visible on small screens) */}
+        {/* Mobile Menu Button */}
+        <button
+          style={{ 
+            display: "none", 
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            fontSize: "1.5rem",
+            color: "white"
+          }}
+          className="mobile-menu"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </button>
+      </nav>
+
+      {/* Mobile Sidebar */}
       <div
-        style={{ display: "none", cursor: "pointer", fontSize: "2rem", color: "white" }}
-        className="mobile-menu"
-        onClick={() => setMenuOpen(!menuOpen)}
+        style={{
+          position: "fixed",
+          top: "0",
+          right: "0",
+          height: "100vh",
+          width: "250px",
+          backgroundColor: "#ff6431",
+          transform: menuOpen ? "translateX(0)" : "translateX(100%)",
+          transition: "transform 0.3s ease-in-out",
+          zIndex: "100",
+          padding: "2rem",
+          display: "flex",
+          flexDirection: "column",
+          gap: "1.5rem"
+        }}
       >
-        ☰
+        <button
+          style={{
+            position: "absolute",
+            top: "1rem",
+            right: "1rem",
+            background: "none",
+            border: "none",
+            color: "white",
+            fontSize: "1.5rem",
+            cursor: "pointer"
+          }}
+          onClick={() => setMenuOpen(false)}
+        >
+          ×
+        </button>
+        <a href="/about" className="nav-link">About Us</a>
+        <a href="/catalog" className="nav-link">Catalog</a>
+        <a href="/blog" className="nav-link">Blog</a>
+        <a href="/contact" className="nav-link">Contact</a>
       </div>
 
-      {/* Styles */}
+      {/* Overlay */}
+      {menuOpen && (
+        <div
+          style={{
+            position: "fixed",
+            top: "0",
+            left: "0",
+            right: "0",
+            bottom: "0",
+            backgroundColor: "rgba(0,0,0,0.5)",
+            zIndex: "99",
+          }}
+          onClick={() => setMenuOpen(false)}
+        />
+      )}
+
       <style>
         {`
+          .logo-container {
+            display: flex;
+            align-items: center;
+            max-width: 150px;
+          }
+
+          .logo {
+            width: 100%;
+            height: auto;
+            max-height: 60px;
+          }
+
           .nav-link {
-            padding: 1rem;
+            padding: 0.5rem;
             color: white;
             text-decoration: none;
-            font-weight: thin;
-            transition: 0.3s;
-            position: relative;
+            font-weight: 500;
+            transition: opacity 0.2s;
+            display: block;
           }
 
-          .nav-link::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -2px;
-            width: 100%;
-            height: 2px;
-            background-color: white;
-            transform: scaleX(0);
-            transition: transform 0.3s ease-in-out;
-          }
-
-          .nav-link:hover::after {
-            transform: scaleX(1);
+          .nav-link:hover {
+            opacity: 0.8;
           }
 
           @media (max-width: 768px) {
@@ -103,7 +136,7 @@ const Navbar = () => {
           }
         `}
       </style>
-    </nav>
+    </>
   );
 };
 

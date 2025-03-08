@@ -1,13 +1,14 @@
 import React from "react";
 import { FaSearch, FaBrain, FaTshirt, FaCubes, FaBox, FaCheckCircle } from "react-icons/fa";
+import diagramImage from "/Group 21.png"; // Import your diagram image
 
 const steps = [
-  { name: "Trend Research & Concept Creation", icon: <FaSearch />, position: { x: 100, y: 270 }, align: "up" },
-  { name: "Sampling & Refining", icon: <FaBrain />, position: { x: 320, y: 300 }, align: "down" },
-  { name: "Fabric Selection & Sourcing", icon: <FaTshirt />, position: { x: 440, y: 480 }, align: "down" },
-  { name: "Bulk Production", icon: <FaCubes />, position: { x: 580, y: 340 }, align: "up" },
-  { name: "Branding & Packaging", icon: <FaBox />, position: { x: 690, y: 160 }, align: "up" },
-  { name: "Delivery & Fulfillment", icon: <FaCheckCircle />, position: { x: 840, y: 420 }, align: "up" },
+  { name: "Trend Research & Concept Creation", icon: <FaSearch />, position: { x: 10.5, y: 42.2 }, align: "up" },
+  { name: "Sampling & Refining", icon: <FaBrain />, position: { x: 33.7, y: 46.9 }, align: "down" },
+  { name: "Fabric Selection & Sourcing", icon: <FaTshirt />, position: { x: 46.3, y: 75 }, align: "down" },
+  { name: "Bulk Production", icon: <FaCubes />, position: { x: 61.1, y: 53.1 }, align: "up" },
+  { name: "Branding & Packaging", icon: <FaBox />, position: { x: 72.6, y: 25 }, align: "up" },
+  { name: "Delivery & Fulfillment", icon: <FaCheckCircle />, position: { x: 88.4, y: 65.6 }, align: "up" },
 ];
 
 const HowWeWork = () => {
@@ -20,79 +21,41 @@ const HowWeWork = () => {
         backgroundColor: "#1A1A1A",
         color: "white",
         padding: "5rem 1rem",
+        position: "relative",
       }}
     >
-      <h2 style={{ fontSize: "2.5rem", fontWeight: "400", marginBottom: "4rem", textAlign: "center", lineHeight: "32px", letterSpacing: "0.5px" }}>
+      <h2 style={{ 
+        fontSize: "clamp(1.5rem, 4vw, 2.5rem)", 
+        fontWeight: "400", 
+        marginBottom: "4rem", 
+        textAlign: "center", 
+        lineHeight: "1.2",
+        letterSpacing: "0.5px" 
+      }}>
         How We Work
       </h2>
 
-      <div style={{ width: "100%", maxWidth: "900px", overflow: "hidden" }}>
-        <svg viewBox="0 0 950 640" style={{ width: "100%", height: "auto" }}>
-          {/* Original SVG Path */}
-          <path
-            d="M 100 250 q 100 -300 250 150, 
-               M 350 400 q 100 300 250 -150, 
-               M 600 250 q 100 -300 250 150"
-            stroke="white"
-            strokeWidth="4"
-            fill="transparent"
-            strokeDasharray="12 12"
-          />
+      <div style={{ 
+        width: "100%", 
+        maxWidth: "1200px",
+        position: "relative",
+        aspectRatio: "1.48" // Maintain image aspect ratio (950/640 ≈ 1.48)
+      }}>
+        {/* Diagram Image */}
+        <img
+          src={diagramImage}
+          alt="Process Diagram"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "contain",
+            position: "absolute",
+            top: 0,
+            left: 0
+          }}
+        />
 
-          {/* Icons & Labels */}
-          {steps.map((step, index) => (
-            <g key={index}>
-              {/* Icon */}
-              <foreignObject
-                x={step.position.x - 30}
-                y={step.align === "up" ? step.position.y - 60 : step.position.y}
-                width="60"
-                height="60"
-                style={{
-                  transform: "scale(1)",
-                  transition: "transform 0.3s ease",
-                }}
-              >
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    width: "3.5rem",
-                    height: "3.5rem",
-                    backgroundColor: "#333",
-                    borderRadius: "50%",
-                    color: "white",
-                    fontSize: "1.8rem",
-                    
-                  }}
-                >
-                  {step.icon}
-                </div>
-              </foreignObject>
-
-              {/* Text */}
-              <foreignObject
-                x={step.position.x - 75}
-                y={step.align === "up" ? step.position.y - 5 : step.position.y + 80}
-                width="150"
-                height="150"
-              >
-                <div
-                  style={{
-                    textAlign: "center",
-                    color: "white",
-                    fontSize: "1rem",
-                    fontWeight: "500",
-                    wordWrap: "break-word",
-                  }}
-                >
-                  {step.name}
-                </div>
-              </foreignObject>
-            </g>
-          ))}
-        </svg>
+       
       </div>
     </div>
   );

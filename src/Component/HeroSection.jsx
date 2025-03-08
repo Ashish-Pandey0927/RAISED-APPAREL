@@ -23,11 +23,25 @@ const HeroSection = () => {
         });
     }, []);
 
+    // Array of brand logo images
+    const brandLogos = [
+        "/Icon1.png",
+        "/Icon2.png",
+        // "/icon3.png",
+        // "/icon4.png",
+        // "/icon5.png",
+        // "/icon6.png",
+        // "/icon7.png",
+        // "/icon8.png",
+        // "/icon9.png",
+        // "/icon10.png",
+    ];
+
     return (
         <div style={{ 
             position: "relative", 
             width: "100%", 
-            height: "100dvh", // Using dvh for better mobile handling
+            height: "100dvh",
             overflow: "hidden" 
         }}>
             {/* Background Video */}
@@ -52,7 +66,6 @@ const HeroSection = () => {
             <div
                 style={{
                     position: "relative",
-                    // left: 100,
                     left: isMobile ? 0 : 100,
                     zIndex: 10,
                     display: "flex",
@@ -73,8 +86,6 @@ const HeroSection = () => {
                             ? "repeat(1, 1fr)" 
                             : "repeat(auto-fit, minmax(120px, 1fr))",
                         gap: isMobile ? "8px" : "20px",
-                        // fontSize: "1rem",
-                        
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "400",
                         maxWidth: "500px",
@@ -84,35 +95,35 @@ const HeroSection = () => {
                     }}
                 >
                     {[
-    { value: "50M+", label: "Quantities Shipped" },
-    { value: "250+", label: "Suppliers" },
-    { value: "50+", label: "Buyers" },
-    { value: "100+", label: "In-house Design & Sampling" },
-    { value: "15K+", label: "Styles" },
-    { value: "1K+", label: "Trained Employees" },
-].map((item, index) => (
-    <div key={index}>
-        <span style={{ 
-            fontSize: isMobile ? "24px" : "48px", 
-            fontWeight: "400",
-            lineHeight: "16px",
-            letterSpacing: "0em",
-            textAlign: "left",
-        }}>
-            {item.value}
-        </span>
-        <br />
-        <span style={{
-            fontSize: isMobile ? "12px" : "16px",
-            fontWeight: "normal",
-            lineHeight: "16px",
-            letterSpacing: "0em",
-            textAlign: "left",
-        }}>
-            {item.label}
-        </span>
-    </div>
-))}
+                        { value: "50M+", label: "Quantities Shipped" },
+                        { value: "250+", label: "Suppliers" },
+                        { value: "50+", label: "Buyers" },
+                        { value: "100+", label: "In-house Design & Sampling" },
+                        { value: "15K+", label: "Styles" },
+                        { value: "1K+", label: "Trained Employees" },
+                    ].map((item, index) => (
+                        <div key={index}>
+                            <span style={{ 
+                                fontSize: isMobile ? "24px" : "48px", 
+                                fontWeight: "400",
+                                lineHeight: "16px",
+                                letterSpacing: "0em",
+                                textAlign: "left",
+                            }}>
+                                {item.value}
+                            </span>
+                            <br />
+                            <span style={{
+                                fontSize: isMobile ? "12px" : "16px",
+                                fontWeight: "normal",
+                                lineHeight: "16px",
+                                letterSpacing: "0em",
+                                textAlign: "left",
+                            }}>
+                                {item.label}
+                            </span>
+                        </div>
+                    ))}
                 </div>
 
                 {/* Heading Section */}
@@ -148,6 +159,8 @@ const HeroSection = () => {
                 }}>
                     TRUSTED BY LEADING BRANDS
                 </h2>
+                
+                {/* Marquee Wrapper */}
                 <div
                     style={{
                         backgroundColor: "#d9d9d9",
@@ -165,13 +178,14 @@ const HeroSection = () => {
                             width: "max-content",
                         }}
                     >
+                        {/* Duplicating the brand logos for seamless scrolling */}
                         {[...Array(2)].map((_, index) => (
                             <div key={index} style={{ display: "flex" }}>
-                                {[...Array(10)].map((_, i) => (
+                                {brandLogos.map((logo, i) => (
                                     <img
                                         key={i}
-                                        src="/path-to-company-logo.png"
-                                        alt="Company Logo"
+                                        src={logo}
+                                        alt={`Brand ${i + 1}`}
                                         style={{
                                             height: isMobile ? "1.5rem" : "2.5rem",
                                             margin: "0 0.5rem",
