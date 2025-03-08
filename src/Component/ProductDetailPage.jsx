@@ -62,8 +62,9 @@ const products = [
   {
   id: 9,
     name: "Stylish Shirt",
-    image: ["/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AB2339.jpg",
-      "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AD9460.jpg",
+    images: [
+      "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AB2339.jpg",
+      "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AD9460.jpg"
     ],
     price: "$29.99", 
     description: "Premium quality shirt made from 100% cotton",
@@ -78,9 +79,9 @@ const products = [
   {
   id: 10,
     name: "Stylish Shirt",
-    image: [
+    images: [
       "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AD9460.jpg",
-      "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AB2339.jpg",
+      "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AB2339.jpg"
     ],
     price: "$29.99", 
     description: "Premium quality shirt made from 100% cotton",
