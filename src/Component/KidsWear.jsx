@@ -6,33 +6,33 @@ import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 
 const products = [
   {
-    id: 3,
+    id: 9,
     name: "Stylish Shirt",
-    image: "https://image.hm.com/assets/hm/f6/e0/f6e0382c7715167394499d34c4e27542e00aa112.jpg?imwidth=1536",
+    image: "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AB2339.jpg",
     price: "$29.99",
   },
   {
-    id: 3,
+    id: 10,
     name: "Casual T-Shirt",
-    image: "https://image.hm.com/assets/hm/f6/e0/f6e0382c7715167394499d34c4e27542e00aa112.jpg?imwidth=1536",
+    image: "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AD9460.jpg",
     price: "$19.99",
   },
   {
-    id: 2,
+    id: 11,
     name: "Casual T-Shirt",
-    image: "https://image.hm.com/assets/hm/f6/e0/f6e0382c7715167394499d34c4e27542e00aa112.jpg?imwidth=1536",
+    image: "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AL5277s.jpg",
     price: "$19.99",
   },
   {
-    id: 2,
+    id: 12,
     name: "Casual T-Shirt",
-    image: "https://image.hm.com/assets/hm/95/b2/95b26c6ec290ad5eaf70e60d68865f85d88783b3.jpg?imwidth=1536",
+    image: "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AP0319.jpg",
     price: "$19.99",
   },
   {
-    id: 2,
+    id: 13,
     name: "Casual T-Shirt",
-    image: "https://image.hm.com/assets/hm/95/b2/95b26c6ec290ad5eaf70e60d68865f85d88783b3.jpg?imwidth=1536",
+    image: "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AR9556s.jpg",
     price: "$19.99",
   },
   
