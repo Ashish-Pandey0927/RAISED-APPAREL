@@ -15,7 +15,7 @@ const products = [
   },
   {
     name: "KIDSWEAR",
-    image: "/public/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AP0288.jpg",
+    image: "/FOOTER KIDSWEAR-20250308T172635Z-001/FOOTER KIDSWEAR/AP0288.jpg",
     link: "/kidswear",
   },
   {
