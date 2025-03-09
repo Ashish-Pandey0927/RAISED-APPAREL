@@ -1,110 +1,99 @@
-/* Container Styling */
+/* WhyChooseUs.css */
+
 .why-choose-container {
-    background-color: #1A1A1A;
-    color: white;
-    padding: 8rem 12rem;
-    text-align: center;
+  padding: 4rem 2rem;
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.why-choose-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.why-choose-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why-choose-card {
+  background: #222;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.why-choose-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-container {
+  height: 300px;
+  overflow: hidden;
+}
+
+.feature-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.know-more-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background: #ff6431;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.know-more-button:hover {
+  background: #e5562a;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .why-choose-container {
+    padding: 2rem 1rem;
   }
-  
-  /* Heading */
+
   .why-choose-heading {
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 105px;
-    margin-bottom: 2.5rem;
-  }
-  
-  /* Grid Container */
-  .why-choose-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    justify-content: center;
-  }
-  
-  /* Card Styling */
-  .why-choose-card {
-    background-color: #1F2937; /* Gray-800 */
-    border-radius: 45px;
-    max-width: 350px;
-    padding: 1.5rem;
-    /* margin: 0 auto; */
-    text-align: center;
-  }
-  
-  /* Image Container */
-  .image-container {
-    width: 100%;
-    height: 360px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
-  
-  /* Image Styling */
-  .feature-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    border-radius: 10px;
+
+  .why-choose-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 500px;
   }
-  
-  /* Card Title */
+
+  .image-container {
+    height: 250px;
+  }
+
   .card-title {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    padding: 1rem;
   }
-  
-  /* Button */
+
   .know-more-button {
-    background-color: #ff6431;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border-radius: 999px;
-    font-weight: 400;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
+    padding: 0.75rem;
+    font-size: 0.9rem;
   }
-  
-  .know-more-button:hover {
-    background-color: #e55328;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 1024px) {
-    .why-choose-container {
-      padding: 6rem 6rem;
-    }
-    .why-choose-heading {
-      font-size: 2.5rem;
-    }
-    .why-choose-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .why-choose-container {
-      padding: 4rem 3rem;
-    }
-    .why-choose-heading {
-      font-size: 2rem;
-    }
-    .why-choose-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .why-choose-container {
-      padding: 3rem 1.5rem;
-    }
-    .why-choose-heading {
-      font-size: 1.8rem;
-    }
-  }
-  
+}
