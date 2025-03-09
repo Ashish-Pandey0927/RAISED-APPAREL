@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Component/Navbar";
 import HeroSection from "./Component/HeroSection";
@@ -22,6 +22,23 @@ import StreetWear from "./Component/StreetWear";
 
 const App = () => {
   useLenis();
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Initial check
+    handleResize();
+    
+    // Add resize listener
+    window.addEventListener('resize', handleResize);
+    
+    // Cleanup
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <Router>
       <Navbar />
@@ -37,10 +54,9 @@ const App = () => {
             <CollaborateSection />
           </>
         } />
-        <Route path="/" />
         <Route path="/menswear" element={<MenswearCatalog />} />
         <Route path="/womenswear" element={<WomenswearCatalog />} />
-        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/contact" element={<Contact />} />
         <Route path="/product/:id" element={<ProductDetailPage />} />
         <Route path="/blog" element={<BlogSection />} />
         <Route path="/about" element={<AboutUs />} />
@@ -48,7 +64,7 @@ const App = () => {
         <Route path="/kidswear" element={<KidsWear />} />
         <Route path="/streetwear" element={<StreetWear />} />
       </Routes>
-      <Footer />
+      {!isMobile && <Footer />}
     </Router>
   );
 };

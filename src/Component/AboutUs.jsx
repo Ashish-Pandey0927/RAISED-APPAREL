@@ -201,7 +201,7 @@ const AboutUs = () => {
           padding: isMobile ? "0 1rem" : 0
         }}> 
           <img 
-            src="/Icon-img1.png" 
+            src="/Company Profile.png" 
             alt="Clients" 
             style={{ 
               maxWidth: "100%", 

@@ -225,7 +225,7 @@ const MenswearCatalog = () => {
                    marginTop: "2rem"
                  }}>
                    <button
-                     onClick={() => navigate('/womenswear')}
+                     onClick={() => navigate('/kidswear')}
                      style={{
                        background: "none",
                        border: "none",
@@ -241,7 +241,7 @@ const MenswearCatalog = () => {
                    </button>
          
                    <button
-                     onClick={() => navigate('/kidswear')}
+                     onClick={() => navigate('/womenswear')}
                      style={{
                        background: "none",
                        border: "none",
