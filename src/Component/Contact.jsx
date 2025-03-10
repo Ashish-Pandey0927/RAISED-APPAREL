@@ -130,7 +130,7 @@ const Contact = () => {
           <iframe
             title="location"
             style={{ width: "100%", height: "300px", borderRadius: "10px" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.357775627057!2d-122.41941548468151!3d37.77492927975939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c4c1b0b0b%3A0x0!2zMzfCsDQ2JzI5LjgiTiAxMjLCsDI1JzA2LjEiVw!5e0!3m2!1sen!2sus!4v1649001723011!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3802.9933090045165!2d77.6232174!3d12.902596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15701b21941f%3A0x76ee7fd15654b077!2sRaised%20On%20Denim%20India!5e1!3m2!1sen!2sin!4v1741620265554!5m2!1sen!2sin"
             allowFullScreen=""
             loading="lazy"
           ></iframe>

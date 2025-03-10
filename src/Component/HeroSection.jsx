@@ -25,16 +25,27 @@ const HeroSection = () => {
 
     // Array of brand logo images
     const brandLogos = [
-        "/Icon1.png",
-        "/Icon2.png",
-        // "/icon3.png",
-        // "/icon4.png",
-        // "/icon5.png",
-        // "/icon6.png",
-        // "/icon7.png",
-        // "/icon8.png",
-        // "/icon9.png",
-        // "/icon10.png",
+        "/Icons/Altheory-Logo (1).webp",
+        "/Icons/ASOS_logo.png",
+        "/Icons/Being Human Logo.png",
+        "/Icons/buda-jeans_logo.png",
+        "/Icons/firstcry_logo (2).png",
+        "/Icons/Jack & Jones logo.svg",
+        "/Icons/kerrang_logo.png",
+        "/Icons/Miss_Selfridge-Logo.png",
+        "/Icons/Myntra-Logo (2).png",
+        "/Icons/namshi-logo.png",
+        "/Icons/Only_logo.png",
+        "/Icons/Play-Day-Logo.png",
+        "/Icons/Reiss logo.png",
+        "/Icons/shop-direct-logo.png",
+        "/Icons/souled store _logo.webp",
+        "/Icons/styli_logo.png",
+        "/Icons/Topshop_logo.png",
+        "/Icons/Topman-logo.png",
+        "/Icons/Van Heusen_logo.png",
+        "/Icons/Vero_Moda_logo_PNG1.png",
+        "/Icons/virgio_logo.png"
     ];
 
     return (
@@ -166,7 +177,7 @@ const HeroSection = () => {
                         backgroundColor: "#d9d9d9",
                         overflow: "hidden",
                         width: "100%",
-                        padding: "0.5rem 0",
+                        padding: "1rem 0",
                     }}
                 >
                     <div
@@ -180,17 +191,19 @@ const HeroSection = () => {
                     >
                         {/* Duplicating the brand logos for seamless scrolling */}
                         {[...Array(2)].map((_, index) => (
-                            <div key={index} style={{ display: "flex" }}>
+                            <div key={index} style={{ display: "flex", gap: "1rem" }}>
                                 {brandLogos.map((logo, i) => (
                                     <img
-                                        key={i}
-                                        src={logo}
-                                        alt={`Brand ${i + 1}`}
-                                        style={{
-                                            height: isMobile ? "1.5rem" : "2.5rem",
-                                            margin: "0 0.5rem",
-                                        }}
-                                    />
+                                    key={i}
+                                    src={logo}
+                                    alt={`Brand ${i + 1}`}
+                                    style={{
+                                        width: isMobile ? "2rem" : "5rem",  // Fixed width
+                                        height: isMobile ? "2rem" : "5rem", // Fixed height
+                                        objectFit: "contain",               // Ensures image aspect ratio is maintained
+                                        margin: "0 0.5rem",
+                                    }}
+                                />                                
                                 ))}
                             </div>
                         ))}

@@ -17,7 +17,7 @@ const WhyPerfectFit = () => {
       style={{
         backgroundColor: "#1A1A1A",
         color: "white",
-        padding: "80px 30px",
+        padding: isMobile ? "24px 30px" : "80px 30px",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

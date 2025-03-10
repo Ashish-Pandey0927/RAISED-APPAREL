@@ -6,7 +6,7 @@ const AboutSection = () => {
       style={{
         backgroundColor: "1A1A1A",
         color: "white",
-        padding: "8rem 12rem",
+        padding: "4rem 10rem",
         textAlign: "center",
       }}
       className="about-container"
@@ -37,7 +37,7 @@ const AboutSection = () => {
 // Inline styles
 const headingStyle = {
   fontSize: "2rem",
-  fontWeight: "800",
+  fontWeight: "700",
   textTransform: "uppercase",
   marginBottom: "1rem",
   textAlign: "left",

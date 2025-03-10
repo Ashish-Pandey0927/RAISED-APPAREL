@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaFacebook, FaLinkedin, FaPhone } from "react-icons/fa";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Footer = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -43,7 +44,7 @@ const Footer = () => {
           }}
         >
           <h2 style={{ fontSize: "24px", fontWeight: "bold", lineHeight: ".9" }}>
-            RAISED <br /> APPAREL
+            <a href="/">RAISED <br /> APPAREL</a>
           </h2>
           <p
             style={{
@@ -76,9 +77,9 @@ const Footer = () => {
         {/* Company Section */}
         <div style={columnStyle}>
           <h3 style={headingStyle}>COMPANY</h3>
-          <p style={linkStyle}>Our story</p>
-          <p style={linkStyle}>Team</p>
-          <p style={linkStyle}>Gallery</p>
+          <Link smooth to="/about#story"><p style={linkStyle}>Our story</p></Link>
+          <Link smooth to="/about#team"><p style={linkStyle}>Team</p></Link> 
+          <Link smooth to="/about#gallery"> <p style={linkStyle}>Gallery</p></Link> 
         </div>
 
         {/* Catalog Section */}
@@ -93,9 +94,9 @@ const Footer = () => {
         {/* Support Section */}
         <div style={columnStyle}>
           <h3 style={headingStyle}>SUPPORT</h3>
-          <p style={linkStyle}>FAQs</p>
-          <p style={linkStyle}>Contact Us</p>
-          <p style={linkStyle}>Get Quotes</p>
+          <Link smooth to="/contact"><p style={linkStyle}>FAQs</p></Link> 
+          <Link smooth to="/contact"><p style={linkStyle}>Contact Us</p></Link> 
+          <Link smooth to="/contact"><p style={linkStyle}>Get Quotes</p></Link> 
         </div>
       </div>
     </footer>

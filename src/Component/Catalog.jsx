@@ -57,6 +57,7 @@ const Catalog = () => {
               borderRadius: "0.75rem",
               overflow: "hidden",
               backgroundColor: "#222",
+              padding: "1rem",
               transition: "transform 0.3s ease",
               aspectRatio: "1/1",
               ":hover": {
@@ -67,28 +68,19 @@ const Catalog = () => {
                 src={product.image}
                 alt={product.name}
                 style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "contain",
-                  padding: "1rem",
+                  width: "100%", height: "90%", objectFit: "cover", borderRadius: "0.5rem", objectPosition: "top",
                 }}
               />
-              <div style={{
-                position: "absolute",
-                bottom: "0",
-                left: "0",
-                right: "0",
-                padding: "0.75rem",
-                // backgroundColor: "rgba(0, 0, 0, 0.7)"
-              }}>
-                <h3 style={{
-                  fontSize: isMobile ? "1rem" : "1.1rem",
+               <h3 style={{
+                  fontSize: isMobile ? "1rem" : "1.5rem",
                   fontWeight: "600",
-                  margin: "0"
+                  margin: "1rem"
                 }}>
                   {product.name}
                 </h3>
-              </div>
+              
+               
+              
             </div>
           </Link>
         ))}

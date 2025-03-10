@@ -60,7 +60,7 @@ const ProductsSection = () => {
         {products.map((product, index) => (
           <Link key={index} to={product.link} style={{ textDecoration: "none", color: "inherit" }}>
             <div style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.3)", backgroundColor: "#222", padding: "1rem" }}>
-              <img src={product.image} alt={product.name} style={{ width: "100%", height: "17rem", objectFit: "cover", borderRadius: "0.5rem" }} />
+              <img src={product.image} alt={product.name} style={{ width: "100%", height: "17rem", objectFit: "cover", borderRadius: "0.5rem", objectPosition: "top", }} />
               <h3 style={{ fontSize: isMobile ? "20px" : "24px", fontWeight: "700", marginTop: "1rem" }}>{product.name}</h3>
             </div>
           </Link>

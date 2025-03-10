@@ -32,8 +32,8 @@ const AboutUs = () => {
       overflowX: "hidden"
     }}>
       {/* OUR STORY */}
-      <div style={{ padding: "2rem", textAlign: "center", marginTop: "20px" }}>
-        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "80px" }}>
+      <div style={{ padding: "2rem 0", textAlign: "center", marginTop: "20px" }} id="story">
+        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "40px" }}>
           OUR STORY
         </h2>
         <div style={{ 
@@ -56,7 +56,7 @@ const AboutUs = () => {
 
       {/* DESIGN TO DELIVERY */}
       <div style={{ padding: "2rem 0" }}>
-        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "80px", textAlign: "center" }}>
+        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "40px", textAlign: "center" }}>
           DESIGN TO DELIVERY
         </h2>
         <ul style={{
@@ -151,8 +151,8 @@ const AboutUs = () => {
       </div>
 
       {/* MEET OUR TEAM */}
-      <div style={{ marginTop: "40px" }}>
-        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "80px", textAlign: "center" }}>
+      <div id="team" style={{ marginTop: "40px"  }}>
+        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "40px", textAlign: "center" }}>
           MEET OUR TEAM
         </h2>
         <div style={{
@@ -189,7 +189,7 @@ const AboutUs = () => {
 
       {/* CLIENTS */}
       <div style={{ marginTop: "40px" }}>
-        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "80px", textAlign: "center" }}>
+        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "40px", textAlign: "center" }}>
           CLIENTS
         </h2>
         <div style={{ 
@@ -213,8 +213,8 @@ const AboutUs = () => {
       </div>
 
       {/* GALLERY */}
-      <div style={{ marginTop: "40px" }}>
-        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "80px", textAlign: "center" }}>
+      <div id="gallery" style={{ marginTop: "40px" }}>
+        <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "40px", textAlign: "center" }}>
           GALLERY
         </h2>
         <div style={{
