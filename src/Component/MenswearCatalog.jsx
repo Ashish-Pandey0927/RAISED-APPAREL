@@ -40,13 +40,13 @@ const products = [
   {
     id: 6,
     name: "Casual T-Shirt",
-    image: "/public/FOOTER MENS-20250308T170421Z-001/FOOTER MENS/de000ac70d7bf86470e2d6f12cb39263.jpg",
+    image: "/FOOTER MENS-20250308T170421Z-001/FOOTER MENS/de000ac70d7bf86470e2d6f12cb39263.jpg",
     price: "$19.99",
   },
   {
     id: 7,
     name: "Casual T-Shirt",
-    image: "/public/FOOTER MENS-20250308T170421Z-001/FOOTER MENS/d32af82042b24fc99ca5028e22fb587e.jpg",
+    image: "/FOOTER MENS-20250308T170421Z-001/FOOTER MENS/d32af82042b24fc99ca5028e22fb587e.jpg",
     price: "$19.99",
   },
   {
