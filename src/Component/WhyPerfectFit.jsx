@@ -52,7 +52,7 @@ const WhyPerfectFit = () => {
               lineHeight: "54px",
             }}
           >
-            WHY WE ARE YOUR <br />
+            WHY ARE WE YOUR <br />
             <span>PERFECT FIT?</span>
           </h2>
           <hr style={{ marginBottom: "20px" }} />
