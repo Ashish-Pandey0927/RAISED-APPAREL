@@ -105,9 +105,10 @@ const MenswearCatalog = () => {
          
                  <h2 style={{ 
                    fontSize: isMobile ? "24px" : "36px", 
-                   fontWeight: "600",
+                   fontWeight: "400",
                    flex: 2,
-                   textAlign: "center"
+                   textAlign: "center",
+                   textTransform: "uppercase"
                  }}>
                    Menswear Collection
                  </h2>

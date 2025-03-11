@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "/RAPL-LOGO.svg";
+import logo from "/RAISED APPAREL.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
           justifyContent: "space-between",
           alignItems: "center",
           backgroundColor: "#ff6431",
-          padding: "1.5rem 2rem",
+          padding: ".8rem 2rem",
           position: "sticky",
           top: "0",
           zIndex: "50",

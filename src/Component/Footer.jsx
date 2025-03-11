@@ -43,9 +43,11 @@ const Footer = () => {
             marginBottom: "20px",
           }}
         >
-          <h2 style={{ fontSize: "24px", fontWeight: "bold", lineHeight: ".9" }}>
-            <a href="/">RAISED <br /> APPAREL</a>
-          </h2>
+          
+            <a href="/" style={{display: "flex", color: "white",
+            alignItems: "center",
+            maxWidth: "180px"}}><img src="/RAISED APPAREL.png" alt="logo" /></a>
+          
           <p
             style={{
               fontSize: "14px",
@@ -77,26 +79,26 @@ const Footer = () => {
         {/* Company Section */}
         <div style={columnStyle}>
           <h3 style={headingStyle}>COMPANY</h3>
-          <Link smooth to="/about#story"><p style={linkStyle}>Our story</p></Link>
-          <Link smooth to="/about#team"><p style={linkStyle}>Team</p></Link> 
-          <Link smooth to="/about#gallery"> <p style={linkStyle}>Gallery</p></Link> 
+          <Link smooth to="/about#story" style={{color: "white"}}><p style={linkStyle}>Our story</p></Link>
+          <Link smooth to="/about#team" style={{color: "white"}}><p style={linkStyle}>Team</p></Link> 
+          <Link smooth to="/about#gallery" style={{color: "white"}}> <p style={linkStyle}>Gallery</p></Link> 
         </div>
 
         {/* Catalog Section */}
         <div style={columnStyle}>
           <h3 style={headingStyle}>CATALOG</h3>
-          <a href="/menswear"><p style={linkStyle}>Menswear</p></a>
-          <a href="/womenswear"><p style={linkStyle}>Womenswear</p></a>
-          <a href="/kidswear"><p style={linkStyle}>Kids wear</p></a>
-          <a href="/streetwear"><p style={linkStyle}>Streetwear</p></a>
+          <a href="/menswear" style={{color: "white"}}><p style={linkStyle}>Menswear</p></a>
+          <a href="/womenswear" style={{color: "white"}}><p style={linkStyle}>Womenswear</p></a>
+          <a href="/kidswear" style={{color: "white"}}><p style={linkStyle}>Kids wear</p></a>
+          <a href="/streetwear" style={{color: "white"}}><p style={linkStyle}>Streetwear</p></a>
         </div>
 
         {/* Support Section */}
         <div style={columnStyle}>
           <h3 style={headingStyle}>SUPPORT</h3>
-          <Link smooth to="/contact"><p style={linkStyle}>FAQs</p></Link> 
-          <Link smooth to="/contact"><p style={linkStyle}>Contact Us</p></Link> 
-          <Link smooth to="/contact"><p style={linkStyle}>Get Quotes</p></Link> 
+          <Link smooth to="/contact" style={{color: "white"}}><p style={linkStyle}>FAQs</p></Link> 
+          <Link smooth to="/contact" style={{color: "white"}}><p style={linkStyle}>Contact Us</p></Link> 
+          <Link smooth to="/contact" style={{color: "white"}}><p style={linkStyle}>Get Quotes</p></Link> 
         </div>
       </div>
     </footer>

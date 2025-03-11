@@ -19,7 +19,7 @@ const products = [
     link: "/kidswear",
   },
   {
-    name: "STREETWEAR",
+    name: "ATHLEISURE",
     image: "https://images.unsplash.com/photo-1594035795389-9363dd86b113?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: "/streetwear",
   },
@@ -68,13 +68,19 @@ const Catalog = () => {
                 src={product.image}
                 alt={product.name}
                 style={{
-                  width: "100%", height: "90%", objectFit: "cover", borderRadius: "0.5rem", objectPosition: "top",
+                  width: "100%", height: "90%", objectFit: "cover", borderRadius: "0.5rem 0.5rem 0rem 0rem", objectPosition: "top",
                 }}
               />
                <h3 style={{
-                  fontSize: isMobile ? "1rem" : "1.5rem",
-                  fontWeight: "600",
-                  margin: "1rem"
+                  display: "block",
+                  fontSize: isMobile ? "1rem" : "2rem",
+                  fontWeight: "400",
+                  width: "100%",
+                  padding: ".5rem",
+                  border: "none",
+                  // margin: isMobile ? ".5rem" : "1rem 0rem",
+                  backgroundColor: "#ff6431",
+                  borderRadius: "0rem 0rem 0.5rem 0.5rem",
                 }}>
                   {product.name}
                 </h3>

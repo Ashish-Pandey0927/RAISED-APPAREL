@@ -18,7 +18,7 @@ const products = [
     link: "/kidswear",
   },
   {
-    name: "STREETWEAR",
+    name: "ATHLEISURE",
     image: "https://images.unsplash.com/photo-1594035795389-9363dd86b113?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: "/streetwear",
   },
@@ -47,7 +47,7 @@ const ProductsSection = () => {
       }}
     >
       <h2 style={{ fontSize: isMobile ? "32px" : "48px", fontWeight: "400", marginBottom: "2rem", lineHeight: "32px", letterSpacing: ".4px" }}>
-        Products
+        PRODUCTS
       </h2>
 
       <div
@@ -60,8 +60,8 @@ const ProductsSection = () => {
         {products.map((product, index) => (
           <Link key={index} to={product.link} style={{ textDecoration: "none", color: "inherit" }}>
             <div style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.3)", backgroundColor: "#222", padding: "1rem" }}>
-              <img src={product.image} alt={product.name} style={{ width: "100%", height: "17rem", objectFit: "cover", borderRadius: "0.5rem", objectPosition: "top", }} />
-              <h3 style={{ fontSize: isMobile ? "20px" : "24px", fontWeight: "700", marginTop: "1rem" }}>{product.name}</h3>
+              <img src={product.image} alt={product.name} style={{ width: "100%", height: "17rem", objectFit: "cover", borderRadius: "0.5rem 0.5rem 0 0", objectPosition: "top" }} />
+              <h3 style={{ display: "block", width: "100%", padding:".5rem", fontSize: isMobile ? "20px" : "24px", fontWeight: "400",  background:"#ff6431", borderRadius: "0 0 0.5rem 0.5rem" }}>{product.name}</h3>
             </div>
           </Link>
         ))}

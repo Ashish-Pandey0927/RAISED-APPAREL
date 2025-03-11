@@ -43,7 +43,7 @@ const HowWeWork = () => {
         lineHeight: "1.2",
         letterSpacing: "0.5px",
       }}>
-        How We Work
+        HOW WE WORK
       </h2>
 
       {/* Desktop Diagram */}

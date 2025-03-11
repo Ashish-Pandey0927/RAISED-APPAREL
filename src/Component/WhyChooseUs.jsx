@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
   return (
     <div className="why-choose-container">
       {/* Heading */}
-      <h2 className="why-choose-heading">Why Choose Us?</h2>
+      <h2 className="why-choose-heading">WHY CHOOSE US?</h2>
 
       {/* Cards Container */}
       <div className="why-choose-grid">

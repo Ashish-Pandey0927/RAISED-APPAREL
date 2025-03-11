@@ -25,7 +25,7 @@ const HeroSection = () => {
 
     // Array of brand logo images
     const brandLogos = [
-        "/Icons/Altheory-Logo (1).webp",
+        "/Icons/Altheory-Logo (1)-Photoroom.png",
         "/Icons/ASOS_logo.png",
         "/Icons/Being Human Logo.png",
         "/Icons/buda-jeans_logo.png",
@@ -174,7 +174,7 @@ const HeroSection = () => {
                 {/* Marquee Wrapper */}
                 <div
                     style={{
-                        backgroundColor: "#d9d9d9",
+                        backgroundColor: "#363535",
                         overflow: "hidden",
                         width: "100%",
                         padding: "1rem 0",

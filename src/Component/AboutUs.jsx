@@ -32,7 +32,7 @@ const AboutUs = () => {
       overflowX: "hidden"
     }}>
       {/* OUR STORY */}
-      <div style={{ padding: "2rem 0", textAlign: "center", marginTop: "20px" }} id="story">
+      <div style={{ padding: "2rem 0", textAlign: "center"}} id="story">
         <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "40px" }}>
           OUR STORY
         </h2>
@@ -193,7 +193,9 @@ const AboutUs = () => {
           CLIENTS
         </h2>
         <div style={{ 
-          overflow: "hidden", 
+          overflow: "hidden",
+          backgroundColor: "#363535",
+          borderRadius: ".5rem", 
           alignItems: "center", 
           textAlign: "center", 
           display: "flex", 
