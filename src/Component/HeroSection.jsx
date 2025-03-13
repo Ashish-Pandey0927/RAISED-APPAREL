@@ -85,9 +85,11 @@ const HeroSection = () => {
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "400",
                         maxWidth: "500px",
-                        marginBottom: isMobile ? "3rem" : "2rem",
+                        marginBottom: isMobile ? "0rem" : "2rem",
                         textAlign: "left",
                         width: "100%",
+                        position: isMobile ? "absolute" : "relative",
+                        bottom: isMobile ? "10rem" : "auto",
                     }}
                 >
                     {[
@@ -131,6 +133,8 @@ const HeroSection = () => {
                         lineHeight: "1.2",
                         maxWidth: "800px",
                         margin: isMobile ? "0.5rem 0" : "1rem 0",
+                        position: isMobile ? "absolute" : "relative",
+                        bottom: isMobile ? "18rem" : "auto",
                     }}
                 >
                     BRIDGING FASHION & BUSINESS
