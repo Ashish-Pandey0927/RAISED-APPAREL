@@ -135,7 +135,7 @@ const HeroSection = () => {
                         margin: isMobile ? "0rem 0" : "1rem 0",
                         position: isMobile ? "absolute" : "relative",
                         bottom: isMobile ? "18rem" : "auto",
-                        right: isMobile ? "1rem" : "0",
+                        right: isMobile ? "0rem" : "0",
                     }}
                 >
                     BRIDGING FASHION & BUSINESS
