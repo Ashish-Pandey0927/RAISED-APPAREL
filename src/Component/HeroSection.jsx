@@ -84,7 +84,7 @@ const HeroSection = () => {
                         gap: isMobile ? "20px" : "20px",
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "400",
-                        maxWidth: isMobile ? "30px" : "500px",
+                        maxWidth: "500px",
                         marginBottom: isMobile ? "0rem" : "2rem",
                         textAlign: "left",
                         width: "100%",
@@ -135,7 +135,7 @@ const HeroSection = () => {
                         maxWidth: isMobile ? "150px" : "800px",
                         margin: isMobile ? "0rem 0" : "1rem 0",
                         position: isMobile ? "absolute" : "relative",
-                        bottom: isMobile ? "18rem" : "auto",
+                        bottom: isMobile ? "15rem" : "auto",
                         right: isMobile ? "4rem" : "0",
                     }}
                 >
