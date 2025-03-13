@@ -85,7 +85,7 @@ const HeroSection = () => {
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "400",
                         maxWidth: isMobile ? "30px" : "500px",
-                        marginBottom: isMobile ? "0rem" : "2rem",
+                        marginBottom: isMobile ? "0.5rem" : "2rem",
                         textAlign: "left",
                         width: "100%",
                         position: isMobile ? "absolute" : "relative",
