@@ -81,11 +81,11 @@ const HeroSection = () => {
                         gridTemplateColumns: isMobile 
                             ? "repeat(1, 1fr)" 
                             : "repeat(auto-fit, minmax(120px, 1fr))",
-                        gap: isMobile ? "8px" : "20px",
+                        gap: isMobile ? "20px" : "20px",
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "400",
                         maxWidth: "500px",
-                        marginBottom: isMobile ? "7.5rem" : "2rem",
+                        marginBottom: isMobile ? "3rem" : "2rem",
                         textAlign: "left",
                         width: "100%",
                     }}
@@ -111,6 +111,7 @@ const HeroSection = () => {
                             <br />
                             <span style={{
                                 fontSize: isMobile ? "12px" : "16px",
+                                marginTop: isMobile ? "5px" : "0px",
                                 fontWeight: "normal",
                                 lineHeight: "16px",
                                 letterSpacing: "0em",
