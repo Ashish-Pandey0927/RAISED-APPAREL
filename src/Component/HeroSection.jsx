@@ -183,7 +183,7 @@ const HeroSection = () => {
                                     src={logo}
                                     alt={`Brand ${i + 1}`}
                                     style={{
-                                        width: isMobile ? "2rem" : "800px",  // Fixed width
+                                        width: isMobile ? "500px" : "800px",  // Fixed width
                                         height: isMobile ? "2rem" : "5rem", // Fixed height
                                         objectFit: "cover",               // Ensures image aspect ratio is maintained
                                         margin: "0 0.5rem",
