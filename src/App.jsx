@@ -9,16 +9,16 @@ import HowWeWork from "./Component/HowWeWork";
 import WhyPerfectFit from "./Component/WhyPerfectFit";
 import CollaborateSection from "./Component/CollaborateSection";
 import Footer from "./Component/Footer";
-import MenswearCatalog from "./Component/MenswearCatalog"; 
-import WomenswearCatalog from "./Component/WomenswearCatalog";
+import MenswearCatalog from "./Catalog/MenswearCatalog";
+import WomenswearCatalog from "./Catalog/WomenswearCatalog";
 import Contact from "./Component/Contact";
 import useLenis from "./Component/useLenis";
 import ProductDetailPage from "./Component/ProductDetailPage";
 import BlogSection from "./Component/BlogSection";
 import AboutUs from "./Component/AboutUs";
 import Catalog from "./Component/Catalog";
-import KidsWear from "./Component/KidsWear";
-import StreetWear from "./Component/StreetWear";
+import KidsWear from "./Catalog/KidsWear";
+import StreetWear from "./Catalog/StreetWear";
 
 const App = () => {
   useLenis();
@@ -31,10 +31,10 @@ const App = () => {
 
     // Initial check
     handleResize();
-    
+
     // Add resize listener
     window.addEventListener('resize', handleResize);
-    
+
     // Cleanup
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -57,7 +57,7 @@ const App = () => {
         <Route path="/menswear" element={<MenswearCatalog />} />
         <Route path="/womenswear" element={<WomenswearCatalog />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/product/:id" element={<ProductDetailPage />} />
+        <Route path="/:category/product/:id" element={<ProductDetailPage />} /> {/* **Modified Route Here!** */}
         <Route path="/blog" element={<BlogSection />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/catalog" element={<Catalog />} />

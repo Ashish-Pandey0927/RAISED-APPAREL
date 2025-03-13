@@ -1,5 +1,5 @@
 import React from "react";
-import "./WhyChooseUs.css"; // Import external CSS for better maintainability
+import "../CSS/WhyChooseUs.css"; // Import external CSS for better maintainability
 
 const WhyChooseUs = () => {
   // Data for the cards

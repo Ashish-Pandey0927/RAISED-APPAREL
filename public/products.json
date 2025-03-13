@@ -1,0 +1,1643 @@
+{
+    "menswear": [
+        { 
+            "id": 1, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/1.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/1.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/1.3.jpg",
+              "/MENS-20250313T070619Z-001/MENS/1.4.jpg"
+
+            ], 
+            "price": "₹3229", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+
+          { 
+            "id": 2, 
+            "name": "T-Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/2.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/2.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/2.3.jpg"
+
+            ], 
+            "price": "$699", 
+            "description": "Premium quality T-shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 3, 
+            "name": "Jacket", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/3.webp",
+              "/MENS-20250313T070619Z-001/MENS/3.1.webp",
+              "/MENS-20250313T070619Z-001/MENS/3.2.webp",
+              "/MENS-20250313T070619Z-001/MENS/3.3.webp"
+
+            ], 
+            "price": "₹4599", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 4, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/4.jpg",
+              "/MENS-20250313T070619Z-001/MENS/4.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/4.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/4.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 5, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/5.jpg",
+              "/MENS-20250313T070619Z-001/MENS/5.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/5.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/5.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 6, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/6.jpg",
+              "/MENS-20250313T070619Z-001/MENS/6.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/6.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/6.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 7, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/7.png",
+              "/MENS-20250313T070619Z-001/MENS/7.1.png",
+              "/MENS-20250313T070619Z-001/MENS/7.2.png",
+              "/MENS-20250313T070619Z-001/MENS/7.3.png"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 8, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/8.png",
+              "/MENS-20250313T070619Z-001/MENS/8.1.png",
+              "/MENS-20250313T070619Z-001/MENS/8.2.png",
+              "/MENS-20250313T070619Z-001/MENS/8.3.png"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 9, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/9.jpg",
+              "/MENS-20250313T070619Z-001/MENS/9.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/9.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/9.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 10, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/10.png",
+              "/MENS-20250313T070619Z-001/MENS/10.1.png",
+              "/MENS-20250313T070619Z-001/MENS/10.2.png",
+              "/MENS-20250313T070619Z-001/MENS/10.3.png"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 11, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/11.jpeg",
+              "/MENS-20250313T070619Z-001/MENS/11.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/11.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/11.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 12, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/12.jpg",
+              "/MENS-20250313T070619Z-001/MENS/12.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/12.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/12.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 13, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/13.jpg",
+              "/MENS-20250313T070619Z-001/MENS/13.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/13.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/13.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 14, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/14.jpg",
+              "/MENS-20250313T070619Z-001/MENS/14.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/14.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/14.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 15, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/15.jpg",
+              "/MENS-20250313T070619Z-001/MENS/15.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/15.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/15.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 16, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/16.jpg",
+              "/MENS-20250313T070619Z-001/MENS/16.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/16.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/16.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 17, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/17.jpg",
+              "/MENS-20250313T070619Z-001/MENS/17.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/17.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/17.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 18, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/18.jpg",
+              "/MENS-20250313T070619Z-001/MENS/18.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/18.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/18.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 19, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/19.jpg",
+              "/MENS-20250313T070619Z-001/MENS/19.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/19.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/19.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          },
+          { 
+            "id": 20, 
+            "name": "Stylish Shirt", 
+            "category": "menswear",
+            "images": [
+              "/MENS-20250313T070619Z-001/MENS/20.jpg",
+              "/MENS-20250313T070619Z-001/MENS/20.1.jpg",
+              "/MENS-20250313T070619Z-001/MENS/20.2.jpg",
+              "/MENS-20250313T070619Z-001/MENS/20.3.jpg"
+
+            ], 
+            "price": "$29.99", 
+            "description": "Premium quality shirt made from 100% cotton",
+            "sizes": ["S", "M", "L", "XL"],
+            "details": [
+              "100% Cotton",
+              "Regular fit",
+              "Machine wash",
+              "Imported"
+            ]
+          }
+          
+
+    ],
+    "womenswear": [
+      { 
+          "id": 1, 
+          "name": "Denim Pants", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/1.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/1.2.jpg"
+
+          ], 
+          "price": "₹799", 
+          "description": "Premium quality denim pants made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+
+        { 
+          "id": 2, 
+          "name": "Pink Check Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/2.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/2.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/2.2.jpg"
+
+          ], 
+          "price": "₹1299", 
+          "description": "Premium quality pink check shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 3, 
+          "name": "Denim long Skirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/3.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/3.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/3.2.jpg"
+
+          ], 
+          "price": "₹2299", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 4, 
+          "name": "T-Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/MENS-20250313T070619Z-001/MENS/4.jpg",
+            "/MENS-20250313T070619Z-001/MENS/4.1.jpg",
+            "/MENS-20250313T070619Z-001/MENS/4.2.jpg",
+            "/MENS-20250313T070619Z-001/MENS/4.3.jpg"
+
+          ], 
+          "price": "$599.99", 
+          "description": "Premium quality T-shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 5, 
+          "name": "Heitage Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/5.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/5.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/5.2.jpg"
+
+          ], 
+          "price": "₹1999", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 6, 
+          "name": "Blue Sleeveless Denim Jacket", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/6.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/6.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/6.2.jpg"
+
+          ], 
+          "price": "₹899.99", 
+          "description": "Premium quality Blue Sleeveless Denim Jacket made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 7, 
+          "name": "Lucille Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/7.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/7.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/7.2.jpg"
+
+          ], 
+          "price": "₹1599", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 8, 
+          "name": "Mini denim Skirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/8.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/8.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/8.2.jpg"
+
+          ], 
+          "price": "₹1629", 
+          "description": "Premium quality skirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 9, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/9.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/9.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/9.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 10, 
+          "name": "Polka Dot Dress", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/10.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/10.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/10.2.jpg"
+
+          ], 
+          "price": "₹679", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 11, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/11.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/11.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/11.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 12, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/12.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/12.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/12.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 13, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/13.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/13.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/13.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 14, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/14.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/14.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/14.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 15, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/15.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/15.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/15.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 16, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/16.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/16.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/16.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 17, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/17.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/17.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/17.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 18, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/18.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/18.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/18.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 19, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/19.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/19.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/19.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 20, 
+          "name": "Stylish Shirt", 
+          "category": "womenswear",
+          "images": [
+            "/womenswear-20250313T070710Z-001/womenswear/20.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/20.1.jpg",
+            "/womenswear-20250313T070710Z-001/womenswear/20.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        }
+        
+
+  ],
+    "kidswear": [
+      { 
+          "id": 1, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1 (2).jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+
+        { 
+          "id": 2, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 3, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 4, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.1 (2).jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 5, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 6, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 7, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 8, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 9, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9 (2).jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9.1 (2).jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 10, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 11, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 12, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 13, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 14, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 15, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 16, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 17, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 18, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 19, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 20, 
+          "name": "Stylish Shirt", 
+          "category": "kidswear",
+          "images": [
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.1.jpg",
+            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        }
+        
+
+  ],
+    "athleisure": [
+      { 
+          "id": 1, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/1 (2).jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/1.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/1.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+
+        { 
+          "id": 2, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/2.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/2.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/2.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 3, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/3.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/3.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/3.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 4, 
+          "name": "Stylish Sathleisure",
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/4.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/4.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/4.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 5, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/5.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/5.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/5.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 6, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/6.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/6.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/6.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 7, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/7.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/7.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/7.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 8, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/8.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/8.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/8.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 9, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/9.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/9.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/9.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 10, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/10.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/10.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/10.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 11, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/11.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/11.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/11.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 12, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/12.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/12.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/12.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 13, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/13.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/13.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/13.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 14, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/14.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/14.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/14.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 15, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/15.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/15.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/15.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 16, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/16.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/16.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/16.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 17, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/17.jpg",
+            "/KAthleisure-20250313T070757Z-001/Athleisure/17.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/17.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 18, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/18.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/18.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/18.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 19, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/19.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/19.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/19.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        },
+        { 
+          "id": 20, 
+          "name": "Stylish Shirt", 
+          "category": "athleisure",
+          "images": [
+            "/Athleisure-20250313T070757Z-001/Athleisure/20.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/20.1.jpg",
+            "/Athleisure-20250313T070757Z-001/Athleisure/20.2.jpg"
+
+          ], 
+          "price": "$29.99", 
+          "description": "Premium quality shirt made from 100% cotton",
+          "sizes": ["S", "M", "L", "XL"],
+          "details": [
+            "100% Cotton",
+            "Regular fit",
+            "Machine wash",
+            "Imported"
+          ]
+        }
+  ]
+  }
+  
