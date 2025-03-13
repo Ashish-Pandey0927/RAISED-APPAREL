@@ -163,9 +163,9 @@ const WomenswearCatalog = () => {
               >
                 {product.name}
               </h3>
-              <p style={{ fontSize: isMobile ? "12px" : "14px" }}>
+              {/* <p style={{ fontSize: isMobile ? "12px" : "14px" }}>
                 {product.price}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>

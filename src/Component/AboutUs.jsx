@@ -194,7 +194,7 @@ const AboutUs = () => {
         </h2>
         <div style={{ 
           overflow: "hidden",
-          backgroundColor: "#363535",
+          // backgroundColor: "#363535",
           borderRadius: ".5rem", 
           alignItems: "center", 
           textAlign: "center", 
@@ -203,7 +203,7 @@ const AboutUs = () => {
           padding: isMobile ? "0 1rem" : 0
         }}> 
           <img 
-            src="/Company Profile.png" 
+            src="/logo bw.png" 
             alt="Clients" 
             style={{ 
               maxWidth: "100%", 

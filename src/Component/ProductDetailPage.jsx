@@ -104,15 +104,17 @@ const ProductDetails = () => {
             width: "100%",
             borderRadius: "10px",
             overflow: "hidden",
-            marginBottom: "1rem"
+            marginBottom: "1rem",
+            // maxHeight: isMobile() ? "auto" : "500px",
           }}>
             <img
               src={product.images[activeImage]}
               alt={product.name}
               style={{
                 width: "100%",
-                height: isMobile() ? "auto" : "500px",
-                objectFit: "cover"
+                height: "auto",
+                objectFit: "contain",
+                objectPosition: "center",
               }}
             />
           </div>
@@ -129,7 +131,7 @@ const ProductDetails = () => {
                 alt={`Thumbnail ${index + 1}`}
                 style={{
                   width: "80px",
-                  height: "80px",
+                  height: "100px",
                   objectFit: "cover",
                   borderRadius: "5px",
                   cursor: "pointer",
@@ -144,7 +146,7 @@ const ProductDetails = () => {
         {/* Product Details */}
         <div style={{ flex: 1, padding: isMobile() ? 0 : "0 2rem" }}>
           <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>{product.name}</h1>
-          <p style={{ fontSize: "1.5rem", marginBottom: "2rem" }}>{product.price}</p>
+          {/* <p style={{ fontSize: "1.5rem", marginBottom: "2rem" }}>{product.price}</p> */}
 
           <div style={{ marginBottom: "2rem" }}>
             <h3 style={{ marginBottom: "1rem" }}>Select Size</h3>
@@ -227,7 +229,7 @@ const ProductDetails = () => {
                   }}
                 />
                 <h3 style={{ margin: "1rem 0 0.5rem" }}>{similarProduct.name}</h3>
-                <p>{similarProduct.price}</p>
+                {/* <p>{similarProduct.price}</p> */}
               </div>
             ))}
           </div>

@@ -150,7 +150,7 @@ const MenswearCatalog = () => {
               }}>
                 {product.name}
               </h3>
-              <p style={{ fontSize: isMobile ? "12px" : "14px" }}>{product.price}</p>
+              {/* <p style={{ fontSize: isMobile ? "12px" : "14px" }}>{product.price}</p> */}
             </div>
           ))}
         </div>

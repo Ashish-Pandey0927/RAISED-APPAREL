@@ -17,7 +17,7 @@ const HeroSection = () => {
     useEffect(() => {
         gsap.to(marqueeRef.current, {
             x: "-50%",
-            duration: 10,
+            duration: 30,
             repeat: -1,
             ease: "linear",
         });
@@ -25,27 +25,12 @@ const HeroSection = () => {
 
     // Array of brand logo images
     const brandLogos = [
-        "/Icons/Altheory-Logo (1)-Photoroom.png",
-        "/Icons/ASOS_logo.png",
-        "/Icons/Being Human Logo.png",
-        "/Icons/buda-jeans_logo.png",
-        "/Icons/firstcry_logo (2).png",
-        "/Icons/Jack & Jones logo.svg",
-        "/Icons/kerrang_logo.png",
-        "/Icons/Miss_Selfridge-Logo.png",
-        "/Icons/Myntra-Logo (2).png",
-        "/Icons/namshi-logo.png",
-        "/Icons/Only_logo.png",
-        "/Icons/Play-Day-Logo.png",
-        "/Icons/Reiss logo.png",
-        "/Icons/shop-direct-logo.png",
-        "/Icons/souled store _logo.webp",
-        "/Icons/styli_logo.png",
-        "/Icons/Topshop_logo.png",
-        "/Icons/Topman-logo.png",
-        "/Icons/Van Heusen_logo.png",
-        "/Icons/Vero_Moda_logo_PNG1.png",
-        "/Icons/virgio_logo.png"
+        "/BG-icons/1.png",
+        "/BG-icons/2.png",
+        "/BG-icons/3.png",
+        "/BG-icons/4.png",
+        "/BG-icons/5.png",
+
     ];
 
     return (
@@ -191,16 +176,16 @@ const HeroSection = () => {
                     >
                         {/* Duplicating the brand logos for seamless scrolling */}
                         {[...Array(2)].map((_, index) => (
-                            <div key={index} style={{ display: "flex", gap: "1rem" }}>
+                            <div key={index} style={{ display: "flex", }}>
                                 {brandLogos.map((logo, i) => (
                                     <img
                                     key={i}
                                     src={logo}
                                     alt={`Brand ${i + 1}`}
                                     style={{
-                                        width: isMobile ? "2rem" : "5rem",  // Fixed width
+                                        width: isMobile ? "2rem" : "800px",  // Fixed width
                                         height: isMobile ? "2rem" : "5rem", // Fixed height
-                                        objectFit: "contain",               // Ensures image aspect ratio is maintained
+                                        objectFit: "cover",               // Ensures image aspect ratio is maintained
                                         margin: "0 0.5rem",
                                     }}
                                 />                                
