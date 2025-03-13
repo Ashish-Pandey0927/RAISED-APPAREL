@@ -131,7 +131,7 @@ const HeroSection = () => {
                         fontSize: "clamp(2rem, 5vw, 5rem)",
                         fontWeight: "700",
                         lineHeight: "1.2",
-                        maxWidth: isMobile ? "400px" : "800px",
+                        maxWidth: isMobile ? "100px" : "800px",
                         margin: isMobile ? "0.5rem 0" : "1rem 0",
                         position: isMobile ? "absolute" : "relative",
                         bottom: isMobile ? "18rem" : "auto",
