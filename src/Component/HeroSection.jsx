@@ -84,7 +84,7 @@ const HeroSection = () => {
                         gap: isMobile ? "20px" : "20px",
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "400",
-                        maxWidth: "500px",
+                        maxWidth: isMobile ? "30px" : "500px",
                         marginBottom: isMobile ? "0rem" : "2rem",
                         textAlign: "left",
                         width: "100%",
@@ -115,6 +115,7 @@ const HeroSection = () => {
                                 fontSize: isMobile ? "12px" : "16px",
                                 marginTop: isMobile ? "5px" : "0px",
                                 fontWeight: "normal",
+                                // maxWidth: isMobile ? "30px" : "auto",
                                 lineHeight: "16px",
                                 letterSpacing: "0em",
                                 textAlign: "left",
@@ -131,11 +132,11 @@ const HeroSection = () => {
                         fontSize: "clamp(2rem, 5vw, 5rem)",
                         fontWeight: "700",
                         lineHeight: "1.2",
-                        maxWidth: isMobile ? "120px" : "800px",
+                        maxWidth: isMobile ? "150px" : "800px",
                         margin: isMobile ? "0rem 0" : "1rem 0",
                         position: isMobile ? "absolute" : "relative",
                         bottom: isMobile ? "18rem" : "auto",
-                        right: isMobile ? "3rem" : "0",
+                        right: isMobile ? "4rem" : "0",
                     }}
                 >
                     BRIDGING FASHION & BUSINESS
