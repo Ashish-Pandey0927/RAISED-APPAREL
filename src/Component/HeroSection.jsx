@@ -90,7 +90,7 @@ const HeroSection = () => {
                         width: "100%",
                         position: isMobile ? "absolute" : "relative",
                         bottom: isMobile ? "10rem" : "auto",
-                        left: isMobile ? "3rem" : "0"
+                        left: isMobile ? "2rem" : "0"
                     }}
                 >
                     {[
