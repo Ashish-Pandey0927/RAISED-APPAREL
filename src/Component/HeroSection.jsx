@@ -84,12 +84,13 @@ const HeroSection = () => {
                         gap: isMobile ? "20px" : "20px",
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "400",
-                        maxWidth: "500px",
+                        maxWidth: isMobile ? "30px" : "500px",
                         marginBottom: isMobile ? "0rem" : "2rem",
                         textAlign: "left",
                         width: "100%",
                         position: isMobile ? "absolute" : "relative",
                         bottom: isMobile ? "10rem" : "auto",
+                        left: isMobile ? "3rem" : "0"
                     }}
                 >
                     {[
