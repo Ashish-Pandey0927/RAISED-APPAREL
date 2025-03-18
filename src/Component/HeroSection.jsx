@@ -131,9 +131,10 @@ const HeroSection = () => {
                 <h1
                     style={{
                         fontSize: isMobile ? "45px" : "clamp(2rem, 5vw, 5rem)",
-                        fontWeight: "700",
+                        fontWeight: "900",
+                        textTransform: "uppercase",
                         textAlign: isMobile ? "left" : "center",
-                        lineHeight: isMobile ? "49px" : "1.2",
+                        lineHeight: isMobile ? "39px" : "1.2",
                         maxWidth: isMobile ? "270px" : "800px",
                         margin: isMobile ? "0rem 0" : "1rem 0",
                         position: isMobile ? "absolute" : "relative",
