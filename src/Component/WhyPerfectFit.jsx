@@ -91,7 +91,7 @@ const WhyPerfectFit = () => {
           }}
         >
           <img
-            src="https://s3-alpha-sig.figma.com/img/1ca7/6053/25fee271ef3e8d148e5f9fb92d9ec33d?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hHw-OPzGJD~WFOun2P8ZE9c5KDeY8pvwtPT36IzDdbmsRp4iENi16qnvrw3DQRqMLJ1a99QmS5NAcnB8FldoTlb3dNEoKEO12bndxhJaXjDzbisYNk8Ogoi33cFK0AxLTxa1hLlBi~LAirdP~vmDMRdJo0brOhBilPBaKAE0rGyj1BzWAGG0YOCP4Z6OwQ6MNX6OQGAWNmbqfdLrIizmL3W2in4B49HOXKCMI4iwrq981UJiUrrOADgcfeu~lk01Gfhoup2YxvUiuj-84YUXpaEqYND9t48C~7dnmgSQZ61h78FQVlKFiiuHBqb4~hpK6YAuhHxBNKlNzVBORt2gNA__"
+            src="/Denim jeans.png"
             alt="Stack of Denim Jeans"
             style={{
               width: "100%",

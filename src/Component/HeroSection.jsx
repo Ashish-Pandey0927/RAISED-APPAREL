@@ -81,16 +81,16 @@ const HeroSection = () => {
                         gridTemplateColumns: isMobile 
                             ? "repeat(1, 1fr)" 
                             : "repeat(auto-fit, minmax(120px, 1fr))",
-                        gap: isMobile ? "20px" : "20px",
+                        gap: isMobile ? "2rem" : "20px",
                         fontSize: isMobile ? ".5rem" : "1.5rem",
-                        fontWeight: "400",
+                        fontWeight: "lighter",
                         maxWidth: isMobile ? "30px" : "500px",
-                        marginBottom: isMobile ? "0.5rem" : "2rem",
+                        marginBottom: isMobile ? "1rem" : "2rem",
                         textAlign: "left",
                         width: "100%",
                         position: isMobile ? "absolute" : "relative",
-                        bottom: isMobile ? "10rem" : "auto",
-                        left: isMobile ? "2rem" : "0"
+                        bottom: isMobile ? "11rem" : "auto",
+                        left: isMobile ? "1rem" : "0"
                     }}
                 >
                     {[
@@ -104,7 +104,7 @@ const HeroSection = () => {
                         <div key={index}>
                             <span style={{ 
                                 fontSize: isMobile ? "24px" : "48px", 
-                                fontWeight: "400",
+                                fontWeight: isMobile ? "lighter" : "400",
                                 lineHeight: "16px",
                                 letterSpacing: "0em",
                                 textAlign: "left",
@@ -113,9 +113,9 @@ const HeroSection = () => {
                             </span>
                             <br />
                             <span style={{
-                                fontSize: isMobile ? "12px" : "16px",
+                                fontSize: isMobile ? "15px" : "16px",
                                 marginTop: isMobile ? "5px" : "0px",
-                                fontWeight: "normal",
+                                fontWeight: isMobile ? "lighter" : "400",
                                 // maxWidth: isMobile ? "30px" : "auto",
                                 lineHeight: "16px",
                                 letterSpacing: "0em",
@@ -130,14 +130,15 @@ const HeroSection = () => {
                 {/* Heading Section */}
                 <h1
                     style={{
-                        fontSize: "clamp(2rem, 5vw, 5rem)",
+                        fontSize: isMobile ? "45px" : "clamp(2rem, 5vw, 5rem)",
                         fontWeight: "700",
-                        lineHeight: "1.2",
-                        maxWidth: isMobile ? "150px" : "800px",
+                        textAlign: isMobile ? "left" : "center",
+                        lineHeight: isMobile ? "49px" : "1.2",
+                        maxWidth: isMobile ? "270px" : "800px",
                         margin: isMobile ? "0rem 0" : "1rem 0",
                         position: isMobile ? "absolute" : "relative",
-                        bottom: isMobile ? "15rem" : "auto",
-                        right: isMobile ? "4rem" : "0",
+                        bottom: isMobile ? "12rem" : "auto",
+                        right: isMobile ? "0rem" : "0",
                     }}
                 >
                     BRIDGING FASHION & BUSINESS

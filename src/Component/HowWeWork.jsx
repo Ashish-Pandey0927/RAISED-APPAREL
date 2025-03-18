@@ -94,10 +94,10 @@ const HowWeWork = () => {
       {/* Mobile Diagram */}
       <div className="mobile-diagram" style={{
         display: "none",
-        width: "100%",
-        maxWidth: "600px",
+        width: "100vw",
+        // maxWidth: "700px",
         position: "relative",
-        aspectRatio: "0.8", // Adjust based on your mobile image aspect ratio
+        aspectRatio: "1", // Adjust based on your mobile image aspect ratio
         margin: "2rem 0",
       }}>
         <img
@@ -106,7 +106,7 @@ const HowWeWork = () => {
           style={{
             width: "100%",
             height: "100%",
-            objectFit: "contain",
+            objectFit: "cover",
           }}
         />
       </div>
