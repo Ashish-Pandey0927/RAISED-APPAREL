@@ -58,11 +58,13 @@ const App = () => {
         <Route path="/womenswear" element={<WomenswearCatalog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/:category/product/:id" element={<ProductDetailPage />} /> {/* **Modified Route Here!** */}
-        <Route path="/blog" element={<BlogSection />} />
+        {/* <Route path="/blog" element={<BlogSection />} /> */}
         <Route path="/about" element={<AboutUs />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/kidswear" element={<KidsWear />} />
         <Route path="/streetwear" element={<StreetWear />} />
+        <Route path="/blogs" element={<BlogSection />} />
+        <Route path="/blogs/:id" element={<BlogSection />} />
       </Routes>
       {!isMobile && <Footer />}
     </Router>

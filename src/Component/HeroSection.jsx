@@ -124,7 +124,7 @@ const HeroSection = () => {
                     ].map((item, index) => (
                         <div key={index}>
                             <span style={{ 
-                                fontSize: isMobile ? "24px" : "48px", 
+                                fontSize: isMobile ? "22px" : "48px", 
                                 fontWeight: isMobile ? "lighter" : "400",
                                 lineHeight: "16px",
                                 letterSpacing: "0em",
@@ -134,7 +134,7 @@ const HeroSection = () => {
                             </span>
                             <br />
                             <span style={{
-                                fontSize: isMobile ? "15px" : "16px",
+                                fontSize: isMobile ? "12px" : "16px",
                                 marginTop: isMobile ? "5px" : "0px",
                                 fontWeight: isMobile ? "lighter" : "400",
                                 // maxWidth: isMobile ? "30px" : "auto",
@@ -159,7 +159,7 @@ const HeroSection = () => {
                         maxWidth: isMobile ? "270px" : "800px",
                         margin: isMobile ? "0rem 0" : "1rem 0",
                         position: isMobile ? "absolute" : "relative",
-                        bottom: isMobile ? "12rem" : "auto",
+                        bottom: isMobile ? "20rem" : "auto",
                         right: isMobile ? "0rem" : "0",
                     }}
                 >
@@ -176,11 +176,12 @@ const HeroSection = () => {
                     backgroundColor: "#1A1A1A",
                     color: "#fff",
                     textAlign: "center",
+                    fontSize: isMobile ? "8px" : "2rem", 
                     padding: isMobile ? "0.1rem 0rem" : "1rem 0",
                 }}
             >
                 <h2 style={{ 
-                    fontSize: isMobile ? "1rem" : "1.2rem", 
+                    fontSize: isMobile ? "8px" : "2rem", 
                     fontWeight: "400", 
                     marginBottom: "10px",
                     // padding: isMobile ? "0.5rem" : "" 

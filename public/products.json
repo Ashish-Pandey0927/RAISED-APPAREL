@@ -1,1642 +1,1754 @@
 {
-    "menswear": [
-        { 
-            "id": 1, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/1.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/1.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/1.3.jpg"
-
-            ], 
-            "price": "₹3229", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-
-          { 
-            "id": 2, 
-            "name": "T-Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/2.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/2.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/2.3.jpg"
-
-            ], 
-            "price": "$699", 
-            "description": "Premium quality T-shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 3, 
-            "name": "Jacket", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/3.webp",
-              "/MENS-20250313T070619Z-001/MENS/3.1.webp",
-              "/MENS-20250313T070619Z-001/MENS/3.2.webp",
-              "/MENS-20250313T070619Z-001/MENS/3.3.webp"
-
-            ], 
-            "price": "₹4599", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 4, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/4.jpg",
-              "/MENS-20250313T070619Z-001/MENS/4.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/4.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/4.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 5, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/5.jpg",
-              "/MENS-20250313T070619Z-001/MENS/5.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/5.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/5.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 6, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/6.jpg",
-              "/MENS-20250313T070619Z-001/MENS/6.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/6.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/6.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 7, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/7.png",
-              "/MENS-20250313T070619Z-001/MENS/7.1.png",
-              "/MENS-20250313T070619Z-001/MENS/7.2.png",
-              "/MENS-20250313T070619Z-001/MENS/7.3.png"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 8, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/8.png",
-              "/MENS-20250313T070619Z-001/MENS/8.1.png",
-              "/MENS-20250313T070619Z-001/MENS/8.2.png",
-              "/MENS-20250313T070619Z-001/MENS/8.3.png"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 9, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/9.jpg",
-              "/MENS-20250313T070619Z-001/MENS/9.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/9.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/9.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 10, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/10.png",
-              "/MENS-20250313T070619Z-001/MENS/10.1.png",
-              "/MENS-20250313T070619Z-001/MENS/10.2.png",
-              "/MENS-20250313T070619Z-001/MENS/10.3.png"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 11, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/11.jpeg",
-              "/MENS-20250313T070619Z-001/MENS/11.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/11.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/11.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 12, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/12.jpg",
-              "/MENS-20250313T070619Z-001/MENS/12.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/12.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/12.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 13, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/13.jpg",
-              "/MENS-20250313T070619Z-001/MENS/13.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/13.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/13.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 14, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/14.jpg",
-              "/MENS-20250313T070619Z-001/MENS/14.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/14.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/14.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 15, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/15.jpg",
-              "/MENS-20250313T070619Z-001/MENS/15.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/15.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/15.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 16, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/16.jpg",
-              "/MENS-20250313T070619Z-001/MENS/16.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/16.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/16.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 17, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/17.jpg",
-              "/MENS-20250313T070619Z-001/MENS/17.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/17.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/17.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 18, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/18.jpg",
-              "/MENS-20250313T070619Z-001/MENS/18.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/18.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/18.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 19, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/19.jpg",
-              "/MENS-20250313T070619Z-001/MENS/19.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/19.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/19.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          },
-          { 
-            "id": 20, 
-            "name": "Stylish Shirt", 
-            "category": "menswear",
-            "images": [
-              "/MENS-20250313T070619Z-001/MENS/20.jpg",
-              "/MENS-20250313T070619Z-001/MENS/20.1.jpg",
-              "/MENS-20250313T070619Z-001/MENS/20.2.jpg",
-              "/MENS-20250313T070619Z-001/MENS/20.3.jpg"
-
-            ], 
-            "price": "$29.99", 
-            "description": "Premium quality shirt made from 100% cotton",
-            "sizes": ["S", "M", "L", "XL"],
-            "details": [
-              "100% Cotton",
-              "Regular fit",
-              "Machine wash",
-              "Imported"
-            ]
-          }
-          
-
-    ],
+  "menswear": [
+    {
+      "id": 1,
+      "name": "Blue Self-Design Tee",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/1.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/1.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/1.3.jpg"
+      ],
+      "price": "₹3229",
+      "description": "A cotton blend half-sleeve top with a blue self-design pattern.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton Blend",
+        "Pattern/Print: Self Design",
+        "Sleeve Length: Half Sleeve",
+        "Reversible: No",
+        "Color: Blue"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Oversized Printed Tee",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/2.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/2.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/2.3.jpg"
+      ],
+      "price": "₹699",
+      "description": "An oversized cotton t-shirt with a printed pattern, round neck, and short sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Pattern/Print: Printed Pattern",
+        "Fit: Oversized Fit",
+        "Neck/Collar: Round",
+        "Sleeve Length: Short Sleeves",
+        "Length: Medium",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Layered Cotton Jacket",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/3.webp",
+        "/MENS-20250313T070619Z-001/MENS/3.1.webp",
+        "/MENS-20250313T070619Z-001/MENS/3.2.webp",
+        "/MENS-20250313T070619Z-001/MENS/3.3.webp"
+      ],
+      "price": "₹4599",
+      "description": "A jacket with a cotton outer layer, polyester inner layer, and recycled polyester lining.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Outer layer: 100% Cotton",
+        "Inner layer: 100% Polyester",
+        "Lining: 100% Recycled Polyester",
+        "Wash Care: Dry Clean, Machine Wash at 40°C"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Striped Peter Pan Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/4.jpg",
+        "/MENS-20250313T070619Z-001/MENS/4.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/4.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/4.3.jpg"
+      ],
+      "price": "₹999",
+      "description": "A regular-fit polyester shirt with vertical stripes, a Peter Pan collar, and long sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Pattern/Print: Vertical Stripes",
+        "Fit: Regular Fit",
+        "Neck/Collar: Peter Pan Collar",
+        "Sleeve Length: Long Sleeves",
+        "Closure: Button Placket",
+        "Length: Regular",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Check Graphic Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/5.jpg",
+        "/MENS-20250313T070619Z-001/MENS/5.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/5.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/5.3.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A boxy-fit shirt with a check design, spread collar, long sleeves, and graphic prints.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Pattern/Print: Check Design",
+        "Fit: Boxy Fit",
+        "Neck/Collar: Spread Collar",
+        "Sleeve Length: Long Sleeves",
+        "Closure: Button Placket",
+        "Additional Features: Graphic print to chest and back"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Slogan Print Jacket",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/6.jpg",
+        "/MENS-20250313T070619Z-001/MENS/6.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/6.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/6.3.jpg"
+      ],
+      "price": "₹1999",
+      "description": "A casual cotton-spandex jacket with a slogan print, round neck, and fur-lined collar.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton Spandex",
+        "Pattern/Print: Typography or Slogan Print",
+        "Fit: Regular Fit",
+        "Neck/Collar: Round Neck, Fur Lined Collar",
+        "Number of Pockets: Slip Pockets, Flap Pockets",
+        "Wash Care: Machine Wash Cold",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Blue Classic Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/7.png",
+        "/MENS-20250313T070619Z-001/MENS/7.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/7.2.png",
+        "/MENS-20250313T070619Z-001/MENS/7.3.png"
+      ],
+      "price": "₹2499",
+      "description": "A classic shirt made of cotton, hemp, and organic cotton with full-length sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 67% Cotton, 18% Hemp, 15% Organic Cotton",
+        "Fit: Not Specified",
+        "Sleeve Length: Full-Length Sleeve",
+        "Length: Medium",
+        "Wash Care: Machine Wash",
+        "Occasion: Classic"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Graphic Denim Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/8.png",
+        "/MENS-20250313T070619Z-001/MENS/8.1.png",
+        "/MENS-20250313T070619Z-001/MENS/8.2.png",
+        "/MENS-20250313T070619Z-001/MENS/8.3.png"
+      ],
+      "price": "₹2999",
+      "description": "A slim-fit denim shirt with a graphic pattern, spread collar, and long sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Denim",
+        "Pattern/Print: Graphic",
+        "Fit: Slim Fit",
+        "Neck/Collar: Spread Collar",
+        "Sleeve Length: Long Sleeves",
+        "Closure: Not Specified",
+        "Length: Regular",
+        "Wash Care: Dry Clean",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Faded Oversized Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/9.jpg",
+        "/MENS-20250313T070619Z-001/MENS/9.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/9.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/9.3.jpg"
+      ],
+      "price": "₹1999",
+      "description": "An oversized cotton shirt with a faded pattern, cutaway collar, and long sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Faded",
+        "Fit: Oversized",
+        "Neck/Collar: Cutaway Collar",
+        "Sleeve Length: Long Sleeves",
+        "Closure: Button Placket",
+        "Length: Regular",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cotton-Lycra Tee",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/10.png",
+        "/MENS-20250313T070619Z-001/MENS/10.1.png",
+        "/MENS-20250313T070619Z-001/MENS/10.2.png",
+        "/MENS-20250313T070619Z-001/MENS/10.3.png"
+      ],
+      "price": "₹899",
+      "description": "A regular-length top made of cotton and lycra, suitable as a t-shirt or shirt.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 95% Cotton, 5% Lycra",
+        "Length: Regular",
+        "Wash Care: Machine Wash"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Casual Long-Sleeve Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/11.jpeg",
+        "/MENS-20250313T070619Z-001/MENS/11.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/11.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/11.3.jpg"
+      ],
+      "price": "₹999",
+      "description": "A regular-fit cotton shirt with long sleeves and a straight hemline.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Fit: Regular Fit",
+        "Sleeve Length: Long Sleeves",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Relaxed Fit Cotton Pants",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/12.jpg",
+        "/MENS-20250313T070619Z-001/MENS/12.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/12.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/12.3.jpg"
+      ],
+      "price": "₹1299",
+      "description": "Cotton pants with a relaxed and slim fit, featuring a round neck and button placket.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Solid, Abstract",
+        "Fit: Relaxed Fit, Slim Fit",
+        "Neck/Collar: Round Neck, Spread Collar",
+        "Closure: Button Placket",
+        "Length: Regular",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Slim-Fit Step Hem Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/13.jpg",
+        "/MENS-20250313T070619Z-001/MENS/13.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/13.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/13.3.jpg"
+      ],
+      "price": "₹999",
+      "description": "A slim-fit cotton shirt with a concealed button placket and step hem.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Fit: Slim Fit",
+        "Closure: Concealed Button Placket",
+        "Wash Care: Machine Wash Cold",
+        "Additional Features: Applique Motifs, Step Hem"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Mid-Rise Clean Look Pants",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/14.jpg",
+        "/MENS-20250313T070619Z-001/MENS/14.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/14.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/14.3.jpg"
+      ],
+      "price": "₹1299",
+      "description": "Regular-fit pants made of cotton, polyester, and elastane with a clean look and light fade.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 80% Cotton, 18% Polyester, 2% Elastane",
+        "Fit: Regular Fit (Brand Fit Name: Classic)",
+        "Length: Regular",
+        "Waist Rise: Mid-Rise",
+        "Wash Care: Machine Wash",
+        "Additional Features: Distress: Clean Look, Fade: Light Fade, Shade: Medium, Waistband: With Belt Loops"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Heavy Fade Slim Pants",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/15.jpg",
+        "/MENS-20250313T070619Z-001/MENS/15.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/15.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/15.3.jpg"
+      ],
+      "price": "₹1499",
+      "description": "Slim-fit cotton blend pants with a heavy fade and mid-rise waist.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton Blend",
+        "Fit: Slim Fit",
+        "Length: Regular",
+        "Waist Rise: Mid-Rise",
+        "Wash Care: Machine Wash",
+        "Additional Features: Distress: Clean Look, Fade: Heavy Fade, Waistband: With Belt Loops, Shade: Medium, Stretch: Non Stretchable"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Knitted Solid Pants",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/16.jpg",
+        "/MENS-20250313T070619Z-001/MENS/16.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/16.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/16.3.jpg"
+      ],
+      "price": "₹1299",
+      "description": "Regular-fit cotton blend pants with a solid pattern and zip closure, knitted for comfort.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton Blend",
+        "Pattern/Print: Solid",
+        "Fit: Regular Fit",
+        "Closure: Zip",
+        "Length: Regular",
+        "Waist Rise: Mid-Rise",
+        "Wash Care: Machine Wash",
+        "Additional Features: Weave Type: Knitted, Type of Pleat: Flat-Front, Fly Type: Zip"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Casual Cotton Joggers",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/17.jpg",
+        "/MENS-20250313T070619Z-001/MENS/17.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/17.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/17.3.jpg"
+      ],
+      "price": "₹999",
+      "description": "Regular-fit cotton joggers with 3 pockets and drawstring closure.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Fit: Regular Fit",
+        "Closure: Drawstring",
+        "Length: Regular",
+        "Number of Pockets: 3",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Slim-Fit Cotton Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/18.jpg",
+        "/MENS-20250313T070619Z-001/MENS/18.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/18.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/18.3.jpg"
+      ],
+      "price": "₹999",
+      "description": "A slim-fit cotton shirt with full-length sleeves and medium length.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Fit: Slim Fit",
+        "Sleeve Length: Full-Length Sleeve",
+        "Length: Medium",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Linen-Cotton Casual Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/19.jpg",
+        "/MENS-20250313T070619Z-001/MENS/19.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/19.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/19.3.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A regular-fit shirt made of linen and cotton with long sleeves and a spread collar.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 52% Linen, 48% Cotton",
+        "Pattern/Print: Solid",
+        "Fit: Regular Fit",
+        "Neck/Collar: Spread Collar",
+        "Sleeve Length: Long Sleeves",
+        "Closure: Button Placket",
+        "Length: Regular",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Long Slim-Fit Shirt",
+      "category": "menswear",
+      "images": [
+        "/MENS-20250313T070619Z-001/MENS/20.jpg",
+        "/MENS-20250313T070619Z-001/MENS/20.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/20.2.jpg",
+        "/MENS-20250313T070619Z-001/MENS/20.3.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A slim-fit cotton shirt with full-length sleeves and a longer length.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Fit: Slim Fit",
+        "Sleeve Length: Full-Length",
+        "Length: Long",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    }
+  ],
     "womenswear": [
-      { 
-          "id": 1, 
-          "name": "Denim Pants", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/1.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/1.2.jpg"
-
-          ], 
-          "price": "₹799", 
-          "description": "Premium quality denim pants made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-
-        { 
-          "id": 2, 
-          "name": "Pink Check Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/2.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/2.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/2.2.jpg"
-
-          ], 
-          "price": "₹1299", 
-          "description": "Premium quality pink check shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 3, 
-          "name": "Denim long Skirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/3.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/3.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/3.2.jpg"
-
-          ], 
-          "price": "₹2299", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 4, 
-          "name": "T-Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/MENS-20250313T070619Z-001/MENS/4.jpg",
-            "/MENS-20250313T070619Z-001/MENS/4.1.jpg",
-            "/MENS-20250313T070619Z-001/MENS/4.2.jpg",
-            "/MENS-20250313T070619Z-001/MENS/4.3.jpg"
-
-          ], 
-          "price": "$599.99", 
-          "description": "Premium quality T-shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 5, 
-          "name": "Heitage Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/5.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/5.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/5.2.jpg"
-
-          ], 
-          "price": "₹1999", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 6, 
-          "name": "Blue Sleeveless Denim Jacket", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/6.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/6.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/6.2.jpg"
-
-          ], 
-          "price": "₹899.99", 
-          "description": "Premium quality Blue Sleeveless Denim Jacket made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 7, 
-          "name": "Lucille Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/7.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/7.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/7.2.jpg"
-
-          ], 
-          "price": "₹1599", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 8, 
-          "name": "Mini denim Skirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/8.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/8.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/8.2.jpg"
-
-          ], 
-          "price": "₹1629", 
-          "description": "Premium quality skirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 9, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/9.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/9.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/9.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 10, 
-          "name": "Polka Dot Dress", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/10.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/10.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/10.2.jpg"
-
-          ], 
-          "price": "₹679", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 11, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/11.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/11.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/11.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 12, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/12.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/12.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/12.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 13, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/13.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/13.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/13.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 14, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/14.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/14.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/14.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 15, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/15.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/15.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/15.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 16, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/16.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/16.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/16.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 17, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/17.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/17.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/17.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 18, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/18.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/18.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/18.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 19, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/19.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/19.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/19.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 20, 
-          "name": "Stylish Shirt", 
-          "category": "womenswear",
-          "images": [
-            "/womenswear-20250313T070710Z-001/womenswear/20.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/20.1.jpg",
-            "/womenswear-20250313T070710Z-001/womenswear/20.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        }
-        
-
+    {
+      "id": 1,
+      "name": "Washed Denim Shorts",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/1.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/1.2.jpg"
+      ],
+      "price": "₹799",
+      "description": "Mid-rise denim shorts made of 100% cotton with a washed pattern and 5 pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Pattern/Print: Washed",
+        "Waist Rise: Mid-Rise",
+        "Number of Pockets: 5",
+        "Wash Care: Machine Wash"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Casual Collar Blouse",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/2.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/2.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/2.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A casual cotton blouse with a collar neck.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Neck/Collar: Collar Neck",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Embellished Pencil Skirt",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/3.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/3.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/3.2.jpg"
+      ],
+      "price": "₹2299",
+      "description": "A knee-length cotton pencil skirt with a washed, embellished pattern and front slit.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Pattern/Print: Washed, Embellished/Sequined",
+        "Fit: Regular Fit",
+        "Sleeve Length: Full Sleeves",
+        "Closure: Button, Button Fly",
+        "Length: Knee Length",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Striped Peter Pan Shirt",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/4.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/4.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/4.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A regular-fit polyester shirt with vertical stripes, a Peter Pan collar, and long sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Pattern/Print: Vertical Stripes",
+        "Fit: Regular Fit",
+        "Neck/Collar: Peter Pan Collar",
+        "Sleeve Length: Long Sleeves",
+        "Closure: Button Placket",
+        "Length: Regular",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Smart Casual 3/4 Sleeve Shirt",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/5.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/5.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/5.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A polyester shirt with 3/4 sleeves and medium length, ideal for smart casual wear.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Fit: Regular Fit",
+        "Sleeve Length: 3/4th Sleeve",
+        "Length: Medium",
+        "Wash Care: Machine Wash",
+        "Occasion: Smart Casual"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sleeveless Denim Jacket",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/6.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/6.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/6.2.jpg"
+      ],
+      "price": "₹899.99",
+      "description": "A sleeveless jacket made of cotton and polyester with a solid pattern and 2 pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 66% Cotton, 34% Polyester",
+        "Pattern/Print: Solid",
+        "Neck/Collar: Collarless",
+        "Sleeve Length: Sleeveless",
+        "Closure: Button",
+        "Length: Regular",
+        "Number of Pockets: 2",
+        "Wash Care: Machine Wash",
+        "Additional Features: Type: Denim Jacket, Lining Fabric: Unlined"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Linen Relaxed Shirt",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/7.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/7.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/7.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A relaxed-fit linen-rich shirt with three-quarter sleeves and a curved hemline.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Linen Rich",
+        "Pattern/Print: Solid",
+        "Fit: Relaxed Fit",
+        "Neck/Collar: Spread Collar",
+        "Sleeve Length: Three-Quarter Sleeves",
+        "Length: Regular",
+        "Wash Care: Hand Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Solid Woven Skirt",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/8.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/8.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/8.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A straight cotton skirt with a solid pattern and woven design.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Solid",
+        "Wash Care: Machine Wash",
+        "Additional Features: Type: Straight, Knit or Woven: Woven, Slit Detail: No Slit"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Feminine Mini Dress",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/9.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/9.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/9.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A mini cotton dress with flap pockets and a straight hemline, styled for a feminine look.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Closure: Button",
+        "Length: Mini",
+        "Number of Pockets: Flap Pockets",
+        "Wash Care: Machine Wash",
+        "Occasion: Feminine"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Casual Poly Playsuit",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/10.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/10.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/10.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A polyester playsuit designed for casual wear.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual",
+        "Additional Features: Package contains: 1 playsuit"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Tie-Up Poly Top",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/11.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/11.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/11.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A polyester top with a solid pattern, waist tie-ups, and 2 pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Pattern/Print: Solid",
+        "Number of Pockets: 2",
+        "Wash Care: Machine Wash",
+        "Additional Features: Surface Styling: Waist Tie-Ups"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Casual Cotton Jumpsuit",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/12.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/12.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/12.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A cotton jumpsuit with a shirt collar, sleeveless design, and concealed zip closure.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Solid",
+        "Neck/Collar: Shirt Collar",
+        "Sleeve Length: Sleeveless",
+        "Closure: Concealed Zip",
+        "Number of Pockets: 2",
+        "Wash Care: Hand Wash",
+        "Occasion: Casual",
+        "Additional Features: Type: Basic Jumpsuit, Sustainable: Regular"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Woven Mid-Rise Pants",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/13.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/13.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/13.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "Regular-fit cotton pants with a mid-rise waist and woven weave.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Fit: Regular Fit",
+        "Closure: Zip",
+        "Waist Rise: Mid-Rise",
+        "Wash Care: Machine Wash",
+        "Occasion: Not Specified",
+        "Additional Features: Weave Type: Woven"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Party Fit and Flare Dress",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/14.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/14.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/14.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A sleeveless fit-and-flare mini dress made of cotton, perfect for parties.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Fit: Fit and Flare",
+        "Sleeve Length: Sleeveless",
+        "Length: Mini",
+        "Wash Care: Machine Wash",
+        "Occasion: Party",
+        "Additional Features: Shape: Fit and Flare"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Geometric Peplum Top",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/15.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/15.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/15.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A sleeveless cotton peplum top with a solid and geometric pattern, cropped length.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Pattern/Print: Solid, Geometric",
+        "Neck/Collar: Square Neck, Shoulder Straps",
+        "Sleeve Length: Sleeveless, Cap Sleeves",
+        "Closure: Zip",
+        "Length: Crop, Regular",
+        "Wash Care: Machine Wash",
+        "Additional Features: Type: Peplum, Type of Pleat: Pleated, Knit or Woven: Woven, Transparency: Opaque"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Lightweight Denim Jacket",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/16.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/16.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/16.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A lightweight cotton denim jacket with short sleeves and snap button closure.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Washed",
+        "Neck/Collar: Spread Collar",
+        "Sleeve Length: Short Sleeves",
+        "Closure: Snap Button",
+        "Length: Regular",
+        "Wash Care: Hand Wash",
+        "Additional Features: Type: Denim Jacket, Lightweight, Lining Fabric: Unlined"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Lined Polyester Top",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/17.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/17.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/17.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A polyester top with long sleeves, a stand collar, and polyester lining.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Neck/Collar: Stand Collar",
+        "Sleeve Length: Long Sleeves",
+        "Length: Regular",
+        "Wash Care: Hand Wash",
+        "Additional Features: Lining Fabric: Polyester"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Floral Bomber Jacket",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/18.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/18.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/18.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A cropped polyester bomber jacket with long sleeves, a floral and solid pattern, and dual closure.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Polyester",
+        "Pattern/Print: Floral, Solid",
+        "Neck/Collar: Lapel Collar",
+        "Sleeve Length: Long Sleeves",
+        "Closure: Button, Zip",
+        "Length: Crop",
+        "Wash Care: Machine Wash",
+        "Additional Features: Type: Bomber, Body, Sleeve Styling: Regular Sleeves, Hemline: Straight"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Casual Strap Top",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/19.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/19.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/19.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A cotton top with shoulder straps, zip closure, and 2 pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Solid",
+        "Neck/Collar: Shoulder Straps",
+        "Closure: Zip",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual",
+        "Additional Features: Number of Items: 1"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Fitted Gathered Playsuit",
+      "category": "womenswear",
+      "images": [
+        "/womenswear-20250313T070710Z-001/womenswear/20.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/20.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/20.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A fitted playsuit made of polyester and cotton with long sleeves and gathered styling.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 95% Polyester, 5% Elastane, Cotton",
+        "Pattern/Print: Solid",
+        "Fit: Fitted",
+        "Neck/Collar: Square Neck",
+        "Sleeve Length: Long Sleeves",
+        "Length: Regular",
+        "Number of Pockets: 2",
+        "Wash Care: Machine Wash"
+      ]
+    }
   ],
     "kidswear": [
-      { 
-          "id": 1, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1 (2).jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-
-        { 
-          "id": 2, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 3, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 4, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.1 (2).jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 5, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 6, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 7, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 8, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 9, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9 (2).jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9.1 (2).jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 10, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 11, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 12, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 13, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 14, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 15, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 16, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 17, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 18, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 19, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 20, 
-          "name": "Stylish Shirt", 
-          "category": "kidswear",
-          "images": [
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.1.jpg",
-            "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        }
-        
-
+    {
+      "id": 1,
+      "name": "Striped Towel Dress",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1 (2).jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/1.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A soft cotton blend towel dress with a bold multi-stripe design and side slip pockets, ideal for beach or poolside.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Soft Cotton Blend, Towelling",
+        "Pattern/Print: Bold Multi-Stripe",
+        "Neck/Collar: Open Collar",
+        "Number of Pockets: Side Slip Pockets",
+        "Occasion: Beach Days, Poolside Lounging",
+        "Additional Features: Absorbent Towelling Finish"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ruched Waist Dress",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/2.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A cotton dress with contrasting trim, a notched round neck, and ruching at the waist.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Neck/Collar: Notched Round Neckline",
+        "Closure: Button Keyhole to Reverse",
+        "Number of Pockets: Side Seam Pockets",
+        "Additional Features: Contrasting Trim, Ruching at the Waist, Flared Skirt, Lightly Bagged Top"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ruffle Chiffon Dress",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/3.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "An elegant chiffon dress with ruffle detailing at the neck, cuffs, and waist, featuring a flounced hem.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Lightweight Chiffon",
+        "Neck/Collar: Gathered Ruffle Neck",
+        "Sleeve Length: Raglan Blouson Sleeves",
+        "Closure: Fastening at Reverse",
+        "Additional Features: Ruffled Cuffs and Waist, Flounced Hem, Double-Layer Top and Skirt Illusion"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Embroidered Chambray Trousers",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.1 (2).jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/4.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "Cotton chambray trousers with a relaxed wide-leg fit and embroidered detailing.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton Chambray",
+        "Fit: Relaxed Wide-Leg",
+        "Closure: Elasticated Drawstring Waist",
+        "Number of Pockets: Angled Side Pockets",
+        "Additional Features: Embroidered Detailing Along Sides, Sporty Yet Artisanal Touch"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Oversized Crew Tee",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/5.2.jpg"
+      ],
+      "price": "₹699",
+      "description": "An oversized cotton t-shirt with a crew neckline, drop shoulders, and a high-low hem.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Midweight Cotton with Stretch",
+        "Fit: Oversized",
+        "Neck/Collar: Crew Neckline",
+        "Length: High-Low Hem",
+        "Additional Features: Soft Feel, Relaxed Drape, Drop Shoulders"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Graphic Tee",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/6.2.jpg"
+      ],
+      "price": "₹799",
+      "description": "An oversized cotton t-shirt with McLaren Formula 1 Team branding and a Speedmark logo.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Fit: Oversized, Unisex Fit",
+        "Neck/Collar: Crew Neckline"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Lando Norris Tee",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/7.2.jpg"
+      ],
+      "price": "₹799",
+      "description": "An oversized long-sleeve cotton t-shirt with McLaren F1 logos and Lando Norris’s number 04.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Fit: Oversized, Unisex Fit",
+        "Neck/Collar: Crew Neckline",
+        "Sleeve Length: Long Sleeves"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Reiss Logo Joggers",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/8.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "Cotton and polyester joggers with a logo and print pattern, featuring a stretch waistband.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 78% Cotton, 22% Polyester",
+        "Pattern/Print: Logo, Print",
+        "Length: Regular",
+        "Number of Pockets: Two Side Pockets",
+        "Wash Care: Machine Washable"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Utility Bomber Jacket",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9 (2).jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9.1 (2).jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/9.2.jpg"
+      ],
+      "price": "₹1999",
+      "description": "A modern bomber jacket made of polyester, cotton, and elastane with a fixed hood and flap pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Main: 48% Polyester, 42% Cotton, 10% Elastane; Trim: 99% Polyester, 1% Elastane; Lining: 100% Viscose",
+        "Closure: Front Zip with Guard",
+        "Number of Pockets: Press-Stud Flap Pockets",
+        "Wash Care: Machine Washable",
+        "Additional Features: Fixed Hood, Drop Shoulders, Ribbed Hem and Cuffs, Lined, Utility Styling, Modern Bomber Silhouette"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Denim Wide-Leg Jumpsuit",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/10.2.jpg"
+      ],
+      "price": "₹1999",
+      "description": "A cotton denim jumpsuit with stretch, a wide-leg silhouette, and an elasticated back waistband.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 98% Cotton, 2% Elastane (Cotton Denim with Stretch)",
+        "Fit: Wide-Leg Silhouette",
+        "Closure: Front Press-Studs",
+        "Waist Rise: Elasticated Back Waistband",
+        "Number of Pockets: Press-Stud Chest Flap Pockets, Side Slash Pockets, Patch Pocket to Reverse",
+        "Wash Care: Machine Washable"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Barrel Leg Jeans",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/11.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "Cotton-denim jeans with stretch, a barrel leg fit, and patch pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton-Denim with Stretch",
+        "Fit: Barrel Leg",
+        "Closure: Front Button and Zip",
+        "Waist Rise: Mid-Rise",
+        "Number of Pockets: Patch Pockets",
+        "Additional Features: Rises Slightly at Inseam"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Straight-Leg Denim Jeans",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/12.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "Straight-leg cotton denim jeans with slight stretch and a press-stud flap pocket.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 99% Cotton, 1% Elastane (Cotton Denim with Slight Stretch)",
+        "Fit: Straight Leg",
+        "Closure: Button with Zip",
+        "Number of Pockets: Press-Stud Flap Pocket",
+        "Wash Care: Machine Washable",
+        "Additional Features: Knee Tucks, Logo Patch to Reverse"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Textured Towelling Dress",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/13.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A relaxed cotton blend dress with textured towelling and an open V-neckline collar.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 77% Cotton, 23% Polyester (Cotton Blend, Textured Towelling)",
+        "Pattern/Print: Basket-Weave Pattern",
+        "Fit: Relaxed",
+        "Neck/Collar: Open V-Neckline Collar",
+        "Sleeve Length: Sleeveless",
+        "Closure: Front Zip with Zip Guard",
+        "Number of Pockets: Side Slip Pockets",
+        "Wash Care: Machine Washable"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Wave Jacquard Shirt",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/14.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A polyester and elastane shirt with a textured wave jacquard, Cuban collar, and front buttons.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 90% Polyester, 10% Elastane",
+        "Pattern/Print: Textured Wave Jacquard",
+        "Fit: Not Specified",
+        "Neck/Collar: Cuban Collar",
+        "Closure: Front Buttons",
+        "Wash Care: Machine Washable",
+        "Occasion: Sun-Ready",
+        "Additional Features: Modern Design, Laid-Back Touch"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Striped Winter Sweatshirt",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/15.2.jpg"
+      ],
+      "price": "₹799",
+      "description": "A cotton sweatshirt with stripes, a crew neck, and long sleeves, designed for toddler boys’ winterwear.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Stripes",
+        "Fit: Regular",
+        "Neck/Collar: Crew",
+        "Sleeve Length: Long Sleeves",
+        "Wash Care: Machine Wash",
+        "Occasion: Winter Wear",
+        "Additional Features: Soft and Breathable Fabric, Eye-Catching Stripes"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Premium Brushed Hoodie",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/16.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A premium cotton blend hoodie with a zipper, hooded neck, and brushed, wrinkle-free fabric.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton Blend",
+        "Fit: Not Specified",
+        "Neck/Collar: Hooded Neck",
+        "Closure: Zipper",
+        "Wash Care: Machine Wash",
+        "Occasion: Premium",
+        "Additional Features: Brushed Fabric, Wrinkle-Free"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Butterfly Cotton Dress",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/17.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A regular-fit cotton dress with a round neck, short sleeves, and butterfly fastening.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton (exclusive of trimmings)",
+        "Pattern/Print: Not Specified",
+        "Fit: Regular Fit",
+        "Neck/Collar: Round Neck",
+        "Sleeve Length: Short Sleeve",
+        "Closure: Butterfly Fastening"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Mandarin Collar Dress",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/18.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A fit-and-flare knee-length polyester dress with a mandarin collar and three-quarter sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Pattern/Print: Solid",
+        "Fit: Fit and Flare",
+        "Neck/Collar: Mandarin Collar",
+        "Sleeve Length: Three-Quarter Sleeves, Regular Sleeves",
+        "Closure: Button",
+        "Length: Knee Length",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual",
+        "Additional Features: Layered Detail, Flared Hem"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Corduroy Pinafore Dress",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/19.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A cotton and corduroy pinafore dress with a square neck and sleeveless design.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton, Corduroy Fabric",
+        "Pattern/Print: Solid",
+        "Fit: Pinafore",
+        "Neck/Collar: Square Neck",
+        "Sleeve Length: Sleeveless",
+        "Closure: Button",
+        "Length: Knee Length",
+        "Wash Care: Hand Wash",
+        "Occasion: Casual",
+        "Additional Features: Straight Hem, Knit or Woven: Woven"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Denim Shirt Collar Dress",
+      "category": "kidswear",
+      "images": [
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.1.jpg",
+        "/KIDSWEAR-20250313T070734Z-001/KIDSWEAR/20.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A fit-and-flare knee-length cotton denim dress with a shirt collar and sleeveless comfort fit.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton, Denim",
+        "Pattern/Print: Solid",
+        "Fit: Fit and Flare, Comfort Fit",
+        "Neck/Collar: Shirt Collar",
+        "Sleeve Length: Sleeveless",
+        "Length: Knee Length",
+        "Wash Care: Hand Wash",
+        "Occasion: Casual",
+        "Additional Features: Flared Hem, Knit or Woven: Woven"
+      ]
+    }
   ],
     "athleisure": [
-      { 
-          "id": 1, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/1 (2).jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/1.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/1.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-
-        { 
-          "id": 2, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/2.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/2.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/2.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 3, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/3.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/3.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/3.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 4, 
-          "name": "Stylish Sathleisure",
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/4.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/4.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/4.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 5, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/5.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/5.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/5.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 6, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/6.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/6.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/6.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 7, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/7.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/7.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/7.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 8, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/8.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/8.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/8.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 9, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/9.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/9.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/9.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 10, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/10.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/10.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/10.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 11, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/11.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/11.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/11.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 12, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/12.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/12.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/12.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 13, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/13.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/13.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/13.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 14, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/14.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/14.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/14.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 15, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/15.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/15.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/15.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 16, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/16.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/16.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/16.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 17, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/17.jpg",
-            "/KAthleisure-20250313T070757Z-001/Athleisure/17.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/17.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 18, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/18.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/18.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/18.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 19, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/19.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/19.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/19.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        },
-        { 
-          "id": 20, 
-          "name": "Stylish Shirt", 
-          "category": "athleisure",
-          "images": [
-            "/Athleisure-20250313T070757Z-001/Athleisure/20.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/20.1.jpg",
-            "/Athleisure-20250313T070757Z-001/Athleisure/20.2.jpg"
-
-          ], 
-          "price": "$29.99", 
-          "description": "Premium quality shirt made from 100% cotton",
-          "sizes": ["S", "M", "L", "XL"],
-          "details": [
-            "100% Cotton",
-            "Regular fit",
-            "Machine wash",
-            "Imported"
-          ]
-        }
+    {
+      "id": 1,
+      "name": "Cotton Solid Joggers",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/1.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/1.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "Cotton joggers with a solid pattern and 2 pockets, ideal for casual comfort.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Solid",
+        "Number of Pockets: 2",
+        "Wash Care: Machine Wash"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Elastic Waist Track Pants",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/2.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/2.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/2.2.jpg"
+      ],
+      "price": "₹1099",
+      "description": "Cotton track pants with a solid pattern, elastic waistband, drawstring closure, mid-rise, and 2 pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Pattern/Print: Solid",
+        "Fit: Straight",
+        "Closure: Drawstring",
+        "Waist Rise: Mid-Rise",
+        "Number of Pockets: 2",
+        "Wash Care: Machine Wash",
+        "Additional Features: Inner Elastic Waistband"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cotton-Poly Crew Neck Tee",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/3.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/3.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/3.2.jpg"
+      ],
+      "price": "₹799",
+      "description": "A regular-fit t-shirt made of 60% cotton and 40% polyester, featuring a crew neck and full-length sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 60% Cotton, 40% Polyester Single Jersey",
+        "Fit: Regular Fit",
+        "Neck/Collar: Crew, Round",
+        "Sleeve Length: Full-Length",
+        "Length: Medium",
+        "Wash Care: Machine Wash"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Polyester Training Tee",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/4.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/4.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/4.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A slim-fit, 100% polyester t-shirt with a round neck and short sleeves, designed for training.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Polyester Dot Interlock",
+        "Pattern/Print: Solid",
+        "Fit: Slim Fit",
+        "Neck/Collar: Round Neck",
+        "Sleeve Length: Short Sleeve",
+        "Occasion: Training",
+        "Additional Features: Drytech+ for sweat evaporation, Anti-Statix for comfort"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Relaxed Fit Poly Joggers",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/5.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/5.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/5.2.jpg"
+      ],
+      "price": "₹1099",
+      "description": "Polyester joggers with a relaxed fit, drawstring closure, and 2 pockets, perfect for sports.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Fit: Relaxed Fit",
+        "Closure: Drawstring",
+        "Length: Regular",
+        "Number of Pockets: 2",
+        "Wash Care: Machine Wash",
+        "Occasion: Sports"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Turtle Neck Sweatshirt",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/6.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/6.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/6.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "A soft, sustainable sweatshirt made of recycled polyester, virgin polyester, and spandex, with a relaxed fit, turtle neck, and raglan sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 45% Recycled Polyester, 44% Virgin Polyester, 11% Spandex",
+        "Fit: Relaxed Fit",
+        "Neck/Collar: Turtle Neck",
+        "Sleeve Length: Raglan Sleeves",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual, Travelling, Running Errands"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Graphic Henley Tee",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/7.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/7.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/7.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A cotton-polyester blend Henley top with a graphic print, regular fit, and button closure.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 60% Cotton, 40% Polyester",
+        "Pattern/Print: Graphic Print",
+        "Fit: Regular Fit",
+        "Neck/Collar: Henley Neck",
+        "Closure: Button",
+        "Wash Care: Machine Wash"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Casual Long-Sleeve Tee",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/8.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/8.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/8.2.jpg"
+      ],
+      "price": "₹799",
+      "description": "A regular-fit long-sleeve t-shirt made of polyester and elastane, suitable for casual wear.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 95% Polyester, 5% Elastane",
+        "Fit: Regular Fit",
+        "Neck/Collar: Crew",
+        "Sleeve Length: Full-Length (Long Sleeve)",
+        "Length: Medium",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Classic Hoodie",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/9.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/9.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/9.2.jpg"
+      ],
+      "price": "₹1499",
+      "description": "A classic hoodie made of polyester and cotton, featuring split kangaroo pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 62% Polyester, 38% Cotton",
+        "Neck/Collar: Hood",
+        "Number of Pockets: Split Kangaroo Pockets",
+        "Wash Care: Machine Wash",
+        "Occasion: Classic"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Sleeveless Hooded Pullover",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/10.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/10.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/10.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A 100% polyester sleeveless pullover with a hood and one pocket, regular length.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Polyester",
+        "Pattern/Print: Solid",
+        "Fit: Not Specified",
+        "Neck/Collar: Hood",
+        "Sleeve Length: Sleeveless",
+        "Length: Regular",
+        "Number of Pockets: 1",
+        "Wash Care: Machine Wash",
+        "Additional Features: Type: Pullover"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Cropped Flat-Front Pants",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/11.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/11.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/11.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "Cropped pants made of cotton and polyester, with a regular fit, mid-rise, and drawstring closure.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 70% Cotton, 30% Polyester",
+        "Pattern/Print: Solid",
+        "Fit: Regular Fit",
+        "Closure: Drawstring",
+        "Length: Cropped",
+        "Waist Rise: Mid-Rise",
+        "Wash Care: Hand Wash",
+        "Additional Features: Type of Pleat: Flat-Front"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Outdoor Sleeveless Hoodie",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/12.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/12.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/12.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A sleeveless pullover with a hood, made of cotton, elastane, and polyester, designed for outdoor use.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 35% Cotton, 4% Elastane, 61% Polyester",
+        "Pattern/Print: Solid",
+        "Neck/Collar: Hood",
+        "Sleeve Length: Sleeveless",
+        "Length: Regular",
+        "Wash Care: Machine Wash",
+        "Occasion: Outdoor",
+        "Additional Features: Type: Pullover"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Classic Poly Shorts",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/13.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/13.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/13.2.jpg"
+      ],
+      "price": "₹799",
+      "description": "Classic polyester shorts with a mid-rise waist.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Waist Rise: Mid-Rise",
+        "Wash Care: Machine Wash",
+        "Occasion: Classic"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Casual Cotton Shorts",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/14.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/14.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/14.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "Cotton shorts with 2 pockets, perfect for casual wear.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Cotton",
+        "Number of Pockets: 2",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Poly Compression Pants",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/15.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/15.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/15.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "Knitted polyester pants with a compression and regular fit, round neck, and drawstring closure.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Knitted Polyester (100% Polyester)",
+        "Pattern/Print: Plain",
+        "Fit: Compression, Regular Fit",
+        "Neck/Collar: Round Neck",
+        "Closure: Drawstring, Zipper",
+        "Length: Regular, Long",
+        "Waist Rise: Natural",
+        "Wash Care: Machine Wash or Professional Dry Clean",
+        "Additional Features: Slight Stretch, Loose, Lined For Added Warmth, Drawstring Waist"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Colourblocked Poly Pants",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/16.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/16.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/16.2.jpg"
+      ],
+      "price": "₹1299",
+      "description": "Similar to the above but with a colourblocked pattern for added style.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Knitted Polyester (100% Polyester)",
+        "Pattern/Print: Colourblocked",
+        "Fit: Compression, Regular Fit",
+        "Neck/Collar: Round Neck",
+        "Closure: Drawstring",
+        "Length: Regular",
+        "Wash Care: Machine Wash or Professional Dry Clean",
+        "Additional Features: Main Trend: Colourblocked, Type: Regular"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Classic Cotton Polo",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/17.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/17.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/17.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A classic 100% cotton polo t-shirt with a regular fit, spread collar, and short sleeves.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Cotton",
+        "Fit: Regular Fit",
+        "Neck/Collar: Polo, Spread Collar",
+        "Sleeve Length: Short Sleeve",
+        "Length: Medium",
+        "Wash Care: Machine Wash",
+        "Occasion: Classic"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Nylon Sports Pants",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/18.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/18.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/18.2.jpg"
+      ],
+      "price": "₹1099",
+      "description": "Sports pants made of nylon and lycra, with a regular fit and 2 pockets.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 90% Nylon, 10% Lycra (Elastane)",
+        "Fit: Regular Fit",
+        "Length: Regular",
+        "Number of Pockets: 2",
+        "Wash Care: Machine Wash",
+        "Occasion: Sports"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Casual Nylon Long-Sleeve",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/19.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/19.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/19.2.jpg"
+      ],
+      "price": "₹899",
+      "description": "A long-sleeve nylon top for casual occasions.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: 100% Nylon",
+        "Sleeve Length: Long Sleeves",
+        "Wash Care: Machine Wash",
+        "Occasion: Casual"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Poly Mock Collar Sports Top",
+      "category": "athleisure",
+      "images": [
+        "/Athleisure-20250313T070757Z-001/Athleisure/20.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/20.1.jpg",
+        "/Athleisure-20250313T070757Z-001/Athleisure/20.2.jpg"
+      ],
+      "price": "₹999",
+      "description": "A polyester long-sleeve sports top with a mock collar and mid-rise design.",
+      "sizes": ["S", "M", "L", "XL"],
+      "details": [
+        "Fabric/Material: Polyester",
+        "Neck/Collar: Mock Collar",
+        "Sleeve Length: Long Sleeves",
+        "Waist Rise: Mid-Rise",
+        "Wash Care: Machine Wash",
+        "Occasion: Sports"
+      ]
+    }
   ]
   }
   
