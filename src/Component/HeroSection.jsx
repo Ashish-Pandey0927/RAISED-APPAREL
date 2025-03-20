@@ -17,7 +17,7 @@ const HeroSection = () => {
     useEffect(() => {
         gsap.to(marqueeRef.current, {
             x: "-50%",
-            duration: 30,
+            duration: 20,
             repeat: -1,
             ease: "linear",
         });
@@ -25,11 +25,32 @@ const HeroSection = () => {
 
     // Array of brand logo images
     const brandLogos = [
-        "/BG-icons/1.png",
-        "/BG-icons/2.png",
-        "/BG-icons/3.png",
-        "/BG-icons/4.png",
-        "/BG-icons/5.png",
+        "/LOGO/1.png",
+        "/LOGO/2.png",
+        "/LOGO/3.png",
+        "/LOGO/4.png",
+        "/LOGO/5.png",
+        "/LOGO/6.png",
+        "/LOGO/7.png",
+        "/LOGO/8.png",
+        "/LOGO/9.png",
+        "/LOGO/10.png",
+        "/LOGO/11.png",
+        "/LOGO/12.png",
+        "/LOGO/13.png",
+        "/LOGO/14.png",
+        "/LOGO/15.png",
+        "/LOGO/16.png",
+        "/LOGO/17.png",
+        "/LOGO/18.png",
+        "/LOGO/19.png",
+        "/LOGO/20.png",
+        "/LOGO/21.png",
+        "/LOGO/22.png",
+        "/LOGO/23.png",
+        "/LOGO/24.png",
+        "/LOGO/25.png",
+        
 
     ];
 
@@ -160,8 +181,10 @@ const HeroSection = () => {
             >
                 <h2 style={{ 
                     fontSize: isMobile ? "1rem" : "1.2rem", 
-                    fontWeight: "600", 
-                    marginBottom: "10px" 
+                    fontWeight: "400", 
+                    marginBottom: "10px",
+                    // padding: isMobile ? "0.5rem" : "" 
+                    // margin: isMobile ? "15px" : "none"
                 }}>
                     TRUSTED BY LEADING BRANDS
                 </h2>
@@ -193,8 +216,8 @@ const HeroSection = () => {
                                     src={logo}
                                     alt={`Brand ${i + 1}`}
                                     style={{
-                                        width: isMobile ? "500px" : "800px",  // Fixed width
-                                        height: isMobile ? "2rem" : "5rem", // Fixed height
+                                        width: isMobile ? "80px" : "100px",  // Fixed width
+                                        height: isMobile ? "50px" : "50px", // Fixed height
                                         objectFit: "cover",               // Ensures image aspect ratio is maintained
                                         margin: "0 0.5rem",
                                     }}
