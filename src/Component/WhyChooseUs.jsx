@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
   ];
 
   const handleKnowMore = (blogId) => {
-    navigate(`/blogs/${blogId}`);
+    navigate(`/blog/${blogId}`);
   };
 
   return (

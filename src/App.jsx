@@ -63,8 +63,8 @@ const App = () => {
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/kidswear" element={<KidsWear />} />
         <Route path="/streetwear" element={<StreetWear />} />
-        <Route path="/blogs" element={<BlogSection />} />
-        <Route path="/blogs/:id" element={<BlogSection />} />
+        <Route path="/blog" element={<BlogSection />} />
+        <Route path="/blog/:id" element={<BlogSection />} />
       </Routes>
       {!isMobile && <Footer />}
     </Router>
