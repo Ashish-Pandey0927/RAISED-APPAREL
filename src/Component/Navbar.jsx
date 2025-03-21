@@ -39,7 +39,8 @@ const Navbar = () => {
             border: "none",
             cursor: "pointer",
             fontSize: "1.5rem",
-            color: "white"
+            color: "white",
+            marginRight: "10px"
           }}
           className="mobile-menu"
           onClick={() => setMenuOpen(!menuOpen)}
