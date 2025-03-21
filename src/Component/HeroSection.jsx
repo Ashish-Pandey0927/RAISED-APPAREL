@@ -176,19 +176,19 @@ const HeroSection = () => {
                     backgroundColor: "#1A1A1A",
                     color: "#fff",
                     textAlign: "center",
-                    fontSize: isMobile ? "8px" : "2rem", 
-                    padding: isMobile ? "0.1rem 0rem" : "1rem 0",
+                    // fontSize: isMobile ? "1px" : "2rem", 
+                    padding: isMobile ? "0.5rem 0rem" : "1rem 0",
                 }}
             >
-                <h2 style={{ 
-                    fontSize: isMobile ? "8px" : "2rem", 
+                <h3 style={{ 
+                    fontSize: isMobile ? "20px" : "2rem", 
                     fontWeight: "400", 
                     marginBottom: "10px",
                     // padding: isMobile ? "0.5rem" : "" 
                     // margin: isMobile ? "15px" : "none"
                 }}>
                     TRUSTED BY LEADING BRANDS
-                </h2>
+                </h3>
                 
                 {/* Marquee Wrapper */}
                 <div
