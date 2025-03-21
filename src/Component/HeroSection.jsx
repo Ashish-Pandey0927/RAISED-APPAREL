@@ -17,7 +17,7 @@ const HeroSection = () => {
     useEffect(() => {
         gsap.to(marqueeRef.current, {
             x: "-50%",
-            duration: 20,
+            duration: 30,
             repeat: -1,
             ease: "linear",
         });

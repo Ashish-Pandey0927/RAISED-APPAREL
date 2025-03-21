@@ -19,6 +19,7 @@ import AboutUs from "./Component/AboutUs";
 import Catalog from "./Component/Catalog";
 import KidsWear from "./Catalog/KidsWear";
 import StreetWear from "./Catalog/StreetWear";
+import SingleBlog from "./Component/SingleBlog";
 
 const App = () => {
   useLenis();
@@ -63,8 +64,8 @@ const App = () => {
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/kidswear" element={<KidsWear />} />
         <Route path="/streetwear" element={<StreetWear />} />
-        <Route path="/blog" element={<BlogSection />} />
-        <Route path="/blog/:id" element={<BlogSection />} />
+        <Route path="/blogs" element={<BlogSection />} />
+        <Route path="/blogs/:id" element={<SingleBlog />} />
       </Routes>
       {!isMobile && <Footer />}
     </Router>

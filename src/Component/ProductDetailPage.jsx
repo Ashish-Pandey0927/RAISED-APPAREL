@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { IoIosArrowBack } from "react-icons/io";
+import { motion } from "motion/react";
 
 const isMobile = () => window.innerWidth <= 768;
 
@@ -61,11 +62,27 @@ const ProductDetails = () => {
 
   return (
     <div style={{ backgroundColor: "#1a1a1a", color: "white", padding: "2rem", minHeight: "100vh" }}>
-      <button
-        onClick={() => navigate(-1)}
-        style={{ position: "absolute", top: "20px", left: "20px", fontSize: "2rem", color: "white", border: "none", padding: "10px", cursor: "pointer", background: "none" }}>
-        <IoIosArrowBack />
-      </button>
+      <motion.button
+          onClick={() => window.history.back()}
+          whileHover={{ scale: 1.05 }}
+          style={{
+            background: "rgba(255, 255, 255, 0.1)",
+            borderRadius: "50%",
+            padding: isMobile ? "8px" : "12px",
+            border: "none",
+            cursor: "pointer",
+            marginBottom: isMobile ? "1.5rem" : "2rem",
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          <IoIosArrowBack
+            style={{
+              color: "#ff6431",
+              fontSize: isMobile ? "1.5rem" : "2rem",
+            }}
+          />
+        </motion.button>
 
       <div style={{ display: "flex", flexDirection: isMobile() ? "column" : "row", gap: "3rem", maxWidth: "1200px", margin: "0 auto", paddingTop: "4rem" }}>
         <div style={{ flex: 1 }}>

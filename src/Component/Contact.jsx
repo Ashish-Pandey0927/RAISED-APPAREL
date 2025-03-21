@@ -32,7 +32,7 @@ const Contact = () => {
 
   const headingStyle = {
     fontSize: isMobile() ? "2rem" : "3.5rem",
-    lineHeight: isMobile() ? "1.2" : "91px",
+    lineHeight: isMobile() ? "1.2" : "51px",
     fontWeight: "400",
     color: "white",
     textAlign: "left",
@@ -110,19 +110,40 @@ const Contact = () => {
                 placeholder="Company Name"
                 style={inputStyle}
               />
+              <textarea
+                placeholder="Message"
+                style={{
+                  ...inputStyle,
+                  height: isMobile() ? "70px" : "130px",
+                  width: isMobile() ? "100%" : "100%",
+                }}
+              />
             </div>
-            <textarea
-              placeholder="Message"
+            <div
               style={{
-                ...inputStyle,
-                height: isMobile() ? "150px" : "230px",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
                 width: isMobile() ? "100%" : "50%",
+                padding: "0.75rem",
+                backgroundColor: "#bc5c3d",
+                color: "white",
+                borderRadius: "8px",
+                outline: "none",
+                border: "none",
+                marginBottom: "0.75rem",
               }}
-            />
+            >
+              <h2 style={{ textAlign: "center", fontSize:"1.5rem" }}>CONTACT US @</h2>
+              <p>hello@raisedapparels.com</p>
+            </div>
           </div>
 
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <button style={buttonStyle} className="btn">SUBMIT</button>
+            <button style={buttonStyle} className="btn">
+              SUBMIT
+            </button>
           </div>
         </div>
 

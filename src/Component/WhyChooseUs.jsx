@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
 
   const features = [
     { 
-      id: 1, // Match blog IDs from Blog.json
+      id: 1,
       title: "CUSTOMISATION", 
       image: "https://plus.unsplash.com/premium_photo-1674273913378-fe95949ae955?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
     },
@@ -23,23 +23,20 @@ const WhyChooseUs = () => {
     },
   ];
 
-  const handleKnowMore = (blogId) => {
-    navigate(`/blog/${blogId}`);
+  const handleKnowMore = (id) => {
+    navigate(`/blogs/${id}`);
   };
 
   return (
     <div className="why-choose-container">
       <h2 className="why-choose-heading">WHY CHOOSE US?</h2>
-
       <div className="why-choose-grid">
         {features.map((item) => (
           <div key={item.id} className="why-choose-card">
             <div className="image-container">
               <img src={item.image} alt={item.title} className="feature-image" />
             </div>
-
             <h3 className="card-title">{item.title}</h3>
-
             <button 
               className="know-more-button"
               onClick={() => handleKnowMore(item.id)}

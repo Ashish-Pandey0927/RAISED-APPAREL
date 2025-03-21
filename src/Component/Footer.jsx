@@ -90,7 +90,7 @@ const Footer = () => {
           <a href="/menswear" style={{color: "white"}}><p style={linkStyle}>Menswear</p></a>
           <a href="/womenswear" style={{color: "white"}}><p style={linkStyle}>Womenswear</p></a>
           <a href="/kidswear" style={{color: "white"}}><p style={linkStyle}>Kids wear</p></a>
-          <a href="/streetwear" style={{color: "white"}}><p style={linkStyle}>Streetwear</p></a>
+          <a href="/streetwear" style={{color: "white"}}><p style={linkStyle}>Athleisurewear </p></a>
         </div>
 
         {/* Support Section */}

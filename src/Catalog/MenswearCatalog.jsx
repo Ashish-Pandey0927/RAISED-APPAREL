@@ -89,30 +89,70 @@ const MenswearCatalog = () => {
       }}>
         {/* Navigation Buttons */}
         {!isMobile && (
-          <>
-            <button
-              onClick={() => navigate('/kidswear')}
-              style={{
-                background: "none",
-                border: "none",
-                color: "white",
-                cursor: "pointer",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                gap: "1rem",
-                padding: "1rem",
-                transition: "all 0.3s ease",
-                height: "150px",
-                justifyContent: "center"
-              }}
-              onMouseEnter={(e) => e.currentTarget.style.color = "#FF652F"}
-              onMouseLeave={(e) => e.currentTarget.style.color = "white"}
-            >
-              <IoIosArrowBack style={{ fontSize: "2rem" }} />
-            </button>
-          </>
-        )}
+        <>
+          <button
+            onClick={() => navigate('/kidswear')}
+            style={{
+              position: "fixed",
+              left: "20px",
+              top: "50%",
+              transform: "translateY(-50%)",
+              background: "rgba(0, 0, 0, 0.5)",
+              border: "none",
+              borderRadius: "50%",
+              color: "white",
+              cursor: "pointer",
+              padding: "1rem",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 1000,
+              transition: "all 0.3s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "rgba(255, 101, 47, 0.9)";
+              e.currentTarget.style.transform = "translateY(-50%) scale(1.1)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "rgba(0, 0, 0, 0.5)";
+              e.currentTarget.style.transform = "translateY(-50%) scale(1)";
+            }}
+          >
+            <IoIosArrowBack style={{ fontSize: "2rem" }} />
+          </button>
+
+          <button
+            onClick={() => navigate('/womenswear')}
+            style={{
+              position: "fixed",
+              right: "20px",
+              top: "50%",
+              transform: "translateY(-50%)",
+              background: "rgba(0, 0, 0, 0.5)",
+              border: "none",
+              borderRadius: "50%",
+              color: "white",
+              cursor: "pointer",
+              padding: "1rem",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 1000,
+              transition: "all 0.3s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "rgba(255, 101, 47, 0.9)";
+              e.currentTarget.style.transform = "translateY(-50%) scale(1.1)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "rgba(0, 0, 0, 0.5)";
+              e.currentTarget.style.transform = "translateY(-50%) scale(1)";
+            }}
+          >
+            <IoIosArrowForward style={{ fontSize: "2rem" }} />
+          </button>
+        </>
+      )}
 
         {/* Product Grid */}
         <div style={{
@@ -156,7 +196,7 @@ const MenswearCatalog = () => {
         </div>
 
         {/* Right Navigation Button */}
-        {!isMobile && (
+        {/* {!isMobile && (
           <button
             onClick={() => navigate('/womenswear')}
             style={{
@@ -178,7 +218,7 @@ const MenswearCatalog = () => {
           >
             <IoIosArrowForward style={{ fontSize: "2rem" }} />
           </button>
-        )}
+        )} */}
       </div>
 
       {/* Mobile Navigation */}
