@@ -91,7 +91,7 @@ const WhyPerfectFit = () => {
           }}
         >
           <img
-            src="/Denim jeans.png"
+            src="/jeans image.png"
             alt="Stack of Denim Jeans"
             style={{
               width: "100%",

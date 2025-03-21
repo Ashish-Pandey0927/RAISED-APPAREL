@@ -46,7 +46,7 @@ const Footer = () => {
           
             <a href="/" style={{display: "flex", color: "white",
             alignItems: "center",
-            maxWidth: "180px"}}><img src="/RAISED APPAREL.png" alt="logo" /></a>
+            maxWidth: "180px"}}><img src="/RAISED APPARELS for footer.png" alt="logo" /></a>
           
           <p
             style={{

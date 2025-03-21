@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "/RAISED APPAREL.png";
+import logo from "/RAISED APPARELS.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
           justifyContent: "space-between",
           alignItems: "center",
           backgroundColor: "#ff6431",
-          padding: ".8rem 2rem",
+          padding: ".8 rem 2rem",
           position: "sticky",
           top: "0",
           zIndex: "50",
@@ -114,7 +114,8 @@ const Navbar = () => {
           .logo {
             width: 100%;
             height: auto;
-            max-height: 60px;
+            max-height: 100px;
+            padding: 1rem;
           }
 
           .nav-link {

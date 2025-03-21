@@ -150,6 +150,66 @@ const AboutUs = () => {
         </div>
       </div>
 
+      {/*CERTIFICATIONS */}
+      {/* CERTIFICATIONS */}
+<div style={{ marginTop: "40px", padding: isMobile ? "0 1rem" : "0 2rem" }}>
+  <h2 style={{ 
+    fontSize: isMobile ? "32px" : "40px", 
+    fontWeight: 400, 
+    marginBottom: "40px", 
+    textAlign: "center" 
+  }}>
+    CERTIFICATIONS
+  </h2>
+  <div style={{ 
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: isMobile ? "1.5rem" : "5rem",
+    padding: "2rem 0",
+    maxWidth: "1200px",
+    margin: "0 auto"
+  }}>
+    {[
+      { src: "/bci logo.png", alt: "BCI Logo" },
+      { src: "/fsc logo.png", alt: "FSC Logo" },
+      { src: "/sedex logo.png", alt: "SEDEX Logo" }
+    ].map((logo, index) => (
+      <div 
+        key={index}
+        style={{
+          flex: "1 0 auto",
+          maxWidth: isMobile ? "120px" : "280px",
+          minWidth: "100px",
+          height: "auto",
+          transition: "transform 0.3s ease",
+          ":hover": {
+            transform: "scale(1.05)"
+          }
+        }}
+      >
+        <img 
+          src={logo.src} 
+          alt={logo.alt} 
+          style={{ 
+            width: "100%",
+            height: "auto",
+            objectFit: "contain",
+            // filter: "grayscale(100%)",
+            // opacity: 0.9,
+            // transition: "filter 0.3s ease",
+            // ":hover": {
+            //   filter: "grayscale(0%)",
+            //   opacity: 1
+            // }
+          }} 
+        />
+      </div>
+    ))}
+  </div>
+</div>
+
       {/* MEET OUR TEAM */}
       <div id="team" style={{ marginTop: "40px"  }}>
         <h2 style={{ fontSize: isMobile ? "32px" : "40px", fontWeight: 400, marginBottom: "40px", textAlign: "center" }}>
