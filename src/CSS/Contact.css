@@ -1,0 +1,228 @@
+/* Contact.css */
+
+.contact-container {
+    background-color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 0;
+  }
+  
+  .contact-content {
+    background: linear-gradient(to bottom, #ff5733, #1a1a1a);
+    padding: 2.5rem;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container {
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .heading {
+    font-size: 3.5rem;
+    line-height: 51px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    letter-spacing: 0em;
+    margin-bottom: 1.5rem;
+  }
+  
+  .text {
+    color: white;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+  }
+  
+  .input {
+    padding: 0.75rem;
+    background-color: #bc5c3d;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-bottom: 0.75rem;
+    width: 100%;
+  }
+  
+  .button {
+    background-color: black;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    margin-top: 1rem;
+  }
+  
+  .button:hover {
+    background-color: #ff5733;
+  }
+  
+  .map-container {
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .input-box{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .leftside{
+    width: 50%;
+  }
+  .email-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 0.75rem;
+    background-color: #bc5c3d;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Mobile devices (phones) */
+  @media (max-width: 767px) {
+    .contact-content {
+      padding: 1rem;
+      width: 95%;
+    }
+  
+    .heading {
+      font-size: 2.2rem;
+      line-height: 1.3;
+      text-align: left;
+    }
+  
+    .text {
+      font-size: 1rem;
+      text-align: left;
+    }
+    .input-box{
+        flex-direction: column;
+    }
+    .leftside{
+        width: 100%;
+    }
+  
+    .contact-content > div > div:nth-child(2) {
+      flex-direction: column;
+    }
+  
+    .contact-content > div > div:nth-child(2) > div {
+      width: 100%;
+    }
+  
+    .input {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .input[type="textarea"] {
+      height: 100px;
+    }
+  
+    .button {
+      margin-top: 1.5rem;
+      width: 80%;
+    }
+  
+    .map-container {
+      margin-top: 1.5rem;
+    }
+  
+    .map-container iframe {
+      height: 200px;
+    }
+  
+    .email-box {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* Tablets (landscape) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .contact-content {
+      width: 80%;
+      padding: 2rem;
+    }
+  
+    .heading {
+      font-size: 3.5rem;
+    }
+  
+    .map-container iframe {
+      height: 250px;
+    }
+  }
+  
+  /* Tablets and small laptops (portrait) */
+  @media (min-width: 768px) and (max-width: 1279px) {
+      .contact-content{
+          width: 70%;
+      }
+  }
+  
+  /* Laptops and Desktops */
+  @media (min-width: 1280px) and (max-width: 1919px) {
+    .contact-content {
+      width: 60%;
+    }
+  }
+  
+  /* 4K and larger displays */
+  @media (min-width: 1920px) {
+    .contact-content {
+      width: 40%;
+      padding: 3rem;
+    }
+  
+    .heading {
+      font-size: 4rem;
+      line-height: 60px;
+    }
+  
+    .text {
+      font-size: 18px;
+    }
+  
+    .input {
+      padding: 1rem;
+      font-size: 16px;
+    }
+  
+    .button {
+      padding: 1rem 2rem;
+      font-size: 16px;
+    }
+  
+    .map-container iframe {
+      height: 400px;
+    }
+  }

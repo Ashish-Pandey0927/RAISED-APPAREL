@@ -1,0 +1,227 @@
+/* aboutUs.css */
+
+/* Base styles */
+.aboutUsContainer {
+  background: #1a1a1a;
+  color: white;
+  padding: 2rem 10vw;
+  overflow-x: hidden;
+}
+
+.sectionHeading {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Our Story Section */
+.storyContent {
+  line-height: 1.5;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.storyText {
+  margin: auto;
+  line-height: 1.5;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Design to Delivery Section */
+.deliveryList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.deliveryItem span {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+/* Categories Section */
+.categoriesWrapper {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2rem 0;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.categoryItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.categoryTitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* Adjust padding dynamically for responsiveness */
+.categoryItem:nth-child(odd) .categoryTitle {
+  padding: 0 0 0 28vw;
+}
+
+.categoryItem:nth-child(even) .categoryTitle {
+  padding: 0 29vw 0 0;
+}
+
+.categoryTextWrapper {
+  background: #ff6431;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.categoryText {
+  font-size: 13px;
+  margin: 0;
+}
+
+/* Certifications Section */
+.certificationsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certificationLogo {
+  flex: 1 0 auto;
+  max-width: 280px;
+  min-width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.certificationLogo:hover {
+  transform: scale(1.05);
+}
+
+/* Team Section */
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.teamMember {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.memberImage {
+  background: #555;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Clients Section */
+.clientsImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Gallery Section */
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.galleryImage {
+  background: #333;
+  height: 150px;
+  border-radius: 10px;
+}
+
+/* Mobile & Tablet Styles */
+@media (max-width: 1024px) {
+  .aboutUsContainer {
+    padding: 2rem 5vw;
+  }
+
+  .sectionHeading {
+    font-size: 32px;
+  }
+
+  .categoryItem {
+    flex-direction: column;
+    padding: 0;
+    gap: 0.5rem;
+  }
+
+  .categoryTitle {
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .categoryTextWrapper {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .certificationsGrid {
+    gap: 2rem;
+  }
+
+  .teamGrid,
+  .galleryGrid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1rem;
+  }
+
+  .categoryItem:nth-child(odd) .categoryTitle,
+  .categoryItem:nth-child(even) .categoryTitle {
+    padding: 0;
+  }
+
+  .categoryText {
+    text-align: center;
+  }
+}
+
+/* Desktop Category Alignment */
+@media (min-width: 769px) {
+  .categoryItem:nth-child(odd) {
+    flex-direction: row;
+  }
+
+  .categoryItem:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .categoryText {
+    text-align: left;
+  }
+
+  .categoryItem:nth-child(even) .categoryText {
+    text-align: right;
+  }
+}
