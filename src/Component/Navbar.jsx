@@ -27,7 +27,7 @@ const Navbar = () => {
         <div style={{ display: "flex", gap: "2rem" }} className="desktop-menu">
           <a href="/about" className="nav-link">About Us</a>
           <a href="/catalog" className="nav-link">Catalog</a>
-          <a href="/blog" className="nav-link">Blog</a>
+          <a href="/blogs" className="nav-link">Blog</a>
           <a href="/contact" className="nav-link">Contact</a>
         </div>
 
