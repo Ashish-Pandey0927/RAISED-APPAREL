@@ -1,0 +1,166 @@
+/* Full Blog Container */
+.full-blog-container {
+    background: linear-gradient(45deg, #1a1a1a 0%, #2d2d2d 100%);
+    color: #fff;
+    min-height: 100vh;
+    padding: 3rem 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .full-blog-content {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Back Button */
+  .back-button {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  
+  .back-icon {
+    color: #ff6431;
+    font-size: 2rem;
+  }
+  
+  /* Blog Card */
+  .blog-card {
+    background: rgba(40, 40, 40, 0.8);
+    padding: 2.5rem;
+    border-radius: 24px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Blog Title */
+  .blog-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  /* Layout */
+  .blog-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  /* Image Container */
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    width: 100%;
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  
+  /* Navigation Buttons */
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-button.left {
+    left: 1rem;
+  }
+  
+  .nav-button.right {
+    right: 1rem;
+  }
+  
+  .nav-icon {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  /* Blog Text */
+  .blog-text {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  
+  .blog-text p {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablet View (Medium Screens) */
+  @media (max-width: 1024px) {
+    .blog-title {
+      font-size: 2.2rem;
+    }
+  
+    .blog-card {
+      padding: 2rem;
+    }
+  
+    .blog-image {
+      max-height: 350px;
+    }
+  
+    .blog-text {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Mobile View (Small Screens) */
+  @media (max-width: 768px) {
+    .full-blog-container {
+      padding: 1.5rem 1rem;
+    }
+  
+    .back-button {
+      padding: 8px;
+      margin-bottom: 1.5rem;
+    }
+  
+    .back-icon {
+      font-size: 1.5rem;
+    }
+  
+    .blog-card {
+      padding: 1.25rem;
+    }
+  
+    .blog-title {
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .blog-layout {
+      gap: 1.5rem;
+    }
+  
+    .blog-image {
+      max-height: 250px;
+    }
+  
+    .blog-text {
+      font-size: 1rem;
+    }
+  }
+  
