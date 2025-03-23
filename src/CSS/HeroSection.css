@@ -107,6 +107,9 @@
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
+  .background-video{
+    height: 50%;
+  }
   .stats-grid {
       grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
