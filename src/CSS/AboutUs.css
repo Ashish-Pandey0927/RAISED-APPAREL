@@ -283,6 +283,10 @@
     width: 100%;
     margin: 0 1rem;
   }
+
+  .categoryItem:nth-child(even) .categoryText {
+    text-align: right;
+  }
   
 }
 
@@ -291,16 +295,18 @@
  .categoryItem:nth-child(odd) {
     /* padding: 0; */
      flex-direction: row;
+     text-align: left;
   }
  
   .categoryItem:nth-child(even) {
     /* padding: 0; */
     flex-direction: row-reverse;
+    text-align: right;
   }
 
-  .categoryText {
-    text-align: left;
-  } 
+  /* .categoryText {
+    
+  }  */
   /* .certificationsGrid {
     flex-direction: column;
     gap: 2rem;
@@ -312,9 +318,7 @@
     max-width: 80%; 
    } */
 
-  .categoryItem:nth-child(even).categoryText {
-    text-align: right;
-  }
+  
 }
 
 /* @media (max-width: 480px) {
