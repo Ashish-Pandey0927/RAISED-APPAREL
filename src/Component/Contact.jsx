@@ -1,11 +1,22 @@
 import React from "react";
-import "../CSS/Contact.css"; // Import the CSS file
+import "../CSS/Contact.css";
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    window.location.href = "mailto:hello@raisedapparels.com";
+  };
+
   return (
     <div className="contact-container">
       <div className="contact-content">
-        <div className="form-container">
+        <form
+          className="form-container"
+          onSubmit={handleSubmit}
+          action="mailto:hello@raisedapparels.com"
+          method="POST"
+          enctype="text/plain"
+        >
           <h2 className="heading">
             LET'S <br /> COLLABORATE !!!
           </h2>
@@ -16,65 +27,54 @@ const Contact = () => {
             on your next collection.
           </p>
 
-          <div
-          className="input-box"
-            // style={{
-            //   display: "flex",
-            //   flexDirection: "row",
-            //   gap: "1rem",
-            // }}
-          >
-            <div
-            className="leftside"
-            //  style={{ width: "50%" }}
-             >
-              <input type="text" placeholder="Name" className="input" />
-              <input type="email" placeholder="E-mail ID" className="input" />
+          <div className="input-box">
+            <div className="leftside">
+              <input
+                type="text"
+                placeholder="Name"
+                className="input"
+                name="name"
+                required
+              />
+              <input
+                type="email"
+                placeholder="E-mail ID"
+                className="input"
+                name="email"
+                required
+              />
               <input
                 type="tel"
                 placeholder="Contact Number"
                 className="input"
+                name="phone"
+                required
               />
               <input
                 type="text"
                 placeholder="Company Name"
                 className="input"
+                name="company"
               />
               <textarea
                 placeholder="Message"
                 className="input"
-                // style={{ height: "130px" }}
+                name="message"
+                required
               />
             </div>
-            <div className="email-box"
-              // style={{
-              //   display: "flex",
-              //   flexDirection: "column",
-              //   justifyContent: "center",
-              //   alignItems: "center",
-              //   width: "50%",
-              //   padding: "0.75rem",
-              //   backgroundColor: "#bc5c3d",
-              //   color: "white",
-              //   borderRadius: "8px",
-              //   outline: "none",
-              //   border: "none",
-              //   marginBottom: "0.75rem",
-              // }}
-            >
-              <h2 
-              // style={{ textAlign: "center", fontSize: "1.5rem" }}
-              >
-                CONTACT US @
-              </h2>
+            <div className="email-box">
+              <h2>CONTACT US @</h2>
               <p>hello@raisedapparels.com</p>
             </div>
           </div>
 
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <button className="button">SUBMIT</button>
+            <button type="submit" className="button">
+              SUBMIT
+            </button>
           </div>
-        </div>
+        </form>
 
         <div className="map-container">
           <iframe
