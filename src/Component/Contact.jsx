@@ -1,10 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import "../CSS/Contact.css";
 
 const Contact = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    window.location.href = "mailto:hello@raisedapparels.com";
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending...");
+
+    const formData = new FormData(event.target);
+    formData.append("access_key", "2fa27e0b-8a81-4d9e-a54b-fe5f8e1e3314");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setResult("✅ Form Submitted Successfully!");
+        event.target.reset(); // Clear form
+      } else {
+        console.error("Error:", data);
+        setResult(`❌ ${data.message}`);
+      }
+    } catch (error) {
+      console.error("Request failed:", error);
+      setResult("❌ An error occurred while submitting.");
+    }
   };
 
   return (
@@ -12,10 +37,7 @@ const Contact = () => {
       <div className="contact-content">
         <form
           className="form-container"
-          onSubmit={handleSubmit}
-          action="mailto:hello@raisedapparels.com"
-          method="POST"
-          enctype="text/plain"
+          onSubmit={onSubmit}
         >
           <h2 className="heading">
             LET'S <br /> COLLABORATE !!!
@@ -68,6 +90,7 @@ const Contact = () => {
               <p>hello@raisedapparels.com</p>
             </div>
           </div>
+          <input type="text" name="honeypot" style={{ display: "none" }} />
 
           <div style={{ display: "flex", justifyContent: "center" }}>
             <button type="submit" className="button">
