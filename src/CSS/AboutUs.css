@@ -284,9 +284,9 @@
     margin: 0 1rem;
   }
 
-  .categoryItem:nth-child(even) .categoryText {
+  /* .categoryItem:nth-child(even) .categoryText {
     text-align: right;
-  }
+  } */
   
 }
 
