@@ -80,8 +80,8 @@ const Footer = () => {
         <div style={columnStyle}>
           <h3 style={headingStyle}>COMPANY</h3>
           <Link smooth to="/about#story" style={{color: "white"}}><p style={linkStyle}>Our story</p></Link>
-          <Link smooth to="/about#team" style={{color: "white"}}><p style={linkStyle}>Team</p></Link> 
-          <Link smooth to="/about#gallery" style={{color: "white"}}> <p style={linkStyle}>Gallery</p></Link> 
+          {/* <Link smooth to="/about#team" style={{color: "white"}}><p style={linkStyle}>Team</p></Link> 
+          <Link smooth to="/about#gallery" style={{color: "white"}}> <p style={linkStyle}>Gallery</p></Link>  */}
         </div>
 
         {/* Catalog Section */}

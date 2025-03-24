@@ -21,7 +21,7 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 
 .storyText {
@@ -34,6 +34,9 @@
 }
 
 /* Design to Delivery Section */
+.design{
+  margin-top: 3rem;
+}
 .deliveryList {
   display: flex;
   flex-direction: column;
@@ -49,6 +52,7 @@
 
 /* Categories Section */
 .categoriesWrapper {
+  margin-top: 3rem;
   width: 100vw;
   position: relative;
   left: 50%;
@@ -69,7 +73,7 @@
 }
 
 .categoryTitle {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   margin: 0;
   flex-shrink: 0;
@@ -77,12 +81,16 @@
 
 /* Adjust padding dynamically for responsiveness */
 .categoryItem:nth-child(odd) .categoryTitle {
-  padding: 0 0 0 28vw;
+  padding: 0 0 0 26vw;
 }
 
-.categoryItem:nth-child(even) .categoryTitle {
+/* .categoriesItem:nth-child(4).categoryTitle{
   padding: 0 29vw 0 0;
+} */
+.categoryItem:nth-child(even) .categoryTitle {
+  padding: 0 22vw 0 0;
 }
+
 
 .categoryTextWrapper {
   background: #ff6431;
@@ -96,31 +104,58 @@
 }
 
 /* Certifications Section */
+
+.cerification{
+  margin-top: 3rem;
+}
 .certificationsGrid {
   display: flex;
+  flex-direction: row; /* Default row layout */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 5rem;
   padding: 2rem 0;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 2rem auto ;
+  max-width: 1600px;
 }
 
 .certificationLogo {
-  flex: 1 0 auto;
-  max-width: 280px;
-  min-width: 100px;
-  height: auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .certificationLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+} */
+
+
+
+/* Desktop-specific sizes */
+.certificationLogo:nth-child(1) { width: 300px; height: 128px; }
+.certificationLogo:nth-child(2) { width: 90px; height: 128px; }
+.certificationLogo:nth-child(3) { width: 358px; height: 90px; }
+
+.certificationLogo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
-.certificationLogo:hover {
+
+/* .certificationLogo:hover {
   transform: scale(1.05);
-}
+} */
 
 /* Team Section */
-.teamGrid {
+/* .teamGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -138,9 +173,13 @@
   height: 150px;
   border-radius: 10px;
   margin-bottom: 10px;
-}
+} */
 
 /* Clients Section */
+
+.clients{
+  margin-top: 3rem;
+}
 .clientsImage {
   max-width: 100%;
   height: auto;
@@ -148,7 +187,7 @@
 }
 
 /* Gallery Section */
-.galleryGrid {
+/* .galleryGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -158,10 +197,10 @@
   background: #333;
   height: 150px;
   border-radius: 10px;
-}
+} */
 
 /* Mobile & Tablet Styles */
-@media  (max-width: 1023px) {
+@media  (max-width: 1024px) {
   .aboutUsContainer {
     padding: 2rem 5vw;
   }
@@ -171,7 +210,7 @@
   }
 
   .categoryItem {
-    flex-direction: column;
+    flex-direction: row;
     padding: 0;
     gap: 0.5rem;
   }
@@ -215,6 +254,23 @@
   .categoryItem:nth-child(even) .categoryTitle {
     padding: 0;
   }
+
+  .certificationsGrid {
+    flex-direction: column; /* Switch to column layout */
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+
+  .certificationLogo {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px;
+    padding: 0 1rem;
+  }
+
+  .certificationLogo-img {
+    max-height: 100px;
+  }
 }
 
 /* Desktop Category Alignment */
@@ -232,8 +288,51 @@
   .categoryText {
     text-align: left;
   }
+  /* .certificationsGrid {
+    flex-direction: column;
+    gap: 2rem;
+  } */
+
+  /* .certificationLogo {
+    flex-direction: column;
+    /* width: auto;
+    max-width: 80%; */
+  /* }  */
 
   .categoryItem:nth-child(even) .categoryText {
     text-align: right;
+  }
+}
+
+/* @media (max-width: 480px) {
+  .certificationsGrid {
+    gap: 1.5rem;
+  }
+
+  .certificationLogo {
+    width: auto;
+    max-width: 90%;
+  }
+} */
+
+@media (min-width: 2560px) {
+  .certificationsGrid {
+    max-width: 2400px;
+    gap: 6rem;
+  }
+
+  .certificationLogo:nth-child(1) {
+    width: 400px;
+    height: 170px;
+  }
+
+  .certificationLogo:nth-child(2) {
+    width: 120px;
+    height: 170px;
+  }
+
+  .certificationLogo:nth-child(3) {
+    width: 477px;
+    height: 120px;
   }
 }

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
+import "../CSS/Catalog.css";
 
 const products = [
-  // ... (keep products array the same)
   {
     name: "MENSWEAR",
     image: "https://image.hm.com/assets/hm/2a/9b/2a9b011888799bb1207585b81a67f0f58f2ea61d.jpg?imwidth=1536",
@@ -26,67 +26,22 @@ const products = [
 ];
 
 const Catalog = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
-    <div style={{
-      backgroundColor: "#1A1A1A",
-      color: "white",
-      padding: isMobile ? "1rem 0.5rem" : "2rem",
-      textAlign: "center",
-    }}>
-      <div style={{
-        display: "grid",
-        gridTemplateColumns: isMobile ? "1fr" : "repeat(2, 1fr)",
-        gap: "1rem",
-        maxWidth: "1200px",
-        margin: "0 auto"
-      }}>
+    <div className="catalogContainer">
+      <div className="catalogGrid">
         {products.map((product, index) => (
-          <Link key={index} to={product.link} style={{ textDecoration: "none", color: "inherit" }}>
-            <div style={{
-              position: "relative",
-              borderRadius: "0.75rem",
-              overflow: "hidden",
-              backgroundColor: "#222",
-              padding: "1rem",
-              transition: "transform 0.3s ease",
-              aspectRatio: "1/1",
-              ":hover": {
-                transform: "translateY(-3px)"
-              }
-            }}>
+          <Link
+            key={index}
+            to={product.link}
+            className="catalogLink"
+          >
+            <div className="catalogItem">
               <img
                 src={product.image}
                 alt={product.name}
-                style={{
-                  width: "100%", height: "90%", objectFit: "cover", borderRadius: "0.5rem 0.5rem 0rem 0rem", objectPosition: "top",
-                }}
+                className="catalogImage"
               />
-               <h3 style={{
-                  display: "block",
-                  fontSize: isMobile ? "1rem" : "2rem",
-                  fontWeight: "400",
-                  width: "100%",
-                  padding: ".5rem",
-                  border: "none",
-                  // margin: isMobile ? ".5rem" : "1rem 0rem",
-                  backgroundColor: "#ff6431",
-                  borderRadius: "0rem 0rem 0.5rem 0.5rem",
-                }}>
-                  {product.name}
-                </h3>
-              
-               
-              
+              <h3 className="catalogTitle">{product.name}</h3>
             </div>
           </Link>
         ))}
