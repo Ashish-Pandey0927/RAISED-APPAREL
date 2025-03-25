@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { ToastContainer, toast } from 'react-toastify';
 
 const CollaborateSection = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -12,6 +13,39 @@ const CollaborateSection = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+
+   const [result, setResult] = useState("");
+  
+    const onSubmit = async (event) => {
+      event.preventDefault();
+      setResult("Sending...");
+    
+      const formData = new FormData(event.target);
+      formData.append("access_key", "2fa27e0b-8a81-4d9e-a54b-fe5f8e1e3314");
+    
+      try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData,
+        });
+    
+        const data = await response.json();
+    
+        if (data.success) {
+          setResult("Form Submitted Successfully!");
+          event.target.reset(); // Clear form
+          toast.success("Form submitted successfully!");
+        } else {
+          console.error("Error:", data);
+          setResult(`❌ ${data.message}`);
+          toast.error(`❌ ${data.message}`);
+        }
+      } catch (error) {
+        console.error("Request failed:", error);
+        setResult("❌ An error occurred while submitting.");
+        toast.error("❌ An error occurred while submitting.");
+      }
+    };
   return (
     <section
       style={{
@@ -21,6 +55,7 @@ const CollaborateSection = () => {
         textAlign: "center",
       }}
     >
+      <ToastContainer position="top-right" autoClose={3000} />
       {/* Container for Layout */}
       <div
         style={{
@@ -75,13 +110,16 @@ const CollaborateSection = () => {
               display: "flex",
               flexDirection: "column",
               gap: "10px",
+              
             }}
+            onSubmit={onSubmit}
           >
-            <input type="text" placeholder="Name" style={inputStyle} />
-            <input type="email" placeholder="E-mail ID" style={inputStyle} />
-            <input type="text" placeholder="Contact Number" style={inputStyle} />
-            <input type="text" placeholder="Company Name" style={inputStyle} />
-            <textarea placeholder="Message" style={{ ...inputStyle, height: "100px" }} />
+            <input type="text" placeholder="Name" name="name" style={inputStyle} />
+            <input type="email" placeholder="E-mail ID" name="email" style={inputStyle} />
+            <input type="tel" placeholder="Contact Number" name="phone" style={inputStyle} />
+            <input type="text" placeholder="Company Name" name="company" style={inputStyle} />
+            <textarea placeholder="Message" name="message" style={{ ...inputStyle, height: "100px" }} />
+            <input type="text" name="honeypot" style={{ display: "none" }} />
             <button
               type="submit"
               style={{

@@ -34,7 +34,7 @@
 }
 
 /* Design to Delivery Section */
-.design{
+.design {
   margin-top: 3rem;
 }
 .deliveryList {
@@ -91,7 +91,6 @@
   padding: 0 29vw 0 0;
 } */
 
-
 .categoryTextWrapper {
   background: #ff6431;
   padding: 1rem;
@@ -105,7 +104,7 @@
 
 /* Certifications Section */
 
-.cerification{
+.cerification {
   margin-top: 3rem;
 }
 .certificationsGrid {
@@ -116,7 +115,7 @@
   align-items: center;
   gap: 5rem;
   padding: 2rem 0;
-  margin: 2rem auto ;
+  margin: 2rem auto;
   max-width: 1600px;
 }
 
@@ -135,12 +134,19 @@
   transition: transform 0.3s ease;
 } */
 
-
-
 /* Desktop-specific sizes */
-.certificationLogo:nth-child(1) { width: 300px; height: 128px; }
-.certificationLogo:nth-child(2) { width: 90px; height: 128px; }
-.certificationLogo:nth-child(3) { width: 358px; height: 90px; }
+.certificationLogo:nth-child(1) {
+  width: 300px;
+  height: 128px;
+}
+.certificationLogo:nth-child(2) {
+  width: 90px;
+  height: 128px;
+}
+.certificationLogo:nth-child(3) {
+  width: 358px;
+  height: 90px;
+}
 
 .certificationLogo-img {
   width: 100%;
@@ -148,7 +154,6 @@
   object-fit: contain;
   transition: transform 0.3s ease;
 }
-
 
 /* .certificationLogo:hover {
   transform: scale(1.05);
@@ -177,13 +182,17 @@
 
 /* Clients Section */
 
-.clients{
+.clients {
   margin-top: 3rem;
 }
 .clientsImage {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+.mobile-client {
+  display: none;
 }
 
 /* Gallery Section */
@@ -200,7 +209,7 @@
 } */
 
 /* Mobile & Tablet Styles */
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .aboutUsContainer {
     padding: 2rem 5vw;
   }
@@ -223,7 +232,7 @@
   .categoryItem:nth-child(odd) .categoryTitle {
     padding: 0 0 0 28vw;
   }
-  
+
   .categoryItem:nth-child(even) .categoryTitle {
     padding: 0 29vw 0 0;
   }
@@ -283,21 +292,30 @@
     width: 100%;
     margin: 0 1rem;
   }
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-client {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
 
   /* .categoryItem:nth-child(even) .categoryText {
     text-align: right;
   } */
-  
 }
 
 /* Desktop Category Alignment */
 @media (min-width: 769px) {
- .categoryItem:nth-child(odd) {
+  .categoryItem:nth-child(odd) {
     /* padding: 0; */
-     flex-direction: row;
-     text-align: left;
+    flex-direction: row;
+    text-align: left;
   }
- 
+
   .categoryItem:nth-child(even) {
     /* padding: 0; */
     flex-direction: row-reverse;
@@ -317,8 +335,6 @@
     width: auto;
     max-width: 80%; 
    } */
-
-  
 }
 
 /* @media (max-width: 480px) {

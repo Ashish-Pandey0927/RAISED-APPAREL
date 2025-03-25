@@ -170,7 +170,8 @@ const AboutUs = () => {
       <div className="clients">
         <h2 className="sectionHeading">CLIENTS</h2>
         <div className="clientsImage">
-          <img src="/logo bw.png" alt="Clients" />
+          <img src="/logo bw.png" alt="Clients" className="desktop-img" />
+          <img src ="/mobile client.png" className="mobile-client" />
         </div>
       </div>
 
