@@ -9,17 +9,17 @@ const WhyChooseUs = () => {
     { 
       id: 1,
       title: "CUSTOMISATION", 
-      image: "https://plus.unsplash.com/premium_photo-1674273913378-fe95949ae955?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+      image: "/blog-img/blog 1 2.png" 
     },
     { 
       id: 2,
       title: "FAST DELIVERY", 
-      image: "https://plus.unsplash.com/premium_photo-1682090258246-74c9293d4d75?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+      image: "/blog-img/blog 2 1.jpeg" 
     },
     { 
       id: 3,
       title: "FLEXIBLE MOQS", 
-      image: "https://images.unsplash.com/photo-1625479142928-c2f2914318f2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+      image: "/blog-img/blog 3 1.jpeg" 
     },
   ];
 
