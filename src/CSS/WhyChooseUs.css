@@ -25,6 +25,7 @@
   background: #222;
   border-radius: 1rem;
   overflow: hidden;
+  /* max-height: 500px; */
   /* padding: 1rem; */
   transition: transform 0.3s ease;
 }
@@ -34,7 +35,7 @@
 }
 
 .image-container {
-  height: 300px;
+  max-height: 300px;
   overflow: hidden;
 }
 
@@ -87,7 +88,7 @@
   }
 
   .image-container {
-    height: 250px;
+    height: 180px;
   }
 
   .card-title {
