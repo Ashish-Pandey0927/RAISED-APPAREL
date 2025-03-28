@@ -61,11 +61,10 @@ const HeroSection = () => {
             height: "100dvh",
             overflow: "hidden" 
         }}>
-            {/* Background Video */}
-            <video
-                autoPlay
-                loop
-                muted
+            {/* Background GIF */}
+            <img
+                src="/heroVideo.gif"
+                alt="Background Animation"
                 style={{
                     position: "absolute",
                     top: 0,
@@ -73,11 +72,10 @@ const HeroSection = () => {
                     width: "100%",
                     height: "100%",
                     objectFit: "cover",
-                    opacity: 0.4,
+                    objectPosition: "bottom",
+                    opacity: 0.5,
                 }}
-            >
-                <source src="/heroVideo.mp4" type="video/mp4" />
-            </video>
+            />
 
             {/* Overlay Content */}
             <div

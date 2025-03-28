@@ -67,7 +67,7 @@
     },
     {
       "id": 4,
-      "name": "Striped Peter Pan Shirt",
+      "name": "Regular Fit Woven jacket",
       "category": "menswear",
       "images": [
         "/MENS-20250313T070619Z-001/MENS/4.jpg",
@@ -76,16 +76,12 @@
         "/MENS-20250313T070619Z-001/MENS/4.3.jpg"
       ],
       "price": "₹999",
-      "description": "A regular-fit polyester shirt with vertical stripes, a Peter Pan collar, and long sleeves.",
+      "description": "Jacket in a textured weave made from a cotton blend featuring a resort collar, buttons down the front, yoke at the back and an open chest pocket. Long-sleeved with buttoned cuffs.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: Polyester",
-        "Pattern/Print: Vertical Stripes",
+        "Fabric/Material: Cotton 68%, Polyester 32% ",
         "Fit: Regular Fit",
-        "Neck/Collar: Peter Pan Collar",
-        "Sleeve Length: Long Sleeves",
-        "Closure: Button Placket",
-        "Length: Regular",
+        "Length: Regular length",
         "Wash Care: Machine Wash",
         "Occasion: Casual"
       ]
@@ -114,7 +110,7 @@
     },
     {
       "id": 6,
-      "name": "Slogan Print Jacket",
+      "name": "Denim Jacket",
       "category": "menswear",
       "images": [
         "/MENS-20250313T070619Z-001/MENS/6.jpg",
@@ -123,13 +119,12 @@
         "/MENS-20250313T070619Z-001/MENS/6.3.jpg"
       ],
       "price": "₹1999",
-      "description": "A casual cotton-spandex jacket with a slogan print, round neck, and fur-lined collar.",
+      "description": "A casual Denim jacket with a fur-lined collar.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: Cotton Spandex",
-        "Pattern/Print: Typography or Slogan Print",
+        "Fabric/Material: Denim",
         "Fit: Regular Fit",
-        "Neck/Collar: Round Neck, Fur Lined Collar",
+        "Neck/Collar: Fur Lined Collar",
         "Number of Pockets: Slip Pockets, Flap Pockets",
         "Wash Care: Machine Wash Cold",
         "Occasion: Casual"
@@ -159,25 +154,23 @@
     },
     {
       "id": 8,
-      "name": "Graphic Denim Shirt",
+      "name": "Regular Fit Washed sweatshirt",
       "category": "menswear",
       "images": [
-        "/MENS-20250313T070619Z-001/MENS/8.png",
-        "/MENS-20250313T070619Z-001/MENS/8.1.png",
-        "/MENS-20250313T070619Z-001/MENS/8.2.png",
-        "/MENS-20250313T070619Z-001/MENS/8.3.png"
+        "/MENS-20250313T070619Z-001/MENS/8 (2).jpg",
+        "/MENS-20250313T070619Z-001/MENS/8.1 (2).jpg",
+        "/MENS-20250313T070619Z-001/MENS/8.2 (2).jpg"
       ],
       "price": "₹2999",
-      "description": "A slim-fit denim shirt with a graphic pattern, spread collar, and long sleeves.",
+      "description": "Heavyweight cotton sweatshirt fabric with a washed look featuring a round, rib-trimmed neckline, long sleeves and a wide, ribbed trim at the cuffs and hem.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: Denim",
+        "Fabric/Material: Cotton 100%",
         "Pattern/Print: Graphic",
-        "Fit: Slim Fit",
-        "Neck/Collar: Spread Collar",
-        "Sleeve Length: Long Sleeves",
-        "Closure: Not Specified",
-        "Length: Regular",
+        "Fit: Regular Fit",
+        "Neck/Collar: Round Neck",
+        "Style: Boxy, Sweatshirt",
+        "Length: Regular length",
         "Wash Care: Dry Clean",
         "Occasion: Casual"
       ]
@@ -209,20 +202,24 @@
     },
     {
       "id": 10,
-      "name": "Cotton-Lycra Tee",
+      "name": "Slim Fit Textured jersey polo shirt",
       "category": "menswear",
       "images": [
-        "/MENS-20250313T070619Z-001/MENS/10.png",
-        "/MENS-20250313T070619Z-001/MENS/10.1.png",
-        "/MENS-20250313T070619Z-001/MENS/10.2.png",
-        "/MENS-20250313T070619Z-001/MENS/10.3.png"
+        "/MENS-20250313T070619Z-001/MENS/10.jpg",
+        "/MENS-20250313T070619Z-001/MENS/10.1.jpg",
+        "/MENS-20250313T070619Z-001/MENS/10.2.jpg"
+
       ],
       "price": "₹899",
-      "description": "A regular-length top made of cotton and lycra, suitable as a t-shirt or shirt.",
+      "description": "Polo shirt in textured, midweight jersey with a collar, button placket, short sleeves and a straight-cut hem. Slim fit that hugs the contours of your body, creating a fitted silhouette.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: 95% Cotton, 5% Lycra",
+        "Fabric/Material: Cotton 59%, Polyester 41%",
         "Length: Regular",
+        "Wash Care: Machine Wash",
+        "Fit: Slim fit",
+        "Collar: Turn-down collar",
+        "Style: Polo shirt",
         "Wash Care: Machine Wash"
       ]
     },
@@ -249,7 +246,7 @@
     },
     {
       "id": 12,
-      "name": "Relaxed Fit Cotton Pants",
+      "name": "Relaxed Fit Grey Trouser",
       "category": "menswear",
       "images": [
         "/MENS-20250313T070619Z-001/MENS/12.jpg",
@@ -258,15 +255,12 @@
         "/MENS-20250313T070619Z-001/MENS/12.3.jpg"
       ],
       "price": "₹1299",
-      "description": "Cotton pants with a relaxed and slim fit, featuring a round neck and button placket.",
+      "description": "Relaxed fit grey trouser.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: Cotton",
-        "Pattern/Print: Solid, Abstract",
-        "Fit: Relaxed Fit, Slim Fit",
-        "Neck/Collar: Round Neck, Spread Collar",
-        "Closure: Button Placket",
-        "Length: Regular",
+        "Fit: Relaxed Fit",
+        "Length: Full length",
         "Wash Care: Machine Wash",
         "Occasion: Casual"
       ]
@@ -316,24 +310,23 @@
     },
     {
       "id": 15,
-      "name": "Heavy Fade Slim Pants",
+      "name": "Oversized Fit Printed mesh T-shirt",
       "category": "menswear",
       "images": [
-        "/MENS-20250313T070619Z-001/MENS/15.jpg",
+        "/MENS-20250313T070619Z-001/MENS/15.jpeg",
         "/MENS-20250313T070619Z-001/MENS/15.1.jpg",
-        "/MENS-20250313T070619Z-001/MENS/15.2.jpg",
-        "/MENS-20250313T070619Z-001/MENS/15.3.jpg"
+        "/MENS-20250313T070619Z-001/MENS/15.2.jpeg"
+
       ],
       "price": "₹1499",
-      "description": "Slim-fit cotton blend pants with a heavy fade and mid-rise waist.",
+      "description": "T-shirt in printed mesh featuring a round, rib-trimmed neckline, dropped shoulders and a straight-cut hem. Oversized fit for a baggy, extra-loose silhouette.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: Cotton Blend",
-        "Fit: Slim Fit",
+        "Fabric/Material: Polyester 100%",
+        "Fit: Oversized",
         "Length: Regular",
-        "Waist Rise: Mid-Rise",
-        "Wash Care: Machine Wash",
-        "Additional Features: Distress: Clean Look, Fade: Heavy Fade, Waistband: With Belt Loops, Shade: Medium, Stretch: Non Stretchable"
+        "Neckline: Round neck",
+        "Wash Care: Machine Wash"
       ]
     },
     {
@@ -362,23 +355,20 @@
     },
     {
       "id": 17,
-      "name": "Casual Cotton Joggers",
+      "name": "Loose Fit Denim worker jacket",
       "category": "menswear",
       "images": [
         "/MENS-20250313T070619Z-001/MENS/17.jpg",
         "/MENS-20250313T070619Z-001/MENS/17.1.jpg",
-        "/MENS-20250313T070619Z-001/MENS/17.2.jpg",
-        "/MENS-20250313T070619Z-001/MENS/17.3.jpg"
+        "/MENS-20250313T070619Z-001/MENS/17.2.jpg"
       ],
       "price": "₹999",
-      "description": "Regular-fit cotton joggers with 3 pockets and drawstring closure.",
+      "description": "Jacket in rigid cotton denim with a collar, zip down the front, a yoke at the back and large flap pockets at the front.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: 100% Cotton",
         "Fit: Regular Fit",
-        "Closure: Drawstring",
         "Length: Regular",
-        "Number of Pockets: 3",
         "Wash Care: Machine Wash",
         "Occasion: Casual"
       ]
@@ -432,22 +422,20 @@
     },
     {
       "id": 20,
-      "name": "Long Slim-Fit Shirt",
+      "name": "Baggy jeans",
       "category": "menswear",
       "images": [
         "/MENS-20250313T070619Z-001/MENS/20.jpg",
         "/MENS-20250313T070619Z-001/MENS/20.1.jpg",
-        "/MENS-20250313T070619Z-001/MENS/20.2.jpg",
-        "/MENS-20250313T070619Z-001/MENS/20.3.jpg"
+        "/MENS-20250313T070619Z-001/MENS/20.2.jpg"
       ],
       "price": "₹1299",
-      "description": "A slim-fit cotton shirt with full-length sleeves and a longer length.",
+      "description": "5-pocket jeans in rigid cotton denim. Rounded leg and a baggy fit from the seat to the hem with plenty of room around the whole leg.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: 100% Cotton",
-        "Fit: Slim Fit",
-        "Sleeve Length: Full-Length",
-        "Length: Long",
+        "Fabric/Material: Denim",
+        "Fit: Loose Fit",
+        "Style: Baggy",
         "Wash Care: Machine Wash",
         "Occasion: Casual"
       ]
@@ -471,7 +459,8 @@
         "Pattern/Print: Washed",
         "Waist Rise: Mid-Rise",
         "Number of Pockets: 5",
-        "Wash Care: Machine Wash"
+        "Wash Care: Machine Wash",
+        "Additional Features: Type: Denim Shorts"
       ]
     },
     {
@@ -586,7 +575,7 @@
     },
     {
       "id": 7,
-      "name": "Linen Relaxed Shirt",
+      "name": "Oversized Crinkle Dress",
       "category": "womenswear",
       "images": [
         "/womenswear-20250313T070710Z-001/womenswear/7.jpg",
@@ -594,14 +583,13 @@
         "/womenswear-20250313T070710Z-001/womenswear/7.2.jpg"
       ],
       "price": "₹1299",
-      "description": "A relaxed-fit linen-rich shirt with three-quarter sleeves and a curved hemline.",
+      "description": "Oversized, ankle-length dress in airy, woven crinkled fabric. Low collar, buttons at front, and a narrow, removable tie belt at waist.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: Linen Rich",
-        "Pattern/Print: Solid",
-        "Fit: Relaxed Fit",
-        "Neck/Collar: Spread Collar",
-        "Sleeve Length: Three-Quarter Sleeves",
+        "Fabric/Material:  Rayon 84%, Polyamide 16%",
+        "Pattern/Print:  Floral",
+        "Neck/Collar: Band Collar",
+        "Sleeve Length: Full Sleeves",
         "Length: Regular",
         "Wash Care: Hand Wash",
         "Occasion: Casual"
@@ -609,21 +597,21 @@
     },
     {
       "id": 8,
-      "name": "Solid Woven Skirt",
+      "name": "Midi Dress with Cut-out Detail",
       "category": "womenswear",
       "images": [
         "/womenswear-20250313T070710Z-001/womenswear/8.jpg",
         "/womenswear-20250313T070710Z-001/womenswear/8.1.jpg",
-        "/womenswear-20250313T070710Z-001/womenswear/8.2.jpg"
+        "/womenswear-20250313T070710Z-001/womenswear/8.2.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/8.4.jpg"
       ],
       "price": "₹899",
-      "description": "A straight cotton skirt with a solid pattern and woven design.",
+      "description": "Flowing midi dress with a round neck. Sleeveless and long sleeve options available. Featuring a cut-out detail and gathers at the waist.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: Cotton",
+        "Fabric/Material: 96% polyester 4% elastane",
         "Pattern/Print: Solid",
-        "Wash Care: Machine Wash",
-        "Additional Features: Type: Straight, Knit or Woven: Woven, Slit Detail: No Slit"
+        "Wash Care: Machine Wash"
       ]
     },
     {
@@ -756,48 +744,45 @@
     },
     {
       "id": 15,
-      "name": "Geometric Peplum Top",
+      "name": "Tapered Waist Vest",
       "category": "womenswear",
       "images": [
         "/womenswear-20250313T070710Z-001/womenswear/15.jpg",
-        "/womenswear-20250313T070710Z-001/womenswear/15.1.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/15.1 (2).jpg",
         "/womenswear-20250313T070710Z-001/womenswear/15.2.jpg"
       ],
       "price": "₹999",
       "description": "A sleeveless cotton peplum top with a solid and geometric pattern, cropped length.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
-        "Fabric/Material: 100% Cotton",
-        "Pattern/Print: Solid, Geometric",
-        "Neck/Collar: Square Neck, Shoulder Straps",
-        "Sleeve Length: Sleeveless, Cap Sleeves",
-        "Closure: Zip",
-        "Length: Crop, Regular",
+        "Fabric/Material: Rayon 84%, Polyamide 16%",
+        "Pattern/Print: Solid",
+        "Neck/Collar: Boat, Shoulder Straps",
+        "Sleeve Length: Sleeveless",
         "Wash Care: Machine Wash",
         "Additional Features: Type: Peplum, Type of Pleat: Pleated, Knit or Woven: Woven, Transparency: Opaque"
       ]
     },
     {
       "id": 16,
-      "name": "Lightweight Denim Jacket",
+      "name": "Denim Midi dress",
       "category": "womenswear",
       "images": [
         "/womenswear-20250313T070710Z-001/womenswear/16.jpg",
         "/womenswear-20250313T070710Z-001/womenswear/16.1.jpg",
-        "/womenswear-20250313T070710Z-001/womenswear/16.2.jpg"
+        "/womenswear-20250313T070710Z-001/womenswear/16.2.jpg",
+        "/womenswear-20250313T070710Z-001/womenswear/16.3.jpg"
       ],
       "price": "₹1299",
-      "description": "A lightweight cotton denim jacket with short sleeves and snap button closure.",
+      "description": "Midi dress with a straight neckline and off-the-shoulder design. Pleated detail. Zipper closure.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: Cotton",
-        "Pattern/Print: Washed",
-        "Neck/Collar: Spread Collar",
-        "Sleeve Length: Short Sleeves",
-        "Closure: Snap Button",
+        "Neck/Collar: Straight neckline",
+        "Sleeve Length: Sleeveless",
+        "Closure: zipper",
         "Length: Regular",
-        "Wash Care: Hand Wash",
-        "Additional Features: Type: Denim Jacket, Lightweight, Lining Fabric: Unlined"
+        "Wash Care: Hand Wash"
       ]
     },
     {
@@ -1322,7 +1307,7 @@
     "athleisure": [
     {
       "id": 1,
-      "name": "Cotton Solid Joggers",
+      "name": " Cotton Solid Shorts",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/1 (2).jpg",
@@ -1330,7 +1315,7 @@
         "/Athleisure-20250313T070757Z-001/Athleisure/1.2.jpg"
       ],
       "price": "₹999",
-      "description": "Cotton joggers with a solid pattern and 2 pockets, ideal for casual comfort.",
+      "description": "Cotton shorts with a solid pattern and 2 pockets, ideal for casual comfort.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: Cotton",
@@ -1471,7 +1456,7 @@
     },
     {
       "id": 8,
-      "name": "Casual Long-Sleeve Tee",
+      "name": "Long-Sleeve Tee",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/8.jpg",
@@ -1479,7 +1464,7 @@
         "/Athleisure-20250313T070757Z-001/Athleisure/8.2.jpg"
       ],
       "price": "₹799",
-      "description": "A regular-fit long-sleeve t-shirt made of polyester and elastane, suitable for casual wear.",
+      "description": "A regular-fit long-sleeve t-shirt made of polyester and elastane.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: 95% Polyester, 5% Elastane",
@@ -1488,12 +1473,12 @@
         "Sleeve Length: Full-Length (Long Sleeve)",
         "Length: Medium",
         "Wash Care: Machine Wash",
-        "Occasion: Casual"
+        "Occasion: Sports"
       ]
     },
     {
       "id": 9,
-      "name": "Classic Hoodie",
+      "name": "Classic Zip Hoodie",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/9.jpg",
@@ -1537,7 +1522,7 @@
     },
     {
       "id": 11,
-      "name": "Cropped Flat-Front Pants",
+      "name": "Jogger Cotton Pants",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/11.jpg",
@@ -1545,17 +1530,16 @@
         "/Athleisure-20250313T070757Z-001/Athleisure/11.2.jpg"
       ],
       "price": "₹999",
-      "description": "Cropped pants made of cotton and polyester, with a regular fit, mid-rise, and drawstring closure.",
+      "description": "Jogger pants made of cotton and polyester, with a regular fit, mid-rise, and drawstring closure.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: 70% Cotton, 30% Polyester",
         "Pattern/Print: Solid",
         "Fit: Regular Fit",
         "Closure: Drawstring",
-        "Length: Cropped",
+        "Length: Ankle Length",
         "Waist Rise: Mid-Rise",
-        "Wash Care: Hand Wash",
-        "Additional Features: Type of Pleat: Flat-Front"
+        "Wash Care: Hand Wash"
       ]
     },
     {
@@ -1602,7 +1586,7 @@
     },
     {
       "id": 14,
-      "name": "Casual Cotton Shorts",
+      "name": "Relaxed fit cotton trousers",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/14.jpg",
@@ -1610,7 +1594,7 @@
         "/Athleisure-20250313T070757Z-001/Athleisure/14.2.jpg"
       ],
       "price": "₹899",
-      "description": "Cotton shorts with 2 pockets, perfect for casual wear.",
+      "description": "Cotton relaxed fit trousers with 2 pockets.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: Cotton",
@@ -1621,7 +1605,7 @@
     },
     {
       "id": 15,
-      "name": "Poly Compression Pants",
+      "name": "Poly knitted Trousers",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/15.jpg",
@@ -1629,15 +1613,15 @@
         "/Athleisure-20250313T070757Z-001/Athleisure/15.2.jpg"
       ],
       "price": "₹1299",
-      "description": "Knitted polyester pants with a compression and regular fit, round neck, and drawstring closure.",
+      "description": "Knitted polyester pants with a relaxed fit.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: Knitted Polyester (100% Polyester)",
         "Pattern/Print: Plain",
-        "Fit: Compression, Regular Fit",
+        "Fit: Relaxed Fit",
         "Neck/Collar: Round Neck",
-        "Closure: Drawstring, Zipper",
-        "Length: Regular, Long",
+        "Closure: Elasticated waistband",
+        "Length: full length",
         "Waist Rise: Natural",
         "Wash Care: Machine Wash or Professional Dry Clean",
         "Additional Features: Slight Stretch, Loose, Lined For Added Warmth, Drawstring Waist"
@@ -1645,7 +1629,7 @@
     },
     {
       "id": 16,
-      "name": "Colourblocked Poly Pants",
+      "name": "Full sleeve compression tee",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/16.jpg",
@@ -1653,17 +1637,15 @@
         "/Athleisure-20250313T070757Z-001/Athleisure/16.2.jpg"
       ],
       "price": "₹1299",
-      "description": "Similar to the above but with a colourblocked pattern for added style.",
+      "description": "Full sleeve compression tee for gym wear.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: Knitted Polyester (100% Polyester)",
-        "Pattern/Print: Colourblocked",
+        "Pattern/Print: Solid",
         "Fit: Compression, Regular Fit",
         "Neck/Collar: Round Neck",
-        "Closure: Drawstring",
         "Length: Regular",
-        "Wash Care: Machine Wash or Professional Dry Clean",
-        "Additional Features: Main Trend: Colourblocked, Type: Regular"
+        "Wash Care: Machine Wash or Professional Dry Clean"
       ]
     },
     {
@@ -1711,7 +1693,7 @@
     },
     {
       "id": 19,
-      "name": "Casual Nylon Long-Sleeve",
+      "name": "Nylon Long-Sleeve jacket",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/19.jpg",
@@ -1719,18 +1701,19 @@
         "/Athleisure-20250313T070757Z-001/Athleisure/19.2.jpg"
       ],
       "price": "₹899",
-      "description": "A long-sleeve nylon top for casual occasions.",
+      "description": "A long-sleeve nylon jacket for casual occasions and sports wear.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: 100% Nylon",
+        "Neck/Collar: Mock Collar",
         "Sleeve Length: Long Sleeves",
         "Wash Care: Machine Wash",
-        "Occasion: Casual"
+        "Occasion: Sports"
       ]
     },
     {
       "id": 20,
-      "name": "Poly Mock Collar Sports Top",
+      "name": "Poly Sports Jacket",
       "category": "athleisure",
       "images": [
         "/Athleisure-20250313T070757Z-001/Athleisure/20.jpg",
@@ -1738,13 +1721,12 @@
         "/Athleisure-20250313T070757Z-001/Athleisure/20.2.jpg"
       ],
       "price": "₹999",
-      "description": "A polyester long-sleeve sports top with a mock collar and mid-rise design.",
+      "description": "A polyester long-sleeve sports Jacket with a mock collar.",
       "sizes": ["S", "M", "L", "XL"],
       "details": [
         "Fabric/Material: Polyester",
         "Neck/Collar: Mock Collar",
         "Sleeve Length: Long Sleeves",
-        "Waist Rise: Mid-Rise",
         "Wash Care: Machine Wash",
         "Occasion: Sports"
       ]
