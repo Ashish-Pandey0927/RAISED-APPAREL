@@ -15,7 +15,7 @@ const AboutSection = () => {
       <div style={{ marginBottom: "3rem" }}>
         <h2 style={headingStyle}>WHO ARE WE?</h2>
         <p style={paragraphStyle}>
-        We design with your brand's ethos and target customers in mind, aligning with your pricing architecture and speed-to-market needs. Instead of predicting fashion trends, we follow a demand-driven model—producing what you need, when you need it, and in the quantities you desire. This approach minimizes or eliminates discounting, allowing you to sell at full price.
+        We design with your brand's ethos and target customers in mind, aligning with your pricing architecture and speed-to-market needs. Instead of predicting fashion trends, we follow a demand-driven model—producing what you need, when you need it, and in the quantities you desire. This approach minimizes or eliminates discounting, allowing you to sell at full price. <br />
         Our end-to-end service covers everything from design to delivery, ensuring a seamless process tailored to your requirements. Plus, we prioritize sustainability and traceability in fashion, all while maintaining cost neutrality.        </p>
       </div>
 

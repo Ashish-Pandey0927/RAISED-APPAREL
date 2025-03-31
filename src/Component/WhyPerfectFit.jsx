@@ -88,6 +88,7 @@ const WhyPerfectFit = () => {
             width: isMobile ? "100%" : "40%",
             maxWidth: "500px",
             marginTop: isMobile ? "20px" : "0",
+            marginLeft: isMobile ? "0" : "40px",
           }}
         >
           <img
