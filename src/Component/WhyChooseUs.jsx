@@ -8,27 +8,27 @@ const WhyChooseUs = () => {
   const features = [
     { 
       id: 1,
-      title: "CUSTOMISATION", 
+      title: "DESIGN TO DELIVERY", 
       image: "/Illustrations/customisation.png",
-      description: "Design to Deliver"
+      // description: ""
     },
     { 
       id: 2,
-      title: "FAST DELIVERY", 
+      title: "30 DAYS LEAD TIME", 
       image: "/Illustrations/fast delivery.png" ,
-      description: "30 Days lead time"
+      // description: ""
     },
     { 
       id: 3,
-      title: "FLEXIBLE MOQS", 
+      title: "100 PIECES MOQS", 
       image: "/Illustrations/moq.png",
-      description: "100 pieces MOQ" 
+      // description: "" 
     },
     { 
       id: 4,
-      title: "SUSTAINABILITY", 
+      title: "SUSTAINABILITY AND TRACEABILITY", 
       image: "/Illustrations/sustainability.png",
-      description: "Eco-friendly fabrics" 
+      // description: "Eco-friendly fabrics" 
     },
   ];
 
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
               <img src={item.image} alt={item.title} className="feature-image" />
             </div>
             <h3 className="card-title">{item.title}</h3>
-            <p className="card-description">{item.description}</p>
+            {/* <p className="card-description">{item.description}</p> */}
             <button 
               className="know-more-button"
               onClick={() => handleKnowMore(item.id)}
