@@ -15,19 +15,19 @@ const WhyChooseUs = () => {
     { 
       id: 2,
       title: "FAST DELIVERY", 
-      image: "/public/Illustrations/fast delivery.png" ,
+      image: "/Illustrations/fast delivery.png" ,
       description: "30 Days lead time"
     },
     { 
       id: 3,
       title: "FLEXIBLE MOQS", 
-      image: "/public/Illustrations/moq.png",
+      image: "/Illustrations/moq.png",
       description: "100 pieces MOQ" 
     },
     { 
       id: 4,
       title: "SUSTAINABILITY", 
-      image: "/public/Illustrations/sustainability.png",
+      image: "/Illustrations/sustainability.png",
       description: "Eco-friendly fabrics" 
     },
   ];
