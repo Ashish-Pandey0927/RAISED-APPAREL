@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaFacebook, FaLinkedin, FaPhone } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Footer = () => {
@@ -72,7 +72,7 @@ const Footer = () => {
           >
             <FaFacebook size={20} />
             <FaLinkedin size={20} />
-            <FaPhone size={20} />
+            <FaInstagram size={20} />
           </div>
         </div>
 
