@@ -15,10 +15,8 @@ const AboutSection = () => {
       <div style={{ marginBottom: "3rem" }}>
         <h2 style={headingStyle}>WHO ARE WE?</h2>
         <p style={paragraphStyle}>
-          Raised Apparel is a design-to-delivery service provider specializing in high-quality apparel manufacturing.
-          From the initial design concept to final product delivery, we create apparel that reflects your brand’s
-          identity. Our end-to-end solutions bridge the gap between creative vision and precise manufacturing, ensuring
-          that every detail is executed to perfection.
+        We design ( keeping your brand ethos and targeted customer in mind) with your brand price architecture and speed to market ( dont have to predict fashion) and moq u want ( so no or less discount sell) and react to demand model instead of predictive design.
+        It's full service design to delivery , when u want. What u want and how much u want along with sustainable and traceable fashion ( cost neutral).
         </p>
       </div>
 
