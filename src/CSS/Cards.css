@@ -3,7 +3,7 @@
     justify-content: center;
     gap: 20px;
     padding: 2rem;
-    min-height: 100vh;
+    min-height: auto;
     align-items: center;
     position: relative;
     margin: 2rem 0;
