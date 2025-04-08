@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../CSS/AboutUs.css";
+import "../CSS/Cards.css";
+
 
 const AboutUs = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -48,6 +50,28 @@ const AboutUs = () => {
       text: "08 Cozy styles with quilting, prints, and woven textures.",
     },
   ];
+
+ // Categories for comparison cards
+ const cardCategories = ['MOQ', 'Lead Time', 'Price', 'Fit/Approval', 'Overall TAT'];
+  
+ const comparisonData = {
+   middle: {
+     others: ['500+', '120 Days', 'High', '6–8 Weeks', '6 to 8 months (traditional)'],
+     raised: ['100+', '30 to 45 Days', 'As brands price architecture', 'Done at source', '3 months total']
+   },
+   right: [
+     'Lower markdowns, higher full-price sales',
+     'Can trial more styles',
+     'Launch more drops (e.g. monthly)',
+     'Based on current trends',
+     'Selection of fabric/style within brand pricing',
+     'Better bottom line, less loss of margin',
+     'Based on proven blocks, not new title',
+     'Faster approval with tech',
+     'Faster sampling & production',
+     'Efficient drops & delivery'
+   ]
+ };
 
   return (
     <div className="aboutUsContainer">
@@ -121,20 +145,49 @@ const AboutUs = () => {
           </li>
         </ul>
       </div>
+ {/* Cards section */}
+ <div className="cards-container">
+        {/* Left Card - Categories */}
+        <div className="card left">
+          <h3 className="card-title">Categories</h3>
+          <div className="card-content">
+            {cardCategories.map((category, index) => (
+              <div key={index} className="category-item">{category}</div>
+            ))}
+          </div>
+        </div>
 
-      {/* CATEGORIES */}
-      <div className="categoriesWrapper">
-        <div className="categoryGrid">
-          {categories.map((category, index) => (
-            <div key={index} className="categoryItem">
-              <h2 className="categoryTitle">{category.title}</h2>
-              <div className="categoryTextWrapper">
-                <p className="categoryText">{category.text}</p>
-              </div>
+        {/* Middle Card - Comparison */}
+        <div className="card middle">
+          <h3 className="card-title">Comparison</h3>
+          <div className="card-content">
+            <div className="comparison-row header">
+              <div>Others Manufacturers</div>
+              <div>RAISED APPARELS</div>
             </div>
-          ))}
+            {cardCategories.map((_, index) => (
+              <div key={index} className="comparison-row">
+                <div>{comparisonData.middle.others[index]}</div>
+                <div>{comparisonData.middle.raised[index]}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Right Card - Advantages */}
+        <div className="card right">
+          <h3 className="card-title">Advantages</h3>
+          <div className="card-content">
+            <ul className="advantages-list">
+              {comparisonData.right.map((advantage, index) => (
+                <li key={index}>{advantage}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
+
+     
 
       {/* CERTIFICATIONS */}
       <div className="cerification">

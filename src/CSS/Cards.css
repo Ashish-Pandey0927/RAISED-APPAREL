@@ -1,0 +1,134 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+    min-height: 100vh;
+    align-items: center;
+    position: relative;
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 350px;
+    background: rgb(34, 34, 34);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 600px; /* Equal height for all cards */
+  }
+  
+  .card.left,
+  .card.right {
+    z-index: 1;
+    transform: scale(0.95);
+    opacity: 0.9;
+  }
+  
+  .card.middle {
+    z-index: 2;
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+  
+  .card-title {
+    color: #ff6600;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1rem;
+  }
+  
+  .card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Left Card Styles */
+  .category-item {
+    padding: 2rem 0;
+    border-bottom: 1px solid #eee;
+    font-weight: 800;
+    color: #ff6600;
+    font-size: 1.2rem;
+  }
+  
+  /* Middle Card Styles */
+  .comparison-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .comparison-row.header {
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  /* Right Card Styles */
+  .advantages-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .advantages-list li {
+    padding: 0.8rem 0;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+    color: #ffffff;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .advantages-list li:before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .cards-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
+    .card {
+      max-width: 100%;
+      width: 100%;
+      min-height: auto;
+      transform: none !important;
+      opacity: 1 !important;
+      z-index: 2 !important;
+      margin-bottom: 1.5rem;
+    }
+    
+    .card.middle {
+      order: 0;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .card.left {
+      transform: translateX(30px) scale(0.95);
+    }
+    
+    .card.right {
+      transform: translateX(-30px) scale(0.95);
+    }
+    
+    .card:hover {
+      transform: translateX(0) scale(1) !important;
+      opacity: 1 !important;
+      z-index: 3 !important;
+    }
+  }
