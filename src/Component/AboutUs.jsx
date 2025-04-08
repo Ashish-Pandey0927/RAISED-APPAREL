@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../CSS/AboutUs.css";
 import "../CSS/Cards.css";
+import { color } from "motion/react";
 
 
 const AboutUs = () => {
@@ -149,7 +150,7 @@ const AboutUs = () => {
  <div className="cards-container">
         {/* Left Card - Categories */}
         <div className="card left">
-          <h3 className="card-title">Categories</h3>
+          {/* <h3 className="card-title">Categories</h3> */}
           <div className="card-content">
             {cardCategories.map((category, index) => (
               <div key={index} className="category-item">{category}</div>
@@ -159,11 +160,11 @@ const AboutUs = () => {
 
         {/* Middle Card - Comparison */}
         <div className="card middle">
-          <h3 className="card-title">Comparison</h3>
+          {/* <h3 className="card-title">Comparison</h3> */}
           <div className="card-content">
             <div className="comparison-row header">
-              <div>Others Manufacturers</div>
-              <div>RAISED APPARELS</div>
+              <div style={{fontSize: "1rem", marginTop:"15px"}}>Others Manufacturers</div>
+              <div style={{color: "#ff6600"}}>RAISED APPARELS</div>
             </div>
             {cardCategories.map((_, index) => (
               <div key={index} className="comparison-row">
