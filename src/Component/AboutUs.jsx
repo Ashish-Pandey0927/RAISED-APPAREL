@@ -150,7 +150,7 @@ const AboutUs = () => {
  <div className="cards-container">
         {/* Left Card - Categories */}
         <div className="card left">
-          {/* <h3 className="card-title">Categories</h3> */}
+          <h3 className="card-title">Categories</h3>
           <div className="card-content">
             {cardCategories.map((category, index) => (
               <div key={index} className="category-item">{category}</div>

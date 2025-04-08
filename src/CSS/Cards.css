@@ -6,131 +6,159 @@
     min-height: 100vh;
     align-items: center;
     position: relative;
-  }
-  
-  .card {
-    flex: 1;
+    margin: 2rem 0;
+    overflow-x: auto;
+}
+
+.card {
+    flex: 0 0 300px;
     max-width: 350px;
     background: rgb(34, 34, 34);
     border-radius: 12px;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 600px; /* Equal height for all cards */
-  }
-  
-  .card.left,
-  .card.right {
+    min-height: 400px;
+}
+
+.card.left,
+.card.right {
     z-index: 1;
-    transform: scale(0.95);
+    transform: translateX(30px) scale(0.95);
     opacity: 0.9;
-  }
-  
-  .card.middle {
+}
+
+.card.middle {
     z-index: 2;
     transform: scale(1);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-  }
-  
-  .card-title {
+}
+
+.card-title {
     color: #ff6600;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: 600;
     border-bottom: 2px solid #eee;
     padding-bottom: 1rem;
-  }
-  
-  .card-content {
+}
+
+.card-content {
     flex: 1;
     display: flex;
     flex-direction: column;
-  }
-  
-  /* Left Card Styles */
-  .category-item {
+}
+
+/* Left Card Styles */
+.category-item {
     padding: 2rem 0;
     border-bottom: 1px solid #eee;
     font-weight: 800;
     color: #ff6600;
     font-size: 1.2rem;
-  }
-  
-  /* Middle Card Styles */
-  .comparison-row {
+}
+
+/* Middle Card Styles */
+.comparison-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     padding: 1.5rem 0;
     border-bottom: 1px solid #eee;
-  }
-  
-  .comparison-row.header {
+}
+
+.comparison-row.header {
     font-weight: 800;
     font-size: 1.5rem;
-    /* text-align: center; */
     color: #ffffff;
-  }
-  
-  /* Right Card Styles */
-  .advantages-list {
+}
+
+/* Right Card Styles */
+.advantages-list {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .advantages-list li {
+}
+
+.advantages-list li {
     padding: 0.8rem 0;
-    font-size: 12px;
+    font-size: 11px;
     border-bottom: 1px solid #eee;
     color: #ffffff;
     position: relative;
     padding-left: 1.5rem;
-  }
-  
-  .advantages-list li:before {
+}
+
+.advantages-list li:before {
     content: "-";
     position: absolute;
     left: 0;
     color: #ffffff;
-  }
-  
-  @media (max-width: 768px) {
-    .cards-container {
-      flex-direction: column;
-      padding: 1rem;
-    }
-    
-    .card {
-      max-width: 100%;
-      width: 100%;
-      min-height: auto;
-      transform: none !important;
-      opacity: 1 !important;
-      z-index: 2 !important;
-      margin-bottom: 1.5rem;
-    }
-    
-    .card.middle {
-      order: 0;
-    }
-  }
-  
-  @media (min-width: 769px) {
+}
+
+@media (min-width: 769px) {
     .card.left {
-      transform: translateX(30px) scale(0.95);
+        transform: translateX(30px) scale(0.95);
     }
     
     .card.right {
-      transform: translateX(-30px) scale(0.95);
+        transform: translateX(-30px) scale(0.95);
     }
     
     .card:hover {
-      transform: translateX(0) scale(1) !important;
-      opacity: 1 !important;
-      z-index: 3 !important;
+        transform: translateX(0) scale(1) !important;
+        opacity: 1 !important;
+        z-index: 3 !important;
     }
-  }
+}
+
+
+@media (max-width: 768px) {
+    .cards-container {
+        gap: 1px;
+        padding: 1rem;
+        min-height: auto;
+        justify-content: flex-start;
+    }
+    
+    .card {
+        flex: 0 0 85vw; /* Better mobile width control */
+        max-width: 85vw;
+        min-height: 260px;
+        padding: 0.8rem;
+        transform: none; /* Remove scale transform */
+        margin: 0 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    /* Remove translate transforms for mobile */
+    .card.left,
+    .card.right,
+    .card.middle {
+        transform: none;
+        opacity: 1;
+        z-index: 1;
+    }
+    
+    .card-title {
+        font-size: 1.3rem;
+        padding-bottom: 0.8rem;
+    }
+    
+    .category-item {
+        padding: 1.1rem 0;
+        font-size: 1.1rem;
+    }
+    
+    .comparison-row.header {
+        font-size: 1.6rem;
+    }
+    
+    .advantages-list li {
+        font-size: 8px;
+    }
+}
+/* Removed mobile-specific media queries */
