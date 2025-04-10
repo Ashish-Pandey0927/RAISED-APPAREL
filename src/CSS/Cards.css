@@ -119,16 +119,29 @@
 @media (max-width: 768px) {
     .cards-container {
         transform: scale(0.65);
+        justify-content: flex-start;
         gap: 10px;
         padding: 0;
         margin: -5rem 0;
         overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scroll-padding: 0 calc(50% -150px);
+        -webkit-overflow-scrolling: touch;
     }
     
     .card {
         flex: 0 0 280px;
         min-height: 400px;
+        scroll-snap-align: center;
         box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+
+        &:first-child {
+            margin-left: calc(50% - 140px);
+        }
+        &:last-child {
+            margin-right: calc(50% - 140px);
+        }
     }
     
     /* Remove translate transforms for mobile */
@@ -140,6 +153,8 @@
         z-index: 1;
         scale: 0.95;
     }
+
+    
     
     .card-titles {
         font-size: 1.2rem;
