@@ -369,3 +369,108 @@
     height: 120px;
   }
 }
+
+@media (min-width: 3840px) {
+  .aboutUsContainer{
+    padding: 4rem 15vw;
+    max-width: 3840px;
+    margin: 0 auto;
+  }
+
+
+  .sectionHeading {
+    font-size: 64px;
+    margin-bottom: 60px;
+  }
+
+  /* Story Section */
+  .storyText {
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+
+  /* Categories Section */
+  .categoryTitle {
+    font-size: 36px;
+  }
+
+  .categoryText {
+    font-size: 18px;
+  }
+
+  .categoryItem:nth-child(odd) .categoryTitle {
+    padding: 0 0 0 25vw;
+  }
+
+  .categoryItem:nth-child(even) .categoryTitle {
+    padding: 0 25vw 0 0;
+  }
+
+  /* Certifications */
+  .certificationsGrid {
+    max-width: 3200px;
+    gap: 8rem;
+  }
+
+  .certificationLogo:nth-child(1) {
+    width: 600px;
+    height: 256px;
+  }
+
+  .certificationLogo:nth-child(2) {
+    width: 180px;
+    height: 256px;
+  }
+
+  .certificationLogo:nth-child(3) {
+    width: 716px;
+    height: 180px;
+  }
+
+  /* Cards Section */
+  .cards-container {
+    gap: 4rem;
+    padding: 4rem 0;
+  }
+
+  .card {
+    min-height: 600px;
+    padding: 3rem;
+  }
+
+  .category-item,
+  .comparison-row,
+  .advantages-list li {
+    min-height: 80px;
+    font-size: 1.2rem;
+  }
+
+  /* Clients Section */
+  .clientsImage {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Existing 2560px adjustments */
+@media (min-width: 2560px) {
+  .certificationsGrid {
+    max-width: 2400px;
+    gap: 6rem;
+  }
+
+  .certificationLogo:nth-child(1) {
+    width: 400px;
+    height: 170px;
+  }
+
+  .certificationLogo:nth-child(2) {
+    width: 120px;
+    height: 170px;
+  }
+
+  .certificationLogo:nth-child(3) {
+    width: 477px;
+    height: 120px;
+  }
+}

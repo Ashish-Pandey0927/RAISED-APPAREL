@@ -3,25 +3,22 @@
     justify-content: center;
     gap: 20px;
     padding: 2rem;
-    min-height: auto;
-    align-items: center;
     position: relative;
     margin: 2rem 0;
-    overflow-x: auto;
+    transform: scale(1);
+    transform-origin: center;
 }
 
 .card {
     flex: 0 0 300px;
-    max-width: 350px;
     background: rgb(34, 34, 34);
     border-radius: 12px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 400px;
+    min-height: 450px;
 }
 
 .card.left,
@@ -37,25 +34,28 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-.card-title {
+.card-titles {
     color: #ff6600;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: 600;
     border-bottom: 2px solid #eee;
     padding-bottom: 1rem;
+    text-align: center;
 }
 
 .card-content {
     flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 /* Left Card Styles */
 .category-item {
-    padding: 2rem 0;
-    border-bottom: 1px solid #eee;
+    padding: 2.2rem 0;
+    text-align: center;
+    /* border-bottom: 1px solid #eee; */
     font-weight: 800;
     color: #ff6600;
     font-size: 1.2rem;
@@ -66,8 +66,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    padding: 1.5rem 0;
-    border-bottom: 1px solid #eee;
+    padding: 2rem 0;
+    /* border-bottom: 1px solid #eee; */
 }
 
 .comparison-row.header {
@@ -79,14 +79,14 @@
 /* Right Card Styles */
 .advantages-list {
     list-style: none;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
 }
 
 .advantages-list li {
-    padding: 0.8rem 0;
+    padding: 1rem 0;
     font-size: 11px;
-    border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
     color: #ffffff;
     position: relative;
     padding-left: 1.5rem;
@@ -118,20 +118,17 @@
 
 @media (max-width: 768px) {
     .cards-container {
-        gap: 1px;
-        padding: 1rem;
-        min-height: auto;
-        justify-content: flex-start;
+        transform: scale(0.65);
+        gap: 10px;
+        padding: 0;
+        margin: -5rem 0;
+        overflow-x: auto;
     }
     
     .card {
-        flex: 0 0 85vw; /* Better mobile width control */
-        max-width: 85vw;
-        min-height: 260px;
-        padding: 0.8rem;
-        transform: none; /* Remove scale transform */
-        margin: 0 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        flex: 0 0 280px;
+        min-height: 400px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.15);
     }
     
     /* Remove translate transforms for mobile */
@@ -141,24 +138,24 @@
         transform: none;
         opacity: 1;
         z-index: 1;
+        scale: 0.95;
     }
     
-    .card-title {
-        font-size: 1.3rem;
-        padding-bottom: 0.8rem;
+    .card-titles {
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
     }
     
     .category-item {
-        padding: 1.1rem 0;
-        font-size: 1.1rem;
+        padding: 2.7rem 0;
+        font-size: 1rem;
     }
     
     .comparison-row.header {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
     
     .advantages-list li {
-        font-size: 8px;
+        font-size: 10px;
     }
 }
-/* Removed mobile-specific media queries */

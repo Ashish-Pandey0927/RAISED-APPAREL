@@ -150,7 +150,7 @@ const AboutUs = () => {
  <div className="cards-container">
         {/* Left Card - Categories */}
         <div className="card left">
-          <h3 className="card-title">Categories</h3>
+          <h3 className="card-titles">Categories</h3>
           <div className="card-content">
             {cardCategories.map((category, index) => (
               <div key={index} className="category-item">{category}</div>
@@ -160,12 +160,14 @@ const AboutUs = () => {
 
         {/* Middle Card - Comparison */}
         <div className="card middle">
-          {/* <h3 className="card-title">Comparison</h3> */}
-          <div className="card-content">
-            <div className="comparison-row header">
+          <h3 className="card-title">
+            <div style={{display: "flex", justifyContent: "space-between", gap: "2rem", textAlign: "left"}}>
               <div style={{fontSize: "1rem", marginTop:"15px"}}>Others Manufacturers</div>
               <div style={{color: "#ff6600"}}>RAISED APPARELS</div>
             </div>
+          </h3>
+          <div className="card-content">
+            
             {cardCategories.map((_, index) => (
               <div key={index} className="comparison-row">
                 <div>{comparisonData.middle.others[index]}</div>
@@ -177,7 +179,7 @@ const AboutUs = () => {
 
         {/* Right Card - Advantages */}
         <div className="card right">
-          <h3 className="card-title">Advantages</h3>
+          <h3 className="card-titles">Advantages</h3>
           <div className="card-content">
             <ul className="advantages-list">
               {comparisonData.right.map((advantage, index) => (
@@ -188,7 +190,19 @@ const AboutUs = () => {
         </div>
       </div>
 
-     
+       {/* CATEGORIES */}
+       <div className="categoriesWrapper">
+        <div className="categoryGrid">
+          {categories.map((category, index) => (
+            <div key={index} className="categoryItem">
+              <h2 className="categoryTitle">{category.title}</h2>
+              <div className="categoryTextWrapper">
+                <p className="categoryText">{category.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
 
       {/* CERTIFICATIONS */}
       <div className="cerification">
