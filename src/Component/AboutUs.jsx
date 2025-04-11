@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../CSS/AboutUs.css";
 import "../CSS/Cards.css";
 import { color } from "motion/react";
@@ -6,6 +6,50 @@ import { color } from "motion/react";
 
 const AboutUs = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const cardsSliderRef = useRef(null);
+
+  useEffect(() => {
+    if (isMobile && cardsSliderRef.current) {
+      const container = cardsSliderRef.current;
+      const scrollAmount = container.offsetWidth; // amount to scroll each time
+      let isHovered = false;
+  
+      const handleMouseEnter = () => { isHovered = true; };
+      const handleMouseLeave = () => { isHovered = false; };
+  
+      container.addEventListener("mouseenter", handleMouseEnter);
+      container.addEventListener("mouseleave", handleMouseLeave);
+  
+      const scrollCards = () => {
+        if (!isHovered) {
+          const maxScrollLeft = container.scrollWidth - container.clientWidth;
+  
+          if (Math.ceil(container.scrollLeft) >= maxScrollLeft) {
+            // Reset to the very beginning
+            container.scrollTo({
+              left: 0,
+              behavior: 'smooth',
+            });
+          } else {
+            container.scrollBy({
+              left: scrollAmount,
+              behavior: 'smooth',
+            });
+          }
+        }
+      };
+  
+      const interval = setInterval(scrollCards, 4000);
+  
+      return () => {
+        clearInterval(interval);
+        container.removeEventListener("mouseenter", handleMouseEnter);
+        container.removeEventListener("mouseleave", handleMouseLeave);
+      };
+    }
+  }, [isMobile]);
+  
+  
 
   useEffect(() => {
     const handleResize = () => {
@@ -53,7 +97,7 @@ const AboutUs = () => {
   ];
 
  // Categories for comparison cards
- const cardCategories = ['MOQ', 'Lead Time', 'Price', 'Fit/Approval', 'Overall TAT'];
+ const cardCategories = ['MOQ', 'LEAD TIME', 'PRICE', 'FIT/APPROVAL', 'OVERALL TAT'];
   
  const comparisonData = {
    middle: {
@@ -147,7 +191,9 @@ const AboutUs = () => {
         </ul>
       </div>
  {/* Cards section */}
- <div className="cards-container">
+ <div className={`cards-container ${isMobile ? 'auto-slider-mobile' : ''}`}>
+  <div className="cards-slider "ref={cardsSliderRef}>
+
         {/* Left Card - Categories */}
         <div className="card left">
           <h3 className="card-titles">Categories</h3>
@@ -162,8 +208,8 @@ const AboutUs = () => {
         <div className="card middle">
           <h3 className="card-title">
             <div style={{display: "flex", justifyContent: "space-around", gap: "2rem", textAlign: "left", padding: "0", margin: "0px -15px"}} className="comparison-header">
-              <div style={{fontSize: "1rem", marginTop:"10px"}}>Others Manufacturers</div>
-              <div style={{color: "#ff6600"}}>RAISED APPARELS</div>
+              <div style={{fontSize: "1rem"}} >Others Manufacturers</div>
+              <div style={{color: "#ff6600"}} >RAISED APPARELS</div>
             </div>
           </h3>
           <div className="card-content">
@@ -187,6 +233,7 @@ const AboutUs = () => {
               ))}
             </ul>
           </div>
+        </div>
         </div>
       </div>
 

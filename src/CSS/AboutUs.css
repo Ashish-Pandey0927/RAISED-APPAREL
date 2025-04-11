@@ -354,6 +354,22 @@
     gap: 6rem;
   }
 
+  .design{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 2vw 15vw;
+
+  }
+
+  .storyText {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: center;
+  }
+
   .certificationLogo:nth-child(1) {
     width: 400px;
     height: 170px;
@@ -387,6 +403,15 @@
   .storyText {
     font-size: 1.5rem;
     line-height: 1.8;
+    text-align: center;
+  }
+  .design{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+
   }
 
   /* Categories Section */

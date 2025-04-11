@@ -1,4 +1,4 @@
-.cards-container {
+.cards-container .cards-slider {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -7,6 +7,7 @@
     margin: 2rem 0;
     transform: scale(1);
     transform-origin: center;
+    /* flex-wrap: wrap; */
 }
 
 .card {
@@ -124,8 +125,7 @@
     .cards-container {
         position: relative;
         width: 100vw;
-        left: -20px;
-
+        /* left: -20px; */
         transform: scale(0.9);
         justify-content: flex-start;
         gap: 10px;
@@ -139,7 +139,7 @@
     }
     
     .card {
-        flex: 0 0 480px;
+        flex: 0 0 350px;
         min-height: 400px;
         scroll-snap-align: center;
         box-shadow: 0 10px 20px rgba(0,0,0,0.15);
@@ -169,27 +169,86 @@
     }
     
     .category-item {
-        padding: 2.rem 0;
+        padding: 2.2rem 0;
         font-size: 1rem;
+        /* margin: -10px 0; */
     }
 
+
     .comparison-header{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: left;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        /* padding: 1rem 0; */
+        font-weight: 600;
+        /* margin: -10px 0 0 0; */
+        position: relative;
+        top: -15px;
+    }
+
+    .comparison-row{
+        position: relative;
+        top: -25px;
     }
     
-    .comparison-row.header {
+    /* .comparison-row.header {
         font-size: 1.3rem;
         padding: 1rem 0;
         font-weight: 600;
         
-    }
+    } */
     
     .advantages-list li {
-        font-size: 15px;
+        font-size: 12px;
         /* padding: 0; */
     }
+    .auto-slider-mobile {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        padding: 1rem 0;
+      }
+    
+      .auto-slider-mobile .cards-slider {
+        /* display: flex;
+        width: 350px;
+        animation: slideCards 15s linear infinite; */
+
+        display: flex;
+    gap: 10px;
+    overflow-x: auto; /* Manual scroll */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    /* animation: slideCards 15s linear infinite; */
+    /* padding: 0 1rem; */
+      }
+    
+      .auto-slider-mobile .card {
+        flex: 0 0 350px;
+        scroll-snap-align: start;
+        min-width: 350px;
+        box-sizing: border-box;
+        /* flex: 0 0 85%;
+        scroll-snap-align: center;
+        min-width: 300px;
+        max-width: 350px;
+        box-sizing: border-box;
+        margin-right: 1rem; */
+      }
+    
+      @keyframes slideCards {
+        0% { transform: translateX(0%); }
+        33.33% { transform: translateX(-100%); }
+        66.66% { transform: translateX(-200%); }
+        100% { transform: translateX(0%); }
+      }
+      .auto-slider-mobile .cards-slider:hover {
+        animation-play-state: paused;
+        /* overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; */
+    /* width: 300%; */
+      }
+      .auto-slider-mobile .cards-slider::-webkit-scrollbar {
+        display: none;
+      }
 }
