@@ -10,7 +10,7 @@
 }
 
 .card {
-    flex: 0 0 300px;
+    flex: 0 0 350px;
     background: rgb(34, 34, 34);
     border-radius: 12px;
     padding: 1.5rem;
@@ -74,6 +74,10 @@
     font-weight: 800;
     font-size: 1.5rem;
     color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Right Card Styles */
@@ -85,7 +89,7 @@
 
 .advantages-list li {
     padding: 1rem 0;
-    font-size: 11px;
+    font-size: 13px;
     /* border-bottom: 1px solid #eee; */
     color: #ffffff;
     position: relative;
@@ -118,26 +122,30 @@
 
 @media (max-width: 768px) {
     .cards-container {
-        transform: scale(0.65);
+        position: relative;
+        width: 100vw;
+        left: -20px;
+
+        transform: scale(0.9);
         justify-content: flex-start;
         gap: 10px;
         padding: 0;
-        margin: -5rem 0;
+        margin: 0;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
-        scroll-padding: 0 calc(50% -150px);
+        /* scroll-padding: 0 calc(50% -150px); */
         -webkit-overflow-scrolling: touch;
     }
     
     .card {
-        flex: 0 0 280px;
+        flex: 0 0 480px;
         min-height: 400px;
         scroll-snap-align: center;
         box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 
         &:first-child {
-            margin-left: calc(50% - 140px);
+            /* margin-left: calc(50% - 140px); */
         }
         &:last-child {
             margin-right: calc(50% - 140px);
@@ -154,23 +162,34 @@
         scale: 0.95;
     }
 
-    
-    
     .card-titles {
         font-size: 1.2rem;
         padding-bottom: 0.5rem;
+        text-transform: uppercase;
     }
     
     .category-item {
-        padding: 2.7rem 0;
+        padding: 2.rem 0;
         font-size: 1rem;
+    }
+
+    .comparison-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        font-size: 1.5rem;
     }
     
     .comparison-row.header {
         font-size: 1.3rem;
+        padding: 1rem 0;
+        font-weight: 600;
+        
     }
     
     .advantages-list li {
-        font-size: 10px;
+        font-size: 15px;
+        /* padding: 0; */
     }
 }

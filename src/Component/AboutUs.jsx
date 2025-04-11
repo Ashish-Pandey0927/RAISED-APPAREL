@@ -161,8 +161,8 @@ const AboutUs = () => {
         {/* Middle Card - Comparison */}
         <div className="card middle">
           <h3 className="card-title">
-            <div style={{display: "flex", justifyContent: "space-between", gap: "2rem", textAlign: "left"}}>
-              <div style={{fontSize: "1rem", marginTop:"15px"}}>Others Manufacturers</div>
+            <div style={{display: "flex", justifyContent: "space-around", gap: "2rem", textAlign: "left", padding: "0", margin: "0px -15px"}} className="comparison-header">
+              <div style={{fontSize: "1rem", marginTop:"10px"}}>Others Manufacturers</div>
               <div style={{color: "#ff6600"}}>RAISED APPARELS</div>
             </div>
           </h3>
