@@ -11,7 +11,8 @@ const AboutUs = () => {
   useEffect(() => {
     if (isMobile && cardsSliderRef.current) {
       const container = cardsSliderRef.current;
-      const scrollAmount = container.offsetWidth; // amount to scroll each time
+      const scrollAmount = container.offsetWidth; // scroll by container width
+      let scrollPos = 0;
       let isHovered = false;
   
       const handleMouseEnter = () => { isHovered = true; };
@@ -20,26 +21,20 @@ const AboutUs = () => {
       container.addEventListener("mouseenter", handleMouseEnter);
       container.addEventListener("mouseleave", handleMouseLeave);
   
-      const scrollCards = () => {
+      const interval = setInterval(() => {
         if (!isHovered) {
-          const maxScrollLeft = container.scrollWidth - container.clientWidth;
-  
-          if (Math.ceil(container.scrollLeft) >= maxScrollLeft) {
-            // Reset to the very beginning
-            container.scrollTo({
-              left: 0,
-              behavior: 'smooth',
-            });
+          if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 1) {
+            scrollPos = 0;
           } else {
-            container.scrollBy({
-              left: scrollAmount,
-              behavior: 'smooth',
-            });
+            scrollPos += scrollAmount;
           }
-        }
-      };
   
-      const interval = setInterval(scrollCards, 4000);
+          container.scrollTo({
+            left: scrollPos,
+            behavior: 'smooth'
+          });
+        }
+      }, 4000);
   
       return () => {
         clearInterval(interval);
@@ -48,7 +43,6 @@ const AboutUs = () => {
       };
     }
   }, [isMobile]);
-  
   
 
   useEffect(() => {
