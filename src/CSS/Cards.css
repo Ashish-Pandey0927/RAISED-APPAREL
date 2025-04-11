@@ -206,6 +206,13 @@
         width: 100%;
         padding: 1rem 0;
       }
+      .cards-container,
+.auto-slider-mobile .cards-slider {
+  padding-left: calc(50vw - 175px); /* half of the card width (350px / 2) */
+  padding-right: calc(50vw - 175px); /* optional for centering last card too */
+  box-sizing: content-box;
+}
+
     
       .auto-slider-mobile .cards-slider {
         /* display: flex;
