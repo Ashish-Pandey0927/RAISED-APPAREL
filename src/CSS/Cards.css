@@ -129,7 +129,8 @@
         transform: scale(0.9);
         justify-content: flex-start;
         gap: 10px;
-        padding: 0;
+        padding-left: calc(50vw - 175px); /* half card width for centering */
+    padding-right: calc(50vw - 175px);
         margin: 0;
         overflow-x: auto;
         scroll-snap-type: x mandatory;

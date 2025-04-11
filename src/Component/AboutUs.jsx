@@ -11,6 +11,8 @@ const AboutUs = () => {
   useEffect(() => {
     if (isMobile && cardsSliderRef.current) {
       const container = cardsSliderRef.current;
+      const middleIndex = 1;
+      const cardWidth = 350;
       const scrollAmount = container.offsetWidth; // scroll by container width
       let scrollPos = 0;
       let isHovered = false;
@@ -186,7 +188,7 @@ const AboutUs = () => {
       </div>
  {/* Cards section */}
  <div className={`cards-container ${isMobile ? 'auto-slider-mobile' : ''}`}>
-  <div className="cards-slider "ref={cardsSliderRef}>
+  <div className="cards-slider" ref={cardsSliderRef}>
 
         {/* Left Card - Categories */}
         <div className="card left">
