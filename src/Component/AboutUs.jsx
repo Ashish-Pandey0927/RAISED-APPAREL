@@ -1,62 +1,79 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../CSS/AboutUs.css";
 import "../CSS/Cards.css";
-import { color } from "motion/react";
-
 
 const AboutUs = () => {
-  const [isMobile, setIsMobile] = useState(false);
-  const cardsSliderRef = useRef(null);
 
+
+  const [isMobile, setIsMobile] = useState(false);
+  const [pauseAutoScroll, setPauseAutoScroll] = useState(false);
+  const cardsSliderRef = useRef(null);
+  const scrollInterval = useRef(null);
+
+  // Auto-scroll logic
   useEffect(() => {
-    if (isMobile && cardsSliderRef.current) {
+    if (isMobile && cardsSliderRef.current && !pauseAutoScroll) {
       const container = cardsSliderRef.current;
-      const middleIndex = 1;
-      const cardWidth = 350;
-      const scrollAmount = container.offsetWidth; // scroll by container width
-      let scrollPos = 0;
-      let isHovered = false;
-  
-      const handleMouseEnter = () => { isHovered = true; };
-      const handleMouseLeave = () => { isHovered = false; };
-  
-      container.addEventListener("mouseenter", handleMouseEnter);
-      container.addEventListener("mouseleave", handleMouseLeave);
-  
-      const interval = setInterval(() => {
-        if (!isHovered) {
-          if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 1) {
-            scrollPos = 0;
-          } else {
-            scrollPos += scrollAmount;
-          }
-  
+      const cards = container.children;
+      if (cards.length === 0) return;
+
+      const cardWidth = cards[0].offsetWidth;
+      const gap = 10; // Should match your mobile CSS gap
+      const scrollAmount = cardWidth + gap;
+
+      scrollInterval.current = setInterval(() => {
+        const maxScroll = container.scrollWidth - container.clientWidth;
+        const newScrollPos = container.scrollLeft + scrollAmount;
+        
+        if (newScrollPos >= maxScroll) {
+          container.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
           container.scrollTo({
-            left: scrollPos,
+            left: newScrollPos,
             behavior: 'smooth'
           });
         }
-      }, 4000);
-  
-      return () => {
-        clearInterval(interval);
-        container.removeEventListener("mouseenter", handleMouseEnter);
-        container.removeEventListener("mouseleave", handleMouseLeave);
-      };
-    }
-  }, [isMobile]);
-  
+      }, 3000);
 
+      return () => clearInterval(scrollInterval.current);
+    }
+  }, [isMobile, pauseAutoScroll]);
+
+  // Manual scroll detection
+  useEffect(() => {
+    const container = cardsSliderRef.current;
+    if (!isMobile || !container) return;
+
+    const handleTouchStart = () => {
+      setPauseAutoScroll(true);
+      clearInterval(scrollInterval.current);
+      
+      // Resume auto-scroll after 10 seconds of inactivity
+      setTimeout(() => {
+        setPauseAutoScroll(false);
+      }, 10000);
+    };
+
+    container.addEventListener('touchstart', handleTouchStart);
+    return () => container.removeEventListener('touchstart', handleTouchStart);
+  }, [isMobile]);
+
+  // Mobile detection
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      const mobileCheck = window.innerWidth <= 768;
+      setIsMobile(mobileCheck);
+      
+      // Reset scroll position on mobile change
+      if (mobileCheck && cardsSliderRef.current) {
+        cardsSliderRef.current.scrollTo({ left: 0, behavior: 'auto' });
+      }
     };
 
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
   const categories = [
     {
       title: "JACKETS",
@@ -92,27 +109,27 @@ const AboutUs = () => {
     },
   ];
 
- // Categories for comparison cards
- const cardCategories = ['MOQ', 'LEAD TIME', 'PRICE', 'FIT/APPROVAL', 'OVERALL TAT'];
+  // Categories for comparison cards
+  const cardCategories = ['MOQ', 'LEAD TIME', 'PRICE', 'FIT/APPROVAL', 'OVERALL TAT'];
   
- const comparisonData = {
-   middle: {
-     others: ['500+', '120 Days', 'High', '6–8 Weeks', '6 to 8 months (traditional)'],
-     raised: ['100+', '30 to 45 Days', 'As brands price architecture', 'Done at source', '3 months total']
-   },
-   right: [
-     'Lower markdowns, higher full-price sales',
-     'Can trial more styles',
-     'Launch more drops (e.g. monthly)',
-     'Based on current trends',
-     'Selection of fabric/style within brand pricing',
-     'Better bottom line, less loss of margin',
-     'Based on proven blocks, not new title',
-     'Faster approval with tech',
-     'Faster sampling & production',
-     'Efficient drops & delivery'
-   ]
- };
+  const comparisonData = {
+    middle: {
+      others: ['500+', '120 Days', 'High', '6–8 Weeks', '6 to 8 months (traditional)'],
+      raised: ['100+', '30 to 45 Days', 'As brands price architecture', 'Done at source', '3 months total']
+    },
+    right: [
+      'Lower markdowns, higher full-price sales',
+      'Can trial more styles',
+      'Launch more drops (e.g. monthly)',
+      'Based on current trends',
+      'Selection of fabric/style within brand pricing',
+      'Better bottom line, less loss of margin',
+      'Based on proven blocks, not new title',
+      'Faster approval with tech',
+      'Faster sampling & production',
+      'Efficient drops & delivery'
+    ]
+  };
 
   return (
     <div className="aboutUsContainer">
@@ -186,55 +203,56 @@ const AboutUs = () => {
           </li>
         </ul>
       </div>
- {/* Cards section */}
- <div className={`cards-container ${isMobile ? 'auto-slider-mobile' : ''}`}>
-  <div className="cards-slider" ref={cardsSliderRef}>
 
-        {/* Left Card - Categories */}
-        <div className="card left">
-          <h3 className="card-titles">Categories</h3>
-          <div className="card-content">
-            {cardCategories.map((category, index) => (
-              <div key={index} className="category-item">{category}</div>
-            ))}
-          </div>
-        </div>
-
-        {/* Middle Card - Comparison */}
-        <div className="card middle">
-          <h3 className="card-title">
-            <div style={{display: "flex", justifyContent: "space-around", gap: "2rem", textAlign: "left", padding: "0", margin: "0px -15px"}} className="comparison-header">
-              <div style={{fontSize: "1rem"}} >Others Manufacturers</div>
-              <div style={{color: "#ff6600"}} >RAISED APPARELS</div>
-            </div>
-          </h3>
-          <div className="card-content">
-            
-            {cardCategories.map((_, index) => (
-              <div key={index} className="comparison-row">
-                <div>{comparisonData.middle.others[index]}</div>
-                <div>{comparisonData.middle.raised[index]}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Right Card - Advantages */}
-        <div className="card right">
-          <h3 className="card-titles">Advantages</h3>
-          <div className="card-content">
-            <ul className="advantages-list">
-              {comparisonData.right.map((advantage, index) => (
-                <li key={index}>{advantage}</li>
+      {/* Cards section */}
+      <div className={`cards-container ${isMobile ? 'mobile-scroll' : ''}`}>
+        <div className="cards-slider" 
+          ref={cardsSliderRef}
+          onTouchMove={() => setPauseAutoScroll(true)}>
+          {/* Left Card - Categories */}
+          <div className="card left">
+            <h3 className="card-titles">Categories</h3>
+            <div className="card-content">
+              {cardCategories.map((category, index) => (
+                <div key={index} className="category-item">{category}</div>
               ))}
-            </ul>
+            </div>
           </div>
-        </div>
+
+          {/* Middle Card - Comparison */}
+          <div className="card middle">
+            <h3 className="card-title">
+              <div style={{display: "flex", justifyContent: "space-around", gap: "2rem", textAlign: "left", padding: "0", margin: "0px -15px"}} className="comparison-header">
+                <div style={{fontSize: "1rem"}} >Others Manufacturers</div>
+                <div style={{color: "#ff6600"}} >RAISED APPARELS</div>
+              </div>
+            </h3>
+            <div className="card-content">
+              {cardCategories.map((_, index) => (
+                <div key={index} className="comparison-row">
+                  <div>{comparisonData.middle.others[index]}</div>
+                  <div>{comparisonData.middle.raised[index]}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Right Card - Advantages */}
+          <div className="card right">
+            <h3 className="card-titles">Advantages</h3>
+            <div className="card-content">
+              <ul className="advantages-list">
+                {comparisonData.right.map((advantage, index) => (
+                  <li key={index}>{advantage}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
-       {/* CATEGORIES */}
-       <div className="categoriesWrapper">
+      {/* CATEGORIES */}
+      <div className="categoriesWrapper">
         <div className="categoryGrid">
           {categories.map((category, index) => (
             <div key={index} className="categoryItem">
@@ -251,50 +269,26 @@ const AboutUs = () => {
       <div className="cerification">
         <h2 className="sectionHeading">CERTIFICATIONS</h2>
         <div className="certificationsGrid">
-          {/* Individual container for each logo */}
           <div className="certificationLogo">
-            <img src="/bci logo.png" className="certificationLogo-img" />
+            <img src="/bci logo.png" className="certificationLogo-img" alt="BCI Certification" />
           </div>
           <div className="certificationLogo">
-            <img src="/fsc logo.png" className="certificationLogo-img" />
+            <img src="/fsc logo.png" className="certificationLogo-img" alt="FSC Certification" />
           </div>
           <div className="certificationLogo">
-            <img src="/sedex logo.png" className="certificationLogo-img" />
+            <img src="/sedex logo.png" className="certificationLogo-img" alt="Sedex Certification" />
           </div>
         </div>
       </div>
-
-      {/* MEET OUR TEAM */}
-      {/* <div id="team">
-        <h2 className="sectionHeading">MEET OUR TEAM</h2>
-        <div className="teamGrid">
-          {[1, 2, 3, 4, 5, 6].map((id) => (
-            <div key={id} className="teamMember">
-              <div className="memberImage"></div>
-              <p>Team Member {id}</p>
-            </div>
-          ))}
-        </div>
-      </div> */}
 
       {/* CLIENTS */}
       <div className="clients">
         <h2 className="sectionHeading">CLIENTS</h2>
         <div className="clientsImage">
           <img src="/logo bw.png" alt="Clients" className="desktop-img" />
-          <img src ="/mobile client.png" className="mobile-client" />
+          <img src="/mobile client.png" className="mobile-client" alt="Mobile Clients" />
         </div>
       </div>
-
-      {/* GALLERY */}
-      {/* <div id="gallery">
-        <h2 className="sectionHeading">GALLERY</h2>
-        <div className="galleryGrid">
-          {[1, 2, 3, 4, 5, 6].map((id) => (
-            <div key={id} className="galleryImage"></div>
-          ))}
-        </div>
-      </div> */}
     </div>
   );
 };

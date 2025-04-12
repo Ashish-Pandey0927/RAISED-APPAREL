@@ -5,37 +5,34 @@
     padding: 2rem;
     position: relative;
     margin: 2rem 0;
-    transform: scale(1);
-    transform-origin: center;
-    /* flex-wrap: wrap; */
-}
-
-.card {
+  }
+  
+  .card {
     flex: 0 0 350px;
     background: rgb(34, 34, 34);
     border-radius: 12px;
     padding: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     display: flex;
     flex-direction: column;
     min-height: 450px;
-}
-
-.card.left,
-.card.right {
+  }
+  
+  .card.left,
+  .card.right {
     z-index: 1;
     transform: translateX(30px) scale(0.95);
     opacity: 0.9;
-}
-
-.card.middle {
+  }
+  
+  .card.middle {
     z-index: 2;
     transform: scale(1);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-}
-
-.card-titles {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-titles {
     color: #ff6600;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
@@ -43,223 +40,133 @@
     border-bottom: 2px solid #eee;
     padding-bottom: 1rem;
     text-align: center;
-}
-
-.card-content {
+  }
+  
+  .card-content {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-/* Left Card Styles */
-.category-item {
+  }
+  
+  .category-item {
     padding: 2.2rem 0;
     text-align: center;
-    /* border-bottom: 1px solid #eee; */
     font-weight: 800;
     color: #ff6600;
     font-size: 1.2rem;
-}
-
-/* Middle Card Styles */
-.comparison-row {
+  }
+  
+  .comparison-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     padding: 2rem 0;
-    /* border-bottom: 1px solid #eee; */
-}
-
-.comparison-row.header {
-    font-weight: 800;
-    font-size: 1.5rem;
-    color: #ffffff;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Right Card Styles */
-.advantages-list {
+  }
+  
+  .advantages-list {
     list-style: none;
     padding: 1rem;
     margin: 0;
-}
-
-.advantages-list li {
+  }
+  
+  .advantages-list li {
     padding: 1rem 0;
     font-size: 13px;
-    /* border-bottom: 1px solid #eee; */
     color: #ffffff;
     position: relative;
     padding-left: 1.5rem;
-}
-
-.advantages-list li:before {
+  }
+  
+  .advantages-list li:before {
     content: "-";
     position: absolute;
     left: 0;
     color: #ffffff;
-}
-
-@media (min-width: 769px) {
+  }
+  
+  @media (min-width: 769px) {
     .card.left {
-        transform: translateX(30px) scale(0.95);
+      transform: translateX(30px) scale(0.95);
     }
-    
+  
     .card.right {
-        transform: translateX(-30px) scale(0.95);
+      transform: translateX(-30px) scale(0.95);
     }
-    
+  
     .card:hover {
-        transform: translateX(0) scale(1) !important;
-        opacity: 1 !important;
-        z-index: 3 !important;
+      transform: translateX(0) scale(1) !important;
+      opacity: 1 !important;
+      z-index: 3 !important;
     }
-}
-
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .cards-container {
-        position: relative;
-        width: 100vw;
-        /* left: -20px; */
-        transform: scale(0.9);
-        justify-content: flex-start;
-        gap: 10px;
-        padding-left: calc(50vw - 175px); /* half card width for centering */
-    padding-right: calc(50vw - 175px);
-        margin: 0;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
-        scroll-behavior: smooth;
-        /* scroll-padding: 0 calc(50% -150px); */
-        -webkit-overflow-scrolling: touch;
+        padding-left: 0; /* Add left padding */
+        scroll-padding-left: 20px; /* Snap point adjustment */
+        margin-left: 0; /* Offset container padding */
+        width: 100%; /* Compensate for negative margin */
     }
-    
+  
     .card {
-        flex: 0 0 350px;
-        min-height: 400px;
-        scroll-snap-align: center;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-
-        &:first-child {
-            /* margin-left: calc(50% - 140px); */
-        }
-        &:last-child {
-            margin-right: calc(50% - 140px);
-        }
-    }
-    
-    /* Remove translate transforms for mobile */
-    .card.left,
-    .card.right,
-    .card.middle {
-        transform: none;
-        opacity: 1;
-        z-index: 1;
-        scale: 0.95;
-    }
-
-    .card-titles {
-        font-size: 1.2rem;
-        padding-bottom: 0.5rem;
-        text-transform: uppercase;
-    }
-    
-    .category-item {
-        padding: 2.2rem 0;
-        font-size: 1rem;
-        /* margin: -10px 0; */
-    }
-
-
-    .comparison-header{
-        font-size: 1.3rem;
-        /* padding: 1rem 0; */
-        font-weight: 600;
-        /* margin: -10px 0 0 0; */
-        position: relative;
-        top: -15px;
-    }
-
-    .comparison-row{
-        position: relative;
-        top: -25px;
-    }
-    
-    /* .comparison-row.header {
-        font-size: 1.3rem;
-        padding: 1rem 0;
-        font-weight: 600;
-        
-    } */
-    
-    .advantages-list li {
-        font-size: 12px;
-        /* padding: 0; */
-    }
-    .auto-slider-mobile {
-        overflow: hidden;
-        position: relative;
-        width: 100%;
-        padding: 1rem 0;
-      }
-
-
-  .auto-slider-mobile .cards-slider .card:first-child {
-  margin-left: calc(50vw - 175px);
-}
-
-.auto-slider-mobile .cards-slider .card:last-child {
-  margin-right: calc(50vw - 175px);
-}
-
-    
-      .auto-slider-mobile .cards-slider {
-        /* display: flex;
-        width: 350px;
-        animation: slideCards 15s linear infinite; */
-
-        display: flex;
-    gap: 10px;
-    overflow-x: auto; /* Manual scroll */
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-    /* animation: slideCards 15s linear infinite; */
-    /* padding: 0 1rem; */
-      }
-    
-      .auto-slider-mobile .card {
-        flex: 0 0 350px;
+        flex: 0 0 calc(100vw - 40px) !important; /* Full viewport width minus padding */
+        min-width: calc(100vw - 40px) !important; /* Full viewport width minus padding */
         scroll-snap-align: start;
-        min-width: 350px;
-        box-sizing: border-box;
-        /* flex: 0 0 85%;
-        scroll-snap-align: center;
-        min-width: 300px;
-        max-width: 350px;
-        box-sizing: border-box;
-        margin-right: 1rem; */
+        margin-right: 15px; /* Add gap between cards */
+        transform: none !important; /* Remove any transforms */
+    }
+    .cards-slider {
+        transform: none !important;
+        justify-content: flex-start; /* Changed from center */
+      }
+  
+    .cards-container::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .card-titles {
+      font-size: 1.2rem;
+      padding-bottom: 0.5rem;
+    }
+  
+    .category-item {
+      padding: 2.2rem 0;
+      font-size: 1rem;
+    }
+  
+    .comparison-header {
+      font-size: 1.3rem;
+      top: -15px;
+    }
+  
+    .comparison-row {
+      top: -25px;
+    }
+  
+    .advantages-list li {
+      font-size: 13px;
+      /* padding: .7rem; */
+    }
+
+    .mobile-scroll .cards-slider {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+        padding-left: 30px;
       }
     
-      @keyframes slideCards {
-        0% { transform: translateX(0%); }
-        33.33% { transform: translateX(-100%); }
-        66.66% { transform: translateX(-200%); }
-        100% { transform: translateX(0%); }
+      .mobile-scroll .card {
+        scroll-snap-align: start;
+        flex: 0 0 calc(100vw - 40px);
+        min-width: calc(100vw - 40px);
+        margin-right: 10px;
       }
-      .auto-slider-mobile .cards-slider:hover {
-        animation-play-state: paused;
-        /* overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch; */
-    /* width: 300%; */
-      }
-      .auto-slider-mobile .cards-slider::-webkit-scrollbar {
+    
+      .cards-slider::-webkit-scrollbar {
         display: none;
       }
-}
+  }
