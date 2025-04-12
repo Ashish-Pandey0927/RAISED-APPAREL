@@ -74,6 +74,49 @@ const AboutUs = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+  
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    if (isMobile && !pauseAutoScroll) {
+      const interval = setInterval(() => {
+        setActiveIndex(prev => (prev + 1) % 3);
+      }, 3000);
+
+      return () => clearInterval(interval);
+    }
+  }, [isMobile, pauseAutoScroll, activeIndex]);
+
+  // Scroll to active card
+  useEffect(() => {
+    if (cardsSliderRef.current && isMobile) {
+      const cardWidth = cardsSliderRef.current.children[0].offsetWidth;
+      cardsSliderRef.current.scrollTo({
+        left: activeIndex * (cardWidth + 10),
+        behavior: 'smooth'
+      });
+    }
+  }, [activeIndex, isMobile]);
+
+  // Touch handling
+  const handleTouchStart = (e) => {
+    const touch = e.touches[0];
+    setTouchStart(touch.clientX);
+  };
+
+  const handleTouchEnd = (e) => {
+    const touch = e.changedTouches[0];
+    const diff = touch.clientX - touchStart;
+    
+    if (Math.abs(diff) > 50) {
+      setActiveIndex(prev => diff > 0 ? 
+        Math.max(0, prev - 1) : 
+        Math.min(2, prev + 1)
+      );
+    }
+  };
+
+
   const categories = [
     {
       title: "JACKETS",
