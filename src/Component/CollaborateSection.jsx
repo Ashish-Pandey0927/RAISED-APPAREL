@@ -78,7 +78,7 @@ const CollaborateSection = () => {
             textAlign: isMobile ? "left" : "left",
           }}
         >
-          <h2 style={{ fontSize: isMobile ? "32px" : "48px", fontWeight: "400", marginBottom: "15px", lineHeight: "50px", letterSpacing: "4%" }}>
+          <h2 style={{ fontSize: isMobile ? "32px" : "48px", fontWeight: "400", marginBottom: "15px", lineHeight: "50px", letterSpacing: "4%",padding: isMobile ? "0 10px" : "0" }}>
             LET’S <br />
             <span>COLLABORATE!</span>
           </h2>
