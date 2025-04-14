@@ -111,6 +111,7 @@ const featureStyle = {
   gap: "10px",
   display: "flex",
   flexDirection: "column",
+  textAlign: "left",
 };
 
 export default WhyPerfectFit;

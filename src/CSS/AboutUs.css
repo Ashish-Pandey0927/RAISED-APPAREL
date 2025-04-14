@@ -18,24 +18,30 @@
 /* Our Story Section */
 .storyContent {
   line-height: 1.5;
-  text-align: left;
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
   /* gap: 1rem; */
 }
 
 .storyText {
   margin: auto;
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
 }
 
 /* Design to Delivery Section */
 .design {
   margin-top: 3rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
 }
 .deliveryList {
   display: flex;
@@ -43,6 +49,7 @@
   gap: 2rem;
   padding: 0;
   list-style: none;
+  text-align: left;
 }
 
 .deliveryItem span {
@@ -255,6 +262,11 @@
   .categoryText {
     text-align: center;
   }
+
+  .storyContent,
+  .design {
+    padding: 0 1rem;
+  }
 }
 @media (max-width: 820px) {
   .categoryItem:nth-child(odd) .categoryTitle,
@@ -273,6 +285,27 @@
     height: auto !important;
     max-width: 300px;
     padding: 0 1rem;
+  }
+
+  /* .storyContent{
+    padding: 0;
+    text-align: left;
+  }
+  .storyText{
+    text-align: left;
+  }
+  .design{
+    padding: 0;
+  } */
+
+  .storyText,
+  .deliveryList {
+    text-align: left;
+  }
+  
+  .storyContent,
+  .design {
+    padding: 0;
   }
 
   .certificationLogo-img {
@@ -354,13 +387,13 @@
     gap: 6rem;
   }
 
-  .design{
+  /* .design{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     font-size: 1.5rem;
     line-height: 1.8;
-    padding: 2vw 15vw;
+    padding: 2vw 20vw;
 
   }
 
@@ -368,6 +401,14 @@
     font-size: 1.5rem;
     line-height: 1.8;
     text-align: center;
+    padding: 2vw 15vw;
+  } */
+
+  .storyContent,
+  .design {
+    max-width: 1400px;
+    font-size: 1.2rem;
+    line-height: 1.8;
   }
 
   .certificationLogo:nth-child(1) {
@@ -400,7 +441,7 @@
   }
 
   /* Story Section */
-  .storyText {
+  /* .storyText {
     font-size: 1.5rem;
     line-height: 1.8;
     text-align: center;
@@ -411,7 +452,19 @@
     gap: 2rem;
     font-size: 1.5rem;
     line-height: 1.8;
+    padding: 2vw 12vw;
 
+  } */
+
+
+  .storyContent,
+  .design {
+    max-width: 2000px;
+    font-size: 1.5rem;
+  }
+  
+  .sectionHeading {
+    font-size: 64px;
   }
 
   /* Categories Section */
