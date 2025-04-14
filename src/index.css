@@ -6,6 +6,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+  padding-top: env(safe-area-inset-top);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
 
 @font-face {
   font-family: "My-font";  /* Custom font name */
