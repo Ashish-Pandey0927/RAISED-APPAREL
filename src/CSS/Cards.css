@@ -109,6 +109,10 @@
     opacity: 0.9;
   } */
 
+  .cards-slider .card:first-child {
+    flex: 0 0 300px;
+    transform: translateX(0) scale(0.92);
+  }
   .card.middle {
     z-index: 2;
     transform: scale(1);
@@ -184,7 +188,7 @@
     .mobile-scroll .cards-slider {
         overflow-x: auto;
         /* justify-content: none; */
-        justify-content: center;
+        justify-content: flex-start;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         scroll-behavior: smooth;
