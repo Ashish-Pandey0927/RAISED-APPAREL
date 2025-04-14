@@ -70,9 +70,11 @@ const Footer = () => {
               justifyContent: isMobile ? "center" : "flex-start",
             }}
           >
-            <FaFacebook size={20} />
-            <FaLinkedin size={20} />
-            <FaInstagram size={20} />
+           <a href="https://www.instagram.com/raisedapparels?igsh=MXZrMjl2Z3U0OXMxeg%3D%3D&utm_source=qr"><FaFacebook size={20} /></a> 
+           <a href="https://www.instagram.com/raisedapparels?igsh=MXZrMjl2Z3U0OXMxeg%3D%3D&utm_source=qr"><FaLinkedin size={20} /></a> 
+           <a href="https://www.instagram.com/raisedapparels?igsh=MXZrMjl2Z3U0OXMxeg%3D%3D&utm_source=qr"><FaInstagram size={20} /></a> 
+            
+            
           </div>
         </div>
 
