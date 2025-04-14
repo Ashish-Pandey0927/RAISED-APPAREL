@@ -109,11 +109,11 @@
     opacity: 0.9;
   } */
 
-  /* .card.middle {
+  .card.middle {
     z-index: 2;
     transform: scale(1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  } */
+  }
 
   .card:hover {
     transform: translateX(0) scale(1) !important;
@@ -147,6 +147,11 @@
         transform: none !important;
         justify-content: flex-start; 
       } */
+      .card.middle {
+        z-index: 1;
+        transform: scale(.95);
+        /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+      }
   
     .cards-container::-webkit-scrollbar {
       display: none;
