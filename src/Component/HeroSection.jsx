@@ -114,9 +114,9 @@ const HeroSection = () => {
                 >
                     {[
                         { value: "10M+", label: "Quantities Shipped" },
-                        { value: "250+", label: "Trusted Suppliers" },
                         { value: "50+", label: "Global Buyers" },
                         { value: "50+", label: "Design experts" },
+                        { value: "250+", label: "Trusted Suppliers" },
                         { value: "15K+", label: "Unique Styles Developed" },
                     ].map((item, index) => (
                         <div key={index}>

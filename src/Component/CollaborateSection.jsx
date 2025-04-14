@@ -75,7 +75,7 @@ const CollaborateSection = () => {
             flex: "1",
             minWidth: "300px",
             maxWidth: "500px",
-            textAlign: isMobile ? "center" : "left",
+            textAlign: isMobile ? "left" : "left",
           }}
         >
           <h2 style={{ fontSize: isMobile ? "32px" : "48px", fontWeight: "400", marginBottom: "15px", lineHeight: "50px", letterSpacing: "4%" }}>
