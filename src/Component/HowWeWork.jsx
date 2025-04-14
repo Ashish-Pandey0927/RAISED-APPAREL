@@ -95,18 +95,21 @@ const HowWeWork = () => {
       <div className="mobile-diagram" style={{
         display: "none",
         width: "100vw",
-        // maxWidth: "700px",
+        maxWidth: "700px",
         position: "relative",
-        aspectRatio: "1", // Adjust based on your mobile image aspect ratio
-        margin: "2rem 0",
+        // aspectRatio: "1", // Adjust based on your mobile image aspect ratio
+        // margin: "2rem 0",
+        // margin: "2rem auto",
+        padding: "0 1rem",
       }}>
         <img
           src={mobileDiagram}
           alt="Mobile Process Diagram"
           style={{
             width: "100%",
-            height: "100%",
-            objectFit: "cover",
+            height: "auto",
+            objectFit: "contain",
+            display: "block",
           }}
         />
       </div>
