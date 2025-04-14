@@ -113,12 +113,12 @@ const HeroSection = () => {
                     }}
                 >
                     {[
-                        { value: "1M+", label: "Quantities Shipped" },
+                        { value: "10M+", label: "Quantities Shipped" },
                         { value: "250+", label: "Suppliers" },
-                        { value: "50+", label: "Buyers" },
+                        { value: "50+", label: "Global Buyers" },
                         { value: "100+", label: "In-house Design & Sampling" },
-                        { value: "15K+", label: "Styles" },
                         { value: "50+", label: "Design experts" },
+                        { value: "15K+", label: "Styles" },
                     ].map((item, index) => (
                         <div key={index}>
                             <span style={{ 
