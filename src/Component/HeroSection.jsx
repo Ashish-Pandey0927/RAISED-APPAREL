@@ -100,7 +100,7 @@ const HeroSection = () => {
                         gridTemplateColumns: isMobile 
                             ? "repeat(1, 1fr)" 
                             : "repeat(auto-fit, minmax(120px, 1fr))",
-                        gap: isMobile ? "2rem" : "20px",
+                        gap: isMobile ? "2rem" : "40px",
                         fontSize: isMobile ? ".5rem" : "1.5rem",
                         fontWeight: "lighter",
                         maxWidth: isMobile ? "30px" : "500px",
@@ -114,10 +114,10 @@ const HeroSection = () => {
                 >
                     {[
                         { value: "10M+", label: "Quantities Shipped" },
-                        { value: "50+", label: "Global Buyers" },
-                        { value: "50+", label: "Design experts" },
                         { value: "250+", label: "Trusted Suppliers" },
                         { value: "15K+", label: "Unique Styles Developed" },
+                        { value: "50+", label: "Global Buyers" },
+                        { value: "50+", label: "Design experts" },
                     ].map((item, index) => (
                         <div key={index}>
                             <span style={{ 
@@ -152,7 +152,7 @@ const HeroSection = () => {
                         fontWeight: "900",
                         textTransform: "uppercase",
                         textAlign: isMobile ? "left" : "center",
-                        lineHeight: isMobile ? "39px" : "1.2",
+                        lineHeight: isMobile ? "39px" : "1.3",
                         maxWidth: isMobile ? "270px" : "800px",
                         margin: isMobile ? "0rem 0" : "1rem 0",
                         position: isMobile ? "absolute" : "relative",
