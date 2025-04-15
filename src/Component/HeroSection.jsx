@@ -123,9 +123,9 @@ const HeroSection = () => {
                             <span style={{ 
                                 fontSize: isMobile ? "22px" : "48px", 
                                 fontWeight: isMobile ? "lighter" : "400",
-                                lineHeight: "16px",
+                                lineHeight: "32px",
                                 letterSpacing: "0em",
-                                textAlign: "left",
+                                textAlign:isMobile ? "left" : "center",
                             }}>
                                 {item.value}
                             </span>
@@ -135,9 +135,9 @@ const HeroSection = () => {
                                 marginTop: isMobile ? "5px" : "0px",
                                 fontWeight: isMobile ? "lighter" : "400",
                                 // maxWidth: isMobile ? "30px" : "auto",
-                                lineHeight: "16px",
-                                letterSpacing: "0em",
-                                textAlign: "left",
+                                lineHeight: "5px",
+                                letterSpacing: isMobile ? "0em" : "-.035em",
+                                textAlign:isMobile ? "left" : "center",
                             }}>
                                 {item.label}
                             </span>
